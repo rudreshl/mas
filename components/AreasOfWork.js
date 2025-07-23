@@ -1,7 +1,8 @@
   'use client';
 
   import Image from "next/image";
-  
+  import productsList from "@/data/ProductsList";
+import Link from "next/link";
   const products = [
     {
       title: "Case Erector",
@@ -23,7 +24,7 @@
     },
     {
       title: "Palletizer",
-      img: "/palletizer.png",
+      img: "/palletizer.jpg",
       description:
         "MAS SYSTECH is a leading packaging equipment SUPPLIER. We provide our clients with ALL TYPES of case erector. Feel free to contact us if you need recommendations or more information on specific products.",
     },
@@ -46,34 +47,33 @@
       <section className="bg-[#f9f9f9] py-16 px-6 md:px-12">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-2">{props.title}</h2>
-          <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-          <p className="text-gray-600 max-w-3xl mx-auto mb-12">
-            Are you looking to improve ROI in your production and packaging processes? MAS SYSTECH can provide
-            simple, efficient packaging machines to meet your needs.
-          </p>
+          <div className="w-24 h-1 bg-orange-500 mx-auto mb-8" />
+          
   
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {products.map((item, index) => (
+            {productsList.map((item, index) => (
               <div
                 key={index}
                 className="group transition duration-50 transform hover:-translate-y-2 p-6 hover:bg-white hover:border hover:border-gray-200 hover:shadow-md hover:shadow-gray-300 relative"
               >
                 <div className="relative w-full h-96 mb-6 bg-white">
                   <Image
-                    src={item.img}
-                    alt={item.title}
+                    src={item.image}
+                    alt={item.name}
                     fill
                     className="p-10 object-contain"
                   />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">{item.title}</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">{item.name}</h3>
                 <p className="text-sm text-gray-600 mb-4">{item.description}</p>
   
                 {/* Hover-visible button */}
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <Link href={`/products/${item.slug}`} >
                   <button className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition">
                     Learn More »
                   </button>
+                  </Link>
                 </div>
               </div>
             ))}

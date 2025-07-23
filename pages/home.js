@@ -8,6 +8,7 @@ import AreasOfWork from "@/components/AreasOfWork";
 
 import { SquareArrowOutUpRight } from "lucide-react";
 import Link from "next/link";
+import ClientSlider from "@/components/ClientSlider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,38 +21,12 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
-  const products = [
-    {
-      name: "Case Erector",
-      image: "/case_erector.png",
-    },
-    {
-      name: "Case Sealer",
-      image: "/case_sealer.png",
-    },
-    {
-      name: "Shrink Wrapping Machine",
-      image: "/shrink_wrapping_machine.png",
-    },
-    {
-      name: "Case Erector",
-      image: "/case_erector.png",
-    },
-    {
-      name: "Case Sealer",
-      image: "/case_sealer.png",
-    },
-    {
-      name: "Shrink Wrapping Machine",
-      image: "/shrink_wrapping_machine.png",
-    },
-  ];
   const clients = [
     "/clients/AgiGlaa.png",
     "/clients/amul.png",
     "/clients/Diageo.png",
     "/clients/Marico_Logo.svg.png",
-    "/clients/pernodricardindia_logo.jpg",
+    "/clients/pri.jpeg",
     "/clients/Pidilite.png",
     "/clients/Piramal.png",
     "/clients/Sula-Logo.jpg",
@@ -145,32 +120,30 @@ export default function Home() {
       </div>
 
       <AreasOfWork title={"Areas of Work"} />
-      <section className="px-6 md:px-20 py-10 bg-[#001b48] text-white font-sans grid grid-cols-1 md:grid-cols-2 gap-6">
+      <section className="px-6 md:px-20 py-10 bg-[#001b48] text-white font-sans">
         <div className="flex flex-col items-center gap-2 mb-6 col-span-2">
         <h2 className="text-3xl font-bold text-white mb-2 text-center">
           About Us
         </h2>
         <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-     
+ 
         </div>
-        <div className="bg-white rounded-tl-[270] rounded-bl-[160] rounded-br-[270] rounded-tr-[160]">
-          {/* <Image
+        {/* <div className="bg-white rounded-tl-[270] flex items-center justify-center rounded-bl-[160] rounded-br-[270] rounded-tr-[160]">
+            <img
             src="/aboutus.jpg" // <- You need to put the image in public folder
             alt="Paper plane"
-            width={240}
-            height={240}
-            className="mx-auto md:mx-0"
-          /> */}
-        </div>
-        <div>
-          <div className="space-y-5 text-sm md:text-base leading-relaxed max-w-4xl">
-            <p>
+            className="mx-auto md:mx-0 w-full p-4"
+          />
+        </div> */}
+        <div className="">
+          <div className="w-full text-sm md:text-base leading-relaxed w-full">
+            <p className="mb-4">
               We, <span className="font-bold">MAS SYSTECH PVT LTD</span>, are a
               Pune, India based company involved in design, manufacturing and
               supply of Packaging Machines and related equipment's.
             </p>
 
-            <p>
+            <p className="mb-4">
               Our Packaging Machines & Solutions serve the need of regional and
               local companies in Food, Beverages, Liquor, Glass, Edible Oil,
               Personal Care and Home Care sectors. We take pride in being OEM
@@ -178,19 +151,19 @@ export default function Home() {
               <span className="font-semibold">Tetra Pak</span>.
             </p>
 
-            <p>
+            <p className="mb-4">
               Our focus is mainly on the{" "}
               <span className="font-bold">"END OF LINE"</span> packaging
               machines, which we have introduced under the{" "}
               <span className="font-bold">PACK-LINE</span> series.
             </p>
 
-            <p>
+            <p className="mb-4">
               We also offer customized packaging solutions to our customers to
               improve productivity and reduced wastage.
             </p>
 
-            <p>
+            <p className="mb-4">
               We boast of a highly skilled technical team equipped with advanced
               design software's, good production and assembly facilities, a
               well-defined and established QC & QA system to deliver high
@@ -201,15 +174,11 @@ export default function Home() {
       </section>
       <section className="px-6 md:px-20 py-10 bg-white text-[#001b48]">
         <h2 className="text-3xl font-bold text-gray-800 mb-2 text-center">
-          Take a look at our clients
+          Our Clients
         </h2>
         <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-        <p className="text-gray-600 max-w-3xl mx-auto mb-12">
-          Are you looking to improve ROI in your production and packaging
-          processes? MAS SYSTECH can provide simple, efficient packaging machines to
-          meet your needs.
-        </p>
-        <div className="grid grid-cols-5 md:grid-cols-5 gap-4">
+        
+        {/* <div className="grid grid-cols-5 md:grid-cols-5 gap-4">
           {clients.map((client, index) => (
             <div className="h-36 w-48 flex items-center justify-center my-16 mx-6 transition-transform duration-300 transform hover:-translate-y-2 ">
               <img
@@ -217,17 +186,10 @@ export default function Home() {
                 alt="Paper plane"
                 className="mx-auto md:mx-0 "
               />
-              {/* <Image
-                key={index}
-                src={client} // <- You need to put the image in public folder
-                alt="Paper plane"
-                width={100}
-                height={70}
-                className="mx-auto md:mx-0 "
-              /> */}
             </div>
           ))}
-        </div>
+        </div> */}
+        <ClientSlider clients={clients} />
       </section>
       <Footer />
     </div>

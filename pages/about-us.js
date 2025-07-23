@@ -142,6 +142,7 @@
 // }
 
 
+import ClientSliders from "@/components/ClientSlider";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
@@ -157,7 +158,7 @@ export default function AboutUs() {
     "/clients/amul.png",
     "/clients/Diageo.png",
     "/clients/Marico_Logo.svg.png",
-    "/clients/pernodricardindia_logo.jpg",
+    "/clients/pri.jpeg",
     "/clients/Pidilite.png",
     "/clients/Piramal.png",
     "/clients/Sula-Logo.jpg",
@@ -249,33 +250,11 @@ export default function AboutUs() {
       </section>
       <section className="px-6 md:px-20 py-10 bg-white text-[#001b48]">
         <h2 className="text-3xl font-bold text-gray-800 mb-2 text-center">
-          Take a look at our clients
+          Our Clients
         </h2>
         <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-        <p className="text-gray-600 max-w-3xl mx-auto mb-12">
-          Are you looking to improve ROI in your production and packaging
-          processes? MAS SYSTECH can provide simple, efficient packaging machines to
-          meet your needs.
-        </p>
-        <div className="grid grid-cols-5 md:grid-cols-5 gap-4">
-          {clients.map((client, index) => (
-            <div className="h-36 w-48 flex items-center justify-center my-16 mx-6 transition-transform duration-300 transform hover:-translate-y-2 ">
-              <img
-                src={client}
-                alt="Paper plane"
-                className="mx-auto md:mx-0 "
-              />
-              {/* <Image
-                key={index}
-                src={client} // <- You need to put the image in public folder
-                alt="Paper plane"
-                width={100}
-                height={70}
-                className="mx-auto md:mx-0 "
-              /> */}
-            </div>
-          ))}
-        </div>
+       
+        <ClientSliders clients={clients} />
       </section>
       <Footer />
     </main>

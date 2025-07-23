@@ -97,11 +97,11 @@ export default function ContactPage() {
         Contact Us
       </h2>
       <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-      <p className="text-gray-600 max-w-3xl mx-auto">
+      {/* <p className="text-gray-600 max-w-3xl mx-auto">
         Are you looking to improve ROI in your production and packaging
         processes? MAS SYSTECH can provide simple, efficient packaging machines
         to meet your needs.
-      </p>
+      </p> */}
       <section className="bg-white mx-12 rounded-xl py-12  flex items-center justify-center rounded-2xl p-6">
     
         
@@ -185,8 +185,8 @@ export default function ContactPage() {
 
       <div className="h-96">
         <iframe
-          title="Mumbai Office Map"
-          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=mas%20systech,pune,%20talawade+(massystech)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          title="Massytech"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.0164645855803!2d73.77580577414028!3d18.79741958235063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b5da2d2caa77%3A0xabc1519bbebcb993!2sD-241%20MAS%20Systech%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1753264657257!5m2!1sen!2sin"
           width="100%"
           height="100%"
           style={{ border: 0, pointerEvents: "none" }}
@@ -207,7 +207,7 @@ export default function ContactPage() {
               <p className="text-sm leading-relaxed mt-1">
                MAS SYSTECH PVT LTD, D-241, Chakan Industrial Area, Phase II, Warale, Khed, Pune- 410507
                 <br />
-                <strong>Tel: </strong>+91 9975414043 / +91 8459830259
+                <strong>Tel: </strong>+91 92840 35561
                 <br />
                 
                 <strong>Email: </strong>
@@ -230,7 +230,7 @@ export default function ContactPage() {
               <p className="text-sm leading-relaxed mt-1">
               MAS SYSTECH PVT LTD, D-241, Chakan Industrial Area, Phase II, Warale, Khed, Pune- 410507
                 <br />
-                <strong>Tel: </strong>+91 9975414043 / +91 8459830259
+                <strong>Tel: </strong>+91 92840 35561
                 <br />
                 <strong>Email: </strong> 
                 <a
@@ -250,7 +250,7 @@ export default function ContactPage() {
             <div>
               <h4 className="font-semibold text-lg">For Sales Enquiry</h4>
               <p className="text-sm leading-relaxed mt-1">
-              <strong>Tel: </strong>+91 9975414043 / +91 8459830259
+              <strong>Tel: </strong>+91 92840 35561
                 <br />
                 
                 <strong>Email: </strong> 
@@ -272,11 +272,7 @@ export default function ContactPage() {
         Global Agents Network
       </h2>
       <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-      <p className="text-gray-600 max-w-3xl mx-auto  mb-4">
-        Are you looking to improve ROI in your production and packaging
-        processes? MAS SYSTECH can provide simple, efficient packaging machines
-        to meet your needs.
-      </p>
+     
         {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"> */}
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 py-8">
       {agents.map((agent, index) => (

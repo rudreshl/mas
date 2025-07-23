@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Link from "next/link";
+import productsList from "@/data/ProductsList";
 
 const Navbar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,7 @@ const Navbar = (props) => {
     {
       label: "Products",
       href: "/products",
-      sub: ["X", "Y", "Z"],
+      sub: productsList.map((product) => product.name),
     },
     {
       label: "Services",
@@ -75,9 +76,7 @@ const Navbar = (props) => {
               {item.sub.map((subItem, idx) => (
                 <Link
                   key={idx}
-                  href={`${item.href}#${subItem
-                    .replace(/\s+/g, "-")
-                    .toLowerCase()}`}
+                  href={`${item.href}/${productsList.find((product) => product.name === subItem).slug}`}
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100"
                 >
                   {subItem}

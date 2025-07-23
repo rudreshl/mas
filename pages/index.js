@@ -50,7 +50,7 @@ export default function Home() {
     "/clients/amul.png",
     "/clients/Diageo.png",
     "/clients/Marico_Logo.svg.png",
-    "/clients/pernodricardindia_logo.jpg",
+    "/clients/pri.jpeg",
     "/clients/Pidilite.png",
     "/clients/Piramal.png",
     "/clients/Sula-Logo.jpg",

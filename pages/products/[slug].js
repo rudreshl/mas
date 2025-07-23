@@ -1,169 +1,293 @@
-import Footer from "@/components/Footer";
+import { useMemo, useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import Navbar from "@/components/Navbar";
-import { useState } from "react";
+import Footer from "@/components/Footer";
+import { Download, Video } from "lucide-react";
+import Image from "next/image";
+import productsList from "@/data/ProductsList";
 
 export default function ProductDetails() {
+  const { query } = useRouter();
+
+  const [productData, setProductData] = useState(null);
   const [activeTab, setActiveTab] = useState("features");
-  const [selectedModel, setSelectedModel] = useState("CEM-111");
+  const [selectedModel, setSelectedModel] = useState("");
+  const [previewMedia, setPreviewMedia] = useState(null);
+  const [modalMedia, setModalMedia] = useState(null);
 
-  const productData = {
-    image: "/case_erector.png",
-    name: "Case Erector",
-    slug: "case-erector",
-    description:
-      "Our Case Erectors provide fast, reliable box forming for various industrial applications. Built for speed and precision.",
-    models: [
-      {
-        name: "CEM-111",
-        image: "/case_erector.png",
-        specs: {
-          Speed: "20 boxes/min",
-          Power: "220V, 1.5kW",
-          Dimensions: "2000 x 1200 x 1800 mm",
-          Weight: "600kg",
-        },
-      },
-      {
-        name: "CEM-114",
-        image: "/case_erector.png",
-        specs: {
-          Speed: "25 boxes/min",
-          Power: "220V, 2.0kW",
-          Dimensions: "2200 x 1300 x 1900 mm",
-          Weight: "650kg",
-        },
-      },
-    ],
-    brochure: "/pdfs/case-erector-brochure.pdf",
-    industries: ["Food & Beverage", "Pharmaceutical", "FMCG", "Liquor"],
-  };
+  // ✅ Phase 1: Wait for query.slug, then find product
+  useEffect(() => {
+    if (!query?.slug) return;
+    const found = productsList .find((p) => p.slug === query.slug);
+    if (found) {
+      setProductData(found);
+      setSelectedModel(found.models?.[0]?.name || "");
+      setPreviewMedia(found.media?.[0] || null);
+    }
+  }, [query?.slug]);
 
-  const selected = productData.models.find(m => m.name === selectedModel);
+  // ✅ Phase 2: Once product is ready, safely compute model & features
+  const modelData = useMemo(() => {
+    return productData?.models?.find((m) => m.name === selectedModel);
+  }, [productData, selectedModel]);
+
+  const features = useMemo(() => {
+    return modelData?.features?.length
+      ? modelData.features
+      : productData?.features || [];
+  }, [modelData, productData]);
+
+  useEffect(() => {
+    setModalMedia(modelData?.media?.[0] || null);
+  }, [modelData]);
+  // ✅ Still loading? Don't render hooks or UI
+  if (!productData || !selectedModel) return null;
 
   return (
-    <div className="">
-      <Navbar/>
-    <div className="max-w-7xl mx-auto p-6 space-y-6 mt-24">
-      <p className="text-sm text-gray-500">Home / Products / {productData.name}</p>
+    <div className="bg-gray-100 text-black min-h-screen">
+      <Navbar />
 
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-        <h1 className="text-3xl font-bold">{productData.name}</h1>
-        <div className="flex space-x-2 mt-4 md:mt-0">
-          {productData.models.map((model) => (
-            <button
-              key={model.name}
-              onClick={() => setSelectedModel(model.name)}
-              className={`px-4 py-2 rounded border ${
-                selectedModel === model.name
-                  ? "bg-orange-600 text-white"
-                  : "bg-white hover:bg-orange-50"
-              }`}
-            >
-              {model.name}
-            </button>
-          ))}
-        </div>
-      </div>
+      <div className="max-w-7xl mx-auto px-4 md:px-8 pt-30 pb-20">
+        {/* Page Title */}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="space-y-4">
-          <img
-            src={selected.image}
-            alt={selected.name}
-            className="rounded shadow-md"
-          />
-          <div className="flex gap-2">
-            <img src="/thumb1.jpg" className="w-20 h-20 object-cover rounded cursor-pointer hover:scale-105 transition" />
-            <video src="/video1.mp4" controls className="w-20 h-20 object-cover rounded hover:scale-105 transition" />
+        {/* Product Section */}
+        <div className="grid md:grid-cols-2 gap-6 mb-10">
+          {/* Product Media */}
+          <div>
+            {previewMedia?.type === "image" ? (
+              <img
+                src={previewMedia?.path}
+                alt=""
+                className="h-96 rounded-xl p-4 w-full object-contain bg-white"
+              />
+            ) : (
+              <div className="relative w-full h-0 pb-[56.25%] rounded-xl shadow-md overflow-hidden">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src={`https://www.youtube.com/embed/${previewMedia?.path}?rel=0`}
+                  allowFullScreen
+                  title="Video Preview"
+                />
+              </div>
+            )}
+
+            {/* Thumbnails */}
+            <div className="flex flex-wrap gap-2 mt-4">
+              {productData.media?.map((media, i) => (
+                <button
+                  key={i}
+                  onClick={() => setPreviewMedia(media)}
+                  className={`w-16 h-16 rounded-md overflow-hidden border transition-all ${
+                    previewMedia?.path === media?.path
+                      ? "border-blue-700 ring-2 ring-blue-300 scale-105"
+                      : "border-gray-300 hover:ring-1 hover:ring-blue-300"
+                  }`}
+                >
+                  {media.type === "image" ? (
+                    <Image
+                      src={media?.path}
+                      alt=""
+                      width={64}
+                      height={64}
+                      className="object-cover w-full h-full"
+                    />
+                  ) : (
+                    <div className="bg-black text-white flex items-center justify-center w-full h-full">
+                      <Video className="w-6 h-6" />
+                    </div>
+                  )}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Product Info */}
+          <div className="space-y-5">
+          <h1 className="text-3xl font-bold mb-2">{productData.name}</h1>
+            {/* Description */}
+            <div>
+              <h2 className="text-sm font-medium mb-2">Description</h2>
+              <p className="text-sm text-gray-700 whitespace-pre-line">
+                {productData.description}
+              </p>
+            </div>
+
+            {/* Product Brochure */}
+            {productData.brochure && (
+              <div>
+                <a
+                  href={productData.brochure}
+                  target="_blank"
+  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-blue-700 text-white rounded shadow hover:bg-blue-800 text-sm transition"
+                >
+                  <Download className="w-4 h-4" />
+                  Download Brochure
+                </a>
+              </div>
+            )}
+
+            {/* Industries */}
+            {productData.industries?.length > 0 && (
+              <div>
+                <h2 className="text-sm font-medium mb-2">
+                  Industries Served
+                </h2>
+                <ul className="list-disc list-inside text-sm text-gray-700">
+                  {productData.industries.map((ind) => (
+                    <li key={ind}>{ind}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
 
-        <div className="space-y-4">
-          <p className="text-gray-600">{productData.description}</p>
-
-          <div className="grid grid-cols-2 gap-4">
-            {Object.entries(selected.specs).map(([key, value]) => (
-              <div key={key}>
-                <h4 className="text-sm font-semibold">{key}</h4>
-                <p>{value}</p>
-              </div>
+        {/* Models */}
+        <div className="my-4">
+          <h2 className="text-sm font-medium mb-2">Models</h2>
+          <div className="flex flex-wrap gap-2">
+            {productData.models?.map((model) => (
+              <button
+                key={model.name}
+                onClick={() => setSelectedModel(model.name)}
+                className={`px-4 py-1.5 rounded-full text-sm font-medium border transition ${
+                  selectedModel === model.name
+                    ? "bg-blue-700 text-white"
+                    : "bg-white text-blue-700 border-blue-700 hover:bg-blue-50"
+                }`}
+              >
+                {model.name}
+              </button>
+            ))}
+          </div>
+        </div>
+        {/* Product Tabs */}
+        <div>
+          <div className="border-b mb-4 flex gap-6">
+            {["features", "specs"].map((tab) => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={`pb-2 font-medium border-b-2 transition ${
+                  activeTab === tab
+                    ? "text-blue-700 border-blue-700"
+                    : "text-gray-500 border-transparent hover:text-blue-700"
+                }`}
+              >
+                {tab.charAt(0).toUpperCase() + tab.slice(1)}
+              </button>
             ))}
           </div>
 
-          <div>
-            <h4 className="text-sm font-semibold mb-1">Industries Served</h4>
-            <ul className="list-disc list-inside text-gray-700">
-              {productData.industries.map((industry) => (
-                <li key={industry}>{industry}</li>
+          {/* Tab Content */}
+          {activeTab === "features" ? (
+            <ul className="list-disc list-inside space-y-2 text-sm text-gray-700 mb-6">
+              {features.map((f, i) => (
+                <li key={i}>{f}</li>
               ))}
             </ul>
-          </div>
-
-          <a
-            href={productData.brochure}
-            download
-            className="inline-block bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded transition"
-          >
-            Download Brochure
-          </a>
-        </div>
-      </div>
-
-      <div>
-        <div className="flex border-b mt-8">
-          <button
-            onClick={() => setActiveTab("features")}
-            className={`px-4 py-2 font-medium ${
-              activeTab === "features"
-                ? "border-b-2 border-orange-600 text-orange-600"
-                : "text-gray-600"
-            }`}
-          >
-            FEATURES
-          </button>
-          <button
-            onClick={() => setActiveTab("specs")}
-            className={`px-4 py-2 font-medium ${
-              activeTab === "specs"
-                ? "border-b-2 border-orange-600 text-orange-600"
-                : "text-gray-600"
-            }`}
-          >
-            SPECIFICATIONS
-          </button>
-        </div>
-
-        {activeTab === "features" && (
-          <ul className="mt-4 list-disc list-inside text-gray-700 space-y-1">
-            <li>Fast and accurate box forming</li>
-            <li>Designed for industrial efficiency</li>
-            <li>Low maintenance and durable build</li>
-          </ul>
-        )}
-
-        {activeTab === "specs" && (
-          <div className="overflow-auto mt-4">
-            <table className="min-w-full border border-gray-300 text-sm">
-              <thead>
-                <tr className="bg-gray-100 text-left">
-                  <th className="border px-4 py-2">Property</th>
-                  <th className="border px-4 py-2">Value</th>
-                </tr>
-              </thead>
-              <tbody>
-                {Object.entries(selected.specs).map(([key, value]) => (
-                  <tr key={key}>
-                    <td className="border px-4 py-2">{key}</td>
-                    <td className="border px-4 py-2">{value}</td>
+          ) : (
+            <div className="overflow-auto mb-6">
+              <table className="min-w-full border border-gray-300 text-sm bg-white rounded-md">
+                <thead>
+                  <tr className="bg-gray-100 text-left">
+                    <th className="border px-4 py-2">Property</th>
+                    <th className="border px-4 py-2">Value</th>
                   </tr>
+                </thead>
+                <tbody>
+                  {Object.entries(modelData.specs).map(([key, value], i) => (
+                    <tr
+                      key={key}
+                      className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}
+                    >
+                      <td className="border px-4 py-2">{key}</td>
+                      <td className="border px-4 py-2">{value}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+
+        {/* Model Brochure */}
+        {modelData?.brochure && (
+          <div className="mt-10">
+            <a
+              href={modelData.brochure}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-blue-700 text-white rounded shadow hover:bg-blue-800 text-sm"
+            >
+              <Download className="w-4 h-4" />
+              Download Model Brochure
+            </a>
+          </div>
+        )}
+
+        {/* Model Media Gallery */}
+        {modelData?.media?.length > 0 && (
+          <div className="mt-10">
+            <h2 className="text-sm font-medium mb-4">Photos & Videos</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* Media Preview */}
+              <div>
+                {modalMedia?.type === "image" ? (
+                  <Image
+                    src={modalMedia?.path}
+                    alt=""
+                    width={800}
+                    height={500}
+                    className="rounded-xl w-full object-contain shadow-md"
+                  />
+                ) : modalMedia?.type === "video" ? (
+                  <div className="relative w-full h-0 pb-[56.25%] rounded-xl shadow-md overflow-hidden">
+                    <iframe
+                      className="absolute top-0 left-0 w-full h-full"
+                      src={`https://www.youtube.com/embed/${modalMedia?.path}?rel=0`}
+                      allowFullScreen
+                      title="Model Video"
+                    />
+                  </div>
+                ) : (
+                  <p className="text-gray-500 text-sm italic">
+                    Click a thumbnail to preview.
+                  </p>
+                )}
+              </div>
+
+              {/* Media Thumbnails */}
+              <div className="flex flex-wrap gap-2">
+                {modelData.media.map((media, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setModalMedia(media)}
+                    className="w-20 h-20 rounded-md overflow-hidden border bg-white shadow hover:ring-2 hover:ring-blue-300 transition"
+                  >
+                    {media.type === "image" ? (
+                      <Image
+                        src={media?.path}
+                        alt=""
+                        width={80}
+                        height={80}
+                        className="object-cover w-full h-full"
+                      />
+                    ) : (
+                      <div className="bg-black text-white flex items-center justify-center w-full h-full">
+                        <Video className="w-6 h-6" />
+                      </div>
+                    )}
+                  </button>
                 ))}
-              </tbody>
-            </table>
+              </div>
+            </div>
           </div>
         )}
       </div>
-    </div>
-    <Footer/>
+
+      <Footer />
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function Footer() {
             D-241, Chakan Industrial Area, Phase II, Warale, Khed,<br />
             Pune - 410507
           </p>
-          <p className="text-sm mb-1">📞 +91 9975414043 / +91 8459830259</p>
+          <p className="text-sm mb-1">📞 +91 92840 35561</p>
           <p className="text-sm mb-4">✉️ sales@massystech.com</p>
           <div className="flex gap-4 mt-2">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="hover:text-blue-600 transition-colors">
