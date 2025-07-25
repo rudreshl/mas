@@ -126,7 +126,7 @@ const productsList = [
         ],
         models: [
             {
-                name: "NDUSTRIAL ROBOT CASE PACKER (IRCP -143)",
+                name: "INDUSTRIAL ROBOT CASE PACKER (IRCP -143)",
                 features: [
                     "High precision movements",
                     "Precise product positioning",
@@ -1032,49 +1032,6 @@ function Footer() {
                         fileName: "[project]/components/Footer.js",
                         lineNumber: 67,
                         columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                className: "text-blue-600 font-semibold mb-3",
-                                children: "SUPPORT"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
-                                lineNumber: 87,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
-                                className: "space-y-2 text-sm",
-                                children: [
-                                    "Service & Parts",
-                                    "News",
-                                    "Contact Us",
-                                    "Get A Quote"
-                                ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                            href: `/${item.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}`,
-                                            className: "hover:text-blue-600 transition-colors",
-                                            children: item
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Footer.js",
-                                            lineNumber: 91,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, item, false, {
-                                        fileName: "[project]/components/Footer.js",
-                                        lineNumber: 90,
-                                        columnNumber: 15
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
-                                lineNumber: 88,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/Footer.js",
-                        lineNumber: 86,
-                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
@@ -1093,13 +1050,13 @@ function Footer() {
                         children: "sitemap.xml"
                     }, void 0, false, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 101,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Footer.js",
-                lineNumber: 99,
+                lineNumber: 87,
                 columnNumber: 7
             }, this)
         ]
@@ -1136,22 +1093,22 @@ const servicesList = [
         title: "Spare Parts",
         imgurl: "/spareparts.jpg",
         description: "When it comes to end of line equipment, the machines run continuously 24 X7, Critical spare parts plays an important role in this case. MAS SYSTECH team ensure we deliver the spare parts Just in time. In addition to original parts supply, by working on statistical analysis, MAS SYSTECH Spare Parts Services include stock management, parts yearly order, safety stock for high priority parts, and parts replacement predictions. Contact our SPARE PARTS SPECIALIST on below contact details",
-        phone: "+91 98765 43210",
-        email: "hD3yK@example.com"
+        phone: "+91 9130272934",
+        email: "sales@massystech.com"
     },
     {
         title: "Maintenance & services",
         imgurl: "/repair.jpg",
         description: "Regularly maintenance play an important role in the machine life cycle. Whether it’s a preventive maintenance or breakdown maintenance, Our SERVICE & MAINTENANCE team Minimize your unplanned equipment downtime and protect your investment with our range of Maintenance Services. To know more about our Maintenance services, contact our MAINTENANCE SPECIALIST on below contact details.",
-        phone: "+91 98765 12345",
-        email: "hD3yK@example.com"
+        phone: "+91 9130272934",
+        email: "sales@massystech.com"
     },
     {
         title: "Training & Documentation",
         imgurl: "/training.jpg",
         description: "Hand on experience on the training & documentation plays an important role. Our team of experts ensure the customer along with Machine operators, Production managers, Maintenance managers get hands on experience on the equipment to Run, Maintain & troubleshoot by their own. MAS SYTECH provides complete technical documentation either at the time of sale or on request, which including user and maintenance manual, machine settings description, operating and troubleshooting procedures, mechanical assembly drawings and electrical and pneumatic diagrams. Obtain the maximum performance of your machine by taking advantage of our Training Services to secure and develop your team competence and capability. Contact our SPECIALIST TEAM on below contact details.",
-        phone: "+91 98765 67890",
-        email: "hD3yK@example.com"
+        phone: "+91 9130272934",
+        email: "sales@massystech.com"
     }
 ];
 const Services = ()=>{

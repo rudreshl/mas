@@ -140,7 +140,7 @@ export default function Home() {
       </div>
 
       <OurProducts title={"Areas of Work"} />
-      <section className="px-6 md:px-20 py-10 bg-[#001b48] text-white font-sans">
+      <section className="px-6 md:px-20 py-10 bg-gradient-to-r from-[#0072bc] to-[#001b48] text-white font-sans">
         <div className="flex flex-col items-center gap-2 mb-6 col-span-2">
         <h2 className="text-3xl font-bold text-white mb-2 text-center">
           About Us
@@ -156,7 +156,7 @@ export default function Home() {
           />
         </div> */}
         <div className="">
-          <div className="w-full text-sm md:text-base leading-relaxed w-full">
+          <div className="w-full text-sm md:text-base leading-relaxed w-full text-white">
             <p className="mb-4">
               We, <span className="font-bold">MAS SYSTECH PVT LTD</span>, are a
               Pune, India based company involved in design, manufacturing and

@@ -1,14 +1,14 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
     "/": [
-      "static/chunks/[root-of-the-server]__294d5863._.js",
+      "static/chunks/[root-of-the-server]__50d074be._.js",
       "static/chunks/node_modules_next_e2783ff4._.js",
       "static/chunks/node_modules_react-dom_82bb97c6._.js",
       "static/chunks/node_modules_react-slick_lib_8d5f70e7._.js",
-      "static/chunks/node_modules_a3c45b0c._.js",
+      "static/chunks/node_modules_13055ea9._.js",
       "static/chunks/[root-of-the-server]__4f16eb5b._.css",
       "static/chunks/pages_index_5771e187._.js",
-      "static/chunks/pages_index_cb028a1c._.js"
+      "static/chunks/pages_index_83db3209._.js"
     ],
     "/_app": [
       "static/chunks/node_modules_next_dist_4f3d469a._.js",
@@ -72,12 +72,12 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/pages_products_index_7564c6e6.js"
     ],
     "/products/[slug]": [
-      "static/chunks/[root-of-the-server]__23fb8cf3._.js",
+      "static/chunks/[root-of-the-server]__044e3b7a._.js",
       "static/chunks/node_modules_next_0419b436._.js",
       "static/chunks/node_modules_react-dom_82bb97c6._.js",
-      "static/chunks/node_modules_d11b4f2b._.js",
+      "static/chunks/node_modules_41397b4f._.js",
       "static/chunks/pages_products_[slug]_5771e187.js",
-      "static/chunks/pages_products_[slug]_43eac346.js"
+      "static/chunks/pages_products_[slug]_33b772b4.js"
     ],
     "/services": [
       "static/chunks/node_modules_next_081c4778._.js",

@@ -44,7 +44,7 @@ const ClientSliders = ({ clients }) => {
   };
 
   return (
-    <div className="my-12 px-4 space-y-6">
+    <div className="my-12 px-4">
       {/* Top Slider */}
       <Slider {...settingsTop}>
         {clients.map((client, index) => (

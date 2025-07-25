@@ -134,7 +134,7 @@ const productsList = [
         ],
         models: [
             {
-                name: "NDUSTRIAL ROBOT CASE PACKER (IRCP -143)",
+                name: "INDUSTRIAL ROBOT CASE PACKER (IRCP -143)",
                 features: [
                     "High precision movements",
                     "Precise product positioning",
@@ -640,7 +640,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("footer", {
-        className: "bg-gray-100 text-gray-800 pt-12 pb-8 px-6 md:px-16",
+        className: "bg-gray-700 text-gray-800 pt-12 pb-8 px-6 md:px-16",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 border-b border-gray-300 pb-10",
@@ -649,7 +649,7 @@ function Footer() {
                         className: "md:col-span-2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                                className: "text-3xl font-bold text-blue-600 mb-2",
+                                className: "text-3xl font-bold text-white mb-2",
                                 children: "MAS SYSTECH PVT LTD"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
@@ -657,7 +657,7 @@ function Footer() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                className: "mb-4 text-sm leading-relaxed",
+                                className: "mb-4 text-sm leading-relaxed text-slate-200",
                                 children: [
                                     "D-241, Chakan Industrial Area, Phase II, Warale, Khed,",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
@@ -673,7 +673,7 @@ function Footer() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                className: "text-sm mb-1",
+                                className: "text-sm mb-1 text-slate-200",
                                 children: "📞 +91 92840 35561"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
@@ -681,7 +681,7 @@ function Footer() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                className: "text-sm mb-4",
+                                className: "text-sm mb-4 text-slate-200",
                                 children: "✉️ sales@massystech.com"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
@@ -696,7 +696,7 @@ function Footer() {
                                         target: "_blank",
                                         rel: "noopener noreferrer",
                                         "aria-label": "Facebook",
-                                        className: "hover:text-blue-600 transition-colors",
+                                        className: "hover:text-white text-slate-200 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__["Facebook"], {
                                             size: 20
                                         }, void 0, false, {
@@ -714,7 +714,7 @@ function Footer() {
                                         target: "_blank",
                                         rel: "noopener noreferrer",
                                         "aria-label": "Twitter",
-                                        className: "hover:text-blue-600 transition-colors",
+                                        className: "hover:text-white text-slate-200 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$twitter$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Twitter$3e$__["Twitter"], {
                                             size: 20
                                         }, void 0, false, {
@@ -732,7 +732,7 @@ function Footer() {
                                         target: "_blank",
                                         rel: "noopener noreferrer",
                                         "aria-label": "LinkedIn",
-                                        className: "hover:text-blue-600 transition-colors",
+                                        className: "hover:text-white text-slate-200 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__["Linkedin"], {
                                             size: 20
                                         }, void 0, false, {
@@ -750,7 +750,7 @@ function Footer() {
                                         target: "_blank",
                                         rel: "noopener noreferrer",
                                         "aria-label": "YouTube",
-                                        className: "hover:text-blue-600 transition-colors",
+                                        className: "hover:text-white text-slate-200 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$youtube$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Youtube$3e$__["Youtube"], {
                                             size: 20
                                         }, void 0, false, {
@@ -778,7 +778,7 @@ function Footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                className: "text-blue-600 font-semibold mb-3",
+                                className: "text-white font-semibold mb-3",
                                 children: "COMPANY"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
@@ -797,7 +797,7 @@ function Footer() {
                                 ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                                             href: `/${item.toLowerCase().replace(/ /g, '-')}`,
-                                            className: "hover:text-blue-600 transition-colors",
+                                            className: "text-slate-200 hover:text-white transition-colors",
                                             children: item
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.js",
@@ -823,7 +823,7 @@ function Footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                className: "text-blue-600 font-semibold mb-3",
+                                className: "text-white font-semibold mb-3",
                                 children: "PRODUCTS"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
@@ -838,22 +838,20 @@ function Footer() {
                                     "Shrink Wrap Machine",
                                     "Tetra Conveyors",
                                     "Case Packer",
-                                    "Palletizer",
-                                    "Tetra Case Packer",
-                                    "Uncaser"
+                                    "Palletizer"
                                 ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                                             href: `/products/${item.toLowerCase().replace(/ /g, '-')}`,
-                                            className: "hover:text-blue-600 transition-colors",
+                                            className: "text-slate-200 hover:text-white transition-colors",
                                             children: item
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.js",
-                                            lineNumber: 60,
+                                            lineNumber: 58,
                                             columnNumber: 17
                                         }, this)
                                     }, item, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 59,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
@@ -870,89 +868,48 @@ function Footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                className: "text-blue-600 font-semibold mb-3",
+                                className: "text-white font-semibold mb-3",
                                 children: "SOLUTIONS"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 68,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
                                 className: "space-y-2 text-sm",
                                 children: [
-                                    "Logistics Industry",
-                                    "Digital Communications",
-                                    "Commodity Industry",
-                                    "Hardware Industry",
-                                    "Beverage Industry",
-                                    "Pharmaceutical Industry"
+                                    "Food",
+                                    "Beverage",
+                                    "Home Care",
+                                    "Personal Care",
+                                    "Edible Oils",
+                                    "Lube Oil",
+                                    "Paints & Chemicals",
+                                    "Agrochemicals"
                                 ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                                             href: `/solutions/${item.toLowerCase().replace(/ /g, '-')}`,
-                                            className: "hover:text-blue-600 transition-colors",
+                                            className: "text-slate-200 hover:text-white transition-colors",
                                             children: item
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.js",
-                                            lineNumber: 79,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, this)
                                     }, item, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 78,
+                                        lineNumber: 79,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 69,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 67,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                className: "text-blue-600 font-semibold mb-3",
-                                children: "SUPPORT"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
-                                lineNumber: 87,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
-                                className: "space-y-2 text-sm",
-                                children: [
-                                    "Service & Parts",
-                                    "News",
-                                    "Contact Us",
-                                    "Get A Quote"
-                                ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                            href: `/${item.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}`,
-                                            className: "hover:text-blue-600 transition-colors",
-                                            children: item
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Footer.js",
-                                            lineNumber: 91,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, item, false, {
-                                        fileName: "[project]/components/Footer.js",
-                                        lineNumber: 90,
-                                        columnNumber: 15
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
-                                lineNumber: 88,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/Footer.js",
-                        lineNumber: 86,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this)
                 ]
@@ -962,23 +919,23 @@ function Footer() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "text-center text-xs text-gray-600 pt-6",
+                className: "text-center text-xs text-slate-200 pt-6",
                 children: [
                     "© 2025 MAS SYSTECH PVT LTD. All rights reserved.",
                     " ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                         href: "/sitemap.xml",
-                        className: "text-gray-800 hover:text-blue-600",
+                        className: "text-slate-200 hover:text-white",
                         children: "sitemap.xml"
                     }, void 0, false, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 101,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Footer.js",
-                lineNumber: 99,
+                lineNumber: 88,
                 columnNumber: 7
             }, this)
         ]

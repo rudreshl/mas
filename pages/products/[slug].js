@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { Download, Video } from "lucide-react";
 import Image from "next/image";
 import productsList from "@/data/ProductsList";
+import IndustriesServed from "@/components/IndustriesServed";
 
 export default function ProductDetails() {
   const { query } = useRouter();
@@ -18,7 +19,7 @@ export default function ProductDetails() {
   // ✅ Phase 1: Wait for query.slug, then find product
   useEffect(() => {
     if (!query?.slug) return;
-    const found = productsList .find((p) => p.slug === query.slug);
+    const found = productsList.find((p) => p.slug === query.slug);
     if (found) {
       setProductData(found);
       setSelectedModel(found.models?.[0]?.name || "");
@@ -93,7 +94,11 @@ export default function ProductDetails() {
                     />
                   ) : (
                     <div className="bg-black text-white flex items-center justify-center w-full h-full">
-                      <Video className="w-6 h-6" />
+                      <img
+                        src={`https://img.youtube.com/vi/${media.path}/mqdefault.jpg`}
+                        alt={media.name}
+                        className="object-cover w-full h-full"
+                      />
                     </div>
                   )}
                 </button>
@@ -103,7 +108,7 @@ export default function ProductDetails() {
 
           {/* Product Info */}
           <div className="space-y-5">
-          <h1 className="text-3xl font-bold mb-2">{productData.name}</h1>
+            <h1 className="text-3xl font-bold mb-2">{productData.name}</h1>
             {/* Description */}
             <div>
               <h2 className="text-sm font-medium mb-2">Description</h2>
@@ -112,80 +117,67 @@ export default function ProductDetails() {
               </p>
             </div>
 
-        {/* Combined Brochure Section */}
-{(productData.brochure || productData.models?.some((m) => m.brochure)) && (
-  <div className="space-y-2">
-    <h2 className="text-sm font-medium mb-1">Brochures</h2>
+            {/* Combined Brochure Section */}
+            {(productData.brochure ||
+              productData.models?.some((m) => m.brochure)) && (
+              <div className="space-y-2">
+                <h2 className="text-sm font-medium mb-1">Brochures</h2>
 
-    {/* Product Brochure */}
-    {productData.brochure && (
-      <a
-        href={productData.brochure}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 px-4 py-2 bg-blue-700 text-white rounded shadow hover:bg-blue-800 text-sm transition"
-      >
-        <Download className="w-4 h-4" />
-        Download Product Brochure
-      </a>
-    )}
+                {/* Product Brochure */}
+                {productData.brochure && (
+                  <a
+                    href={productData.brochure}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 py-1 text-blue-600 underline text-sm transition"
+                  >
+                    <Download className="w-4 h-4" />
+                    Download Product Brochure
+                  </a>
+                )}
 
-    {/* Model Brochures */}
-    {productData.models
-      ?.filter((model) => model.brochure)
-      .map((model, idx) => (
-        <div key={idx}>
-          <a
-            href={model.brochure}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded shadow hover:bg-blue-700 text-sm transition"
-          >
-            <Download className="w-4 h-4" />
-            {`Download Brochure - ${model.name}`}
-          </a>
-        </div>
-      ))}
-  </div>
-)}
-
-
-            {/* Industries */}
-            {productData.industries?.length > 0 && (
-              <div>
-                <h2 className="text-sm font-medium mb-2">
-                  Industries Served
-                </h2>
-                <ul className="list-disc list-inside text-sm text-gray-700">
-                  {productData.industries.map((ind) => (
-                    <li key={ind}>{ind}</li>
+                {/* Model Brochures */}
+                {productData.models
+                  ?.filter((model) => model.brochure)
+                  .map((model, idx) => (
+                    <div key={idx}>
+                      <a
+                        href={model.brochure}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 py-1 text-blue-600 hover:underline hover:text-blue-700 text-sm transition"
+                      >
+                        <Download className="w-4 h-4" />
+                        {`Download Brochure - ${model.name}`}
+                      </a>
+                    </div>
                   ))}
-                </ul>
+                {/* Models */}
+                <div className="my-4">
+                  <h2 className="text-sm font-medium mb-2">Available Models</h2>
+                  <div className="flex flex-wrap gap-2">
+                    {productData.models?.map((model) => (
+                      <button
+                        key={model.name}
+                        onClick={() => setSelectedModel(model.name)}
+                        className={`px-4 py-1.5 rounded-full text-sm font-medium border transition ${
+                          selectedModel === model.name
+                            ? "bg-blue-700 text-white"
+                            : "bg-white text-blue-700 border-blue-700 hover:bg-blue-50"
+                        }`}
+                      >
+                        {model.name}
+                      </button>
+                    ))}
+                  </div>
+                </div>
               </div>
             )}
           </div>
         </div>
 
-        {/* Models */}
-        <div className="my-4">
-          <h2 className="text-sm font-medium mb-2">Models</h2>
-          <div className="flex flex-wrap gap-2">
-            {productData.models?.map((model) => (
-              <button
-                key={model.name}
-                onClick={() => setSelectedModel(model.name)}
-                className={`px-4 py-1.5 rounded-full text-sm font-medium border transition ${
-                  selectedModel === model.name
-                    ? "bg-blue-700 text-white"
-                    : "bg-white text-blue-700 border-blue-700 hover:bg-blue-50"
-                }`}
-              >
-                {model.name}
-              </button>
-            ))}
-          </div>
-        </div>
         {/* Product Tabs */}
+        <div className="mb-2 font-semibold">Overview of {modelData?.name}</div>
         <div>
           <div className="border-b mb-4 flex gap-6">
             {["features", "specs"].map((tab) => (
@@ -235,25 +227,11 @@ export default function ProductDetails() {
           )}
         </div>
 
-        {/* Model Brochure */}
-        {modelData?.brochure && (
-          <div className="mt-10">
-            <a
-              href={modelData.brochure}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 bg-blue-700 text-white rounded shadow hover:bg-blue-800 text-sm"
-            >
-              <Download className="w-4 h-4" />
-              Download Model Brochure
-            </a>
-          </div>
-        )}
 
         {/* Model Media Gallery */}
         {modelData?.media?.length > 0 && (
           <div className="mt-10">
-            <h2 className="text-sm font-medium mb-4">Photos & Videos</h2>
+            <h2 className="text-sm font-medium mb-4">Demonstration Videos of {modelData.name}</h2>
             <div className="grid md:grid-cols-2 gap-6">
               {/* Media Preview */}
               <div>
@@ -299,7 +277,11 @@ export default function ProductDetails() {
                       />
                     ) : (
                       <div className="bg-black text-white flex items-center justify-center w-full h-full">
-                        <Video className="w-6 h-6" />
+                        <img
+                          src={`https://img.youtube.com/vi/${media.path}/mqdefault.jpg`}
+                          alt={media.name}
+                          className="object-cover w-full h-full"
+                        />
                       </div>
                     )}
                   </button>
@@ -309,7 +291,8 @@ export default function ProductDetails() {
           </div>
         )}
       </div>
-
+      {/* Industries */}
+      <IndustriesServed />
       <Footer />
     </div>
   );

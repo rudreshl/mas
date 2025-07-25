@@ -90,7 +90,7 @@ const productsList = [
       ],
       models: [
         {
-          name: "NDUSTRIAL ROBOT CASE PACKER (IRCP -143)",
+          name: "INDUSTRIAL ROBOT CASE PACKER (IRCP -143)",
           features: [
             "High precision movements",
             "Precise product positioning",

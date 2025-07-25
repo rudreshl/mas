@@ -10,24 +10,24 @@ const servicesList = [
     imgurl: "/spareparts.jpg",
     description:
       "When it comes to end of line equipment, the machines run continuously 24 X7, Critical spare parts plays an important role in this case. MAS SYSTECH team ensure we deliver the spare parts Just in time. In addition to original parts supply, by working on statistical analysis, MAS SYSTECH Spare Parts Services include stock management, parts yearly order, safety stock for high priority parts, and parts replacement predictions. Contact our SPARE PARTS SPECIALIST on below contact details",
-    phone: "+91 98765 43210",
-    email: "hD3yK@example.com",
+    phone: "+91 9130272934",
+    email: "sales@massystech.com"
   },
   {
     title: "Maintenance & services",
     imgurl: "/repair.jpg",
     description:
       "Regularly maintenance play an important role in the machine life cycle. Whether it’s a preventive maintenance or breakdown maintenance, Our SERVICE & MAINTENANCE team Minimize your unplanned equipment downtime and protect your investment with our range of Maintenance Services. To know more about our Maintenance services, contact our MAINTENANCE SPECIALIST on below contact details.",
-    phone: "+91 98765 12345",
-    email: "hD3yK@example.com",
+      phone: "+91 9130272934",
+      email: "sales@massystech.com"
   },
   {
     title: "Training & Documentation",
     imgurl: "/training.jpg",
     description:
       "Hand on experience on the training & documentation plays an important role. Our team of experts ensure the customer along with Machine operators, Production managers, Maintenance managers get hands on experience on the equipment to Run, Maintain & troubleshoot by their own. MAS SYTECH provides complete technical documentation either at the time of sale or on request, which including user and maintenance manual, machine settings description, operating and troubleshooting procedures, mechanical assembly drawings and electrical and pneumatic diagrams. Obtain the maximum performance of your machine by taking advantage of our Training Services to secure and develop your team competence and capability. Contact our SPECIALIST TEAM on below contact details.",
-    phone: "+91 98765 67890",
-    email: "hD3yK@example.com",
+      phone: "+91 9130272934",
+      email: "sales@massystech.com"
   },
 ];
 

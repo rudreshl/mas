@@ -750,49 +750,6 @@ function Footer() {
                         fileName: "[project]/components/Footer.js",
                         lineNumber: 67,
                         columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-blue-600 font-semibold mb-3",
-                                children: "SUPPORT"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
-                                lineNumber: 87,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                className: "space-y-2 text-sm",
-                                children: [
-                                    "Service & Parts",
-                                    "News",
-                                    "Contact Us",
-                                    "Get A Quote"
-                                ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: `/${item.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}`,
-                                            className: "hover:text-blue-600 transition-colors",
-                                            children: item
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Footer.js",
-                                            lineNumber: 91,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, item, false, {
-                                        fileName: "[project]/components/Footer.js",
-                                        lineNumber: 90,
-                                        columnNumber: 15
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
-                                lineNumber: 88,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/Footer.js",
-                        lineNumber: 86,
-                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
@@ -811,13 +768,13 @@ function Footer() {
                         children: "sitemap.xml"
                     }, void 0, false, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 101,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Footer.js",
-                lineNumber: 99,
+                lineNumber: 87,
                 columnNumber: 7
             }, this)
         ]
@@ -960,7 +917,7 @@ const productsList = [
         ],
         models: [
             {
-                name: "NDUSTRIAL ROBOT CASE PACKER (IRCP -143)",
+                name: "INDUSTRIAL ROBOT CASE PACKER (IRCP -143)",
                 features: [
                     "High precision movements",
                     "Precise product positioning",
