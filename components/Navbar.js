@@ -21,10 +21,10 @@ const Navbar = (props) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navTextColor = scrolled ? "text-gray-800" : "text-white";
+  const navTextColor = scrolled ? "text-white" : "text-white";
   const navBg = scrolled
-    ? "bg-white shadow-md"
-    : "bg-transparent border-b border-gray-200";
+    ? "bg-gradient-to-r from-[#0072bc] to-[#001b48] shadow-md"
+    : "bg-transparent";
 
   // Menu items with sub-links
   const menu = [
@@ -131,7 +131,7 @@ const Navbar = (props) => {
     <nav
       className={`fixed top-0 w-full transition-all duration-300 z-50 ${navBg}`}
     >
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="w-full px-6 py-4 flex items-center justify-between">
         {/* Logo + Company Name */}
         <div className="flex items-center space-x-3">
           <img src="/logo.png" alt="Logo" className="h-12 w-30" />

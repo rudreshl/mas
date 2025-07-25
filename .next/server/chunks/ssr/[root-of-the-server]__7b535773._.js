@@ -343,7 +343,7 @@ const productsList = [
         ]
     },
     {
-        image: "/palletizer.jpg",
+        image: "/palletizer.png",
         name: "Palletizer",
         slug: "palletizer",
         features: [
@@ -356,7 +356,7 @@ const productsList = [
             {
                 type: "image",
                 name: "Palletizer",
-                path: "/palletizer.jpg"
+                path: "/palletizer.png"
             },
             {
                 type: "video",
@@ -545,8 +545,8 @@ const Navbar = (props)=>{
         }
         return ()=>window.removeEventListener("scroll", handleScroll);
     }, []);
-    const navTextColor = scrolled ? "text-gray-800" : "text-white";
-    const navBg = scrolled ? "bg-white shadow-md" : "bg-transparent border-b border-gray-200";
+    const navTextColor = scrolled ? "text-white" : "text-white";
+    const navBg = scrolled ? "bg-gradient-to-r from-[#0072bc] to-[#001b48] shadow-md" : "bg-transparent";
     // Menu items with sub-links
     const menu = [
         {
@@ -697,7 +697,7 @@ const Navbar = (props)=>{
             className: `fixed top-0 w-full transition-all duration-300 z-50 ${navBg}`,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-6 py-4 flex items-center justify-between",
+                    className: "w-full px-6 py-4 flex items-center justify-between",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "flex items-center space-x-3",
@@ -1319,31 +1319,68 @@ function ProductDetails() {
                                         lineNumber: 108,
                                         columnNumber: 13
                                     }, this),
-                                    productData.brochure && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                            href: productData.brochure,
-                                            target: "_blank",
-                                            rel: "noopener noreferrer",
-                                            className: "inline-flex items-center gap-2 px-4 py-2 bg-blue-700 text-white rounded shadow hover:bg-blue-800 text-sm transition",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Download$3e$__["Download"], {
-                                                    className: "w-4 h-4"
-                                                }, void 0, false, {
+                                    (productData.brochure || productData.models?.some((m)=>m.brochure)) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "space-y-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
+                                                className: "text-sm font-medium mb-1",
+                                                children: "Brochures"
+                                            }, void 0, false, {
+                                                fileName: "[project]/pages/products/[slug].js",
+                                                lineNumber: 118,
+                                                columnNumber: 5
+                                            }, this),
+                                            productData.brochure && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                href: productData.brochure,
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
+                                                className: "inline-flex items-center gap-2 px-4 py-2 bg-blue-700 text-white rounded shadow hover:bg-blue-800 text-sm transition",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Download$3e$__["Download"], {
+                                                        className: "w-4 h-4"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/pages/products/[slug].js",
+                                                        lineNumber: 128,
+                                                        columnNumber: 9
+                                                    }, this),
+                                                    "Download Product Brochure"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/pages/products/[slug].js",
+                                                lineNumber: 122,
+                                                columnNumber: 7
+                                            }, this),
+                                            productData.models?.filter((model)=>model.brochure).map((model, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                        href: model.brochure,
+                                                        target: "_blank",
+                                                        rel: "noopener noreferrer",
+                                                        className: "inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded shadow hover:bg-blue-700 text-sm transition",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Download$3e$__["Download"], {
+                                                                className: "w-4 h-4"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/pages/products/[slug].js",
+                                                                lineNumber: 144,
+                                                                columnNumber: 13
+                                                            }, this),
+                                                            `Download Brochure - ${model.name}`
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/pages/products/[slug].js",
+                                                        lineNumber: 138,
+                                                        columnNumber: 11
+                                                    }, this)
+                                                }, idx, false, {
                                                     fileName: "[project]/pages/products/[slug].js",
-                                                    lineNumber: 124,
-                                                    columnNumber: 19
-                                                }, this),
-                                                "Download Brochure"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/pages/products/[slug].js",
-                                            lineNumber: 118,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
+                                                    lineNumber: 137,
+                                                    columnNumber: 9
+                                                }, this))
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/pages/products/[slug].js",
                                         lineNumber: 117,
-                                        columnNumber: 15
+                                        columnNumber: 3
                                     }, this),
                                     productData.industries?.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                         children: [
@@ -1352,7 +1389,7 @@ function ProductDetails() {
                                                 children: "Industries Served"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/products/[slug].js",
-                                                lineNumber: 133,
+                                                lineNumber: 156,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -1361,18 +1398,18 @@ function ProductDetails() {
                                                         children: ind
                                                     }, ind, false, {
                                                         fileName: "[project]/pages/products/[slug].js",
-                                                        lineNumber: 138,
+                                                        lineNumber: 161,
                                                         columnNumber: 21
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/products/[slug].js",
-                                                lineNumber: 136,
+                                                lineNumber: 159,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/products/[slug].js",
-                                        lineNumber: 132,
+                                        lineNumber: 155,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -1395,7 +1432,7 @@ function ProductDetails() {
                                 children: "Models"
                             }, void 0, false, {
                                 fileName: "[project]/pages/products/[slug].js",
-                                lineNumber: 148,
+                                lineNumber: 171,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1406,18 +1443,18 @@ function ProductDetails() {
                                         children: model.name
                                     }, model.name, false, {
                                         fileName: "[project]/pages/products/[slug].js",
-                                        lineNumber: 151,
+                                        lineNumber: 174,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/pages/products/[slug].js",
-                                lineNumber: 149,
+                                lineNumber: 172,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/products/[slug].js",
-                        lineNumber: 147,
+                        lineNumber: 170,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1433,12 +1470,12 @@ function ProductDetails() {
                                         children: tab.charAt(0).toUpperCase() + tab.slice(1)
                                     }, tab, false, {
                                         fileName: "[project]/pages/products/[slug].js",
-                                        lineNumber: 169,
+                                        lineNumber: 192,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/pages/products/[slug].js",
-                                lineNumber: 167,
+                                lineNumber: 190,
                                 columnNumber: 11
                             }, this),
                             activeTab === "features" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
@@ -1447,12 +1484,12 @@ function ProductDetails() {
                                         children: f
                                     }, i, false, {
                                         fileName: "[project]/pages/products/[slug].js",
-                                        lineNumber: 187,
+                                        lineNumber: 210,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/pages/products/[slug].js",
-                                lineNumber: 185,
+                                lineNumber: 208,
                                 columnNumber: 13
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                 className: "overflow-auto mb-6",
@@ -1468,7 +1505,7 @@ function ProductDetails() {
                                                         children: "Property"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/products/[slug].js",
-                                                        lineNumber: 195,
+                                                        lineNumber: 218,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("th", {
@@ -1476,18 +1513,18 @@ function ProductDetails() {
                                                         children: "Value"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/products/[slug].js",
-                                                        lineNumber: 196,
+                                                        lineNumber: 219,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/products/[slug].js",
-                                                lineNumber: 194,
+                                                lineNumber: 217,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/products/[slug].js",
-                                            lineNumber: 193,
+                                            lineNumber: 216,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("tbody", {
@@ -1499,7 +1536,7 @@ function ProductDetails() {
                                                             children: key
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/products/[slug].js",
-                                                            lineNumber: 205,
+                                                            lineNumber: 228,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("td", {
@@ -1507,35 +1544,35 @@ function ProductDetails() {
                                                             children: value
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/products/[slug].js",
-                                                            lineNumber: 206,
+                                                            lineNumber: 229,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, key, true, {
                                                     fileName: "[project]/pages/products/[slug].js",
-                                                    lineNumber: 201,
+                                                    lineNumber: 224,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/pages/products/[slug].js",
-                                            lineNumber: 199,
+                                            lineNumber: 222,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/products/[slug].js",
-                                    lineNumber: 192,
+                                    lineNumber: 215,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/products/[slug].js",
-                                lineNumber: 191,
+                                lineNumber: 214,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/products/[slug].js",
-                        lineNumber: 166,
+                        lineNumber: 189,
                         columnNumber: 9
                     }, this),
                     modelData?.brochure && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1550,19 +1587,19 @@ function ProductDetails() {
                                     className: "w-4 h-4"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/products/[slug].js",
-                                    lineNumber: 224,
+                                    lineNumber: 247,
                                     columnNumber: 15
                                 }, this),
                                 "Download Model Brochure"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/products/[slug].js",
-                            lineNumber: 218,
+                            lineNumber: 241,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/products/[slug].js",
-                        lineNumber: 217,
+                        lineNumber: 240,
                         columnNumber: 11
                     }, this),
                     modelData?.media?.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1573,7 +1610,7 @@ function ProductDetails() {
                                 children: "Photos & Videos"
                             }, void 0, false, {
                                 fileName: "[project]/pages/products/[slug].js",
-                                lineNumber: 233,
+                                lineNumber: 256,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1588,7 +1625,7 @@ function ProductDetails() {
                                             className: "rounded-xl w-full object-contain shadow-md"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/products/[slug].js",
-                                            lineNumber: 238,
+                                            lineNumber: 261,
                                             columnNumber: 19
                                         }, this) : modalMedia?.type === "video" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                             className: "relative w-full h-0 pb-[56.25%] rounded-xl shadow-md overflow-hidden",
@@ -1599,24 +1636,24 @@ function ProductDetails() {
                                                 title: "Model Video"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/products/[slug].js",
-                                                lineNumber: 247,
+                                                lineNumber: 270,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/products/[slug].js",
-                                            lineNumber: 246,
+                                            lineNumber: 269,
                                             columnNumber: 19
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                             className: "text-gray-500 text-sm italic",
                                             children: "Click a thumbnail to preview."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/products/[slug].js",
-                                            lineNumber: 255,
+                                            lineNumber: 278,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/products/[slug].js",
-                                        lineNumber: 236,
+                                        lineNumber: 259,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1632,7 +1669,7 @@ function ProductDetails() {
                                                     className: "object-cover w-full h-full"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/products/[slug].js",
-                                                    lineNumber: 270,
+                                                    lineNumber: 293,
                                                     columnNumber: 23
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                                     className: "bg-black text-white flex items-center justify-center w-full h-full",
@@ -1640,34 +1677,34 @@ function ProductDetails() {
                                                         className: "w-6 h-6"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/products/[slug].js",
-                                                        lineNumber: 279,
+                                                        lineNumber: 302,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/products/[slug].js",
-                                                    lineNumber: 278,
+                                                    lineNumber: 301,
                                                     columnNumber: 23
                                                 }, this)
                                             }, i, false, {
                                                 fileName: "[project]/pages/products/[slug].js",
-                                                lineNumber: 264,
+                                                lineNumber: 287,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/pages/products/[slug].js",
-                                        lineNumber: 262,
+                                        lineNumber: 285,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/products/[slug].js",
-                                lineNumber: 234,
+                                lineNumber: 257,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/products/[slug].js",
-                        lineNumber: 232,
+                        lineNumber: 255,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1678,7 +1715,7 @@ function ProductDetails() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/products/[slug].js",
-                lineNumber: 290,
+                lineNumber: 313,
                 columnNumber: 7
             }, this)
         ]

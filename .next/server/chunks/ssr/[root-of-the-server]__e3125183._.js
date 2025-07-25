@@ -311,7 +311,7 @@ const productsList = [
         ]
     },
     {
-        image: "/palletizer.jpg",
+        image: "/palletizer.png",
         name: "Palletizer",
         slug: "palletizer",
         features: [
@@ -324,7 +324,7 @@ const productsList = [
             {
                 type: "image",
                 name: "Palletizer",
-                path: "/palletizer.jpg"
+                path: "/palletizer.png"
             },
             {
                 type: "video",
@@ -513,8 +513,8 @@ const Navbar = (props)=>{
         }
         return ()=>window.removeEventListener("scroll", handleScroll);
     }, []);
-    const navTextColor = scrolled ? "text-gray-800" : "text-white";
-    const navBg = scrolled ? "bg-white shadow-md" : "bg-transparent border-b border-gray-200";
+    const navTextColor = scrolled ? "text-white" : "text-white";
+    const navBg = scrolled ? "bg-gradient-to-r from-[#0072bc] to-[#001b48] shadow-md" : "bg-transparent";
     // Menu items with sub-links
     const menu = [
         {
@@ -665,7 +665,7 @@ const Navbar = (props)=>{
             className: `fixed top-0 w-full transition-all duration-300 z-50 ${navBg}`,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-6 py-4 flex items-center justify-between",
+                    className: "w-full px-6 py-4 flex items-center justify-between",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "flex items-center space-x-3",
@@ -1164,10 +1164,10 @@ const Services = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-                className: "py-16 px-12",
+                className: "py-16 px-12 bg-gradient-to-r from-[#0072bc] to-[#001b48]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                        className: "text-center text-3xl font-bold text-gray-800 mb-2",
+                        className: "text-center text-3xl font-bold text-white mb-2",
                         children: "Our Services"
                     }, void 0, false, {
                         fileName: "[project]/pages/services.js",
@@ -1182,8 +1182,8 @@ const Services = ()=>{
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                        className: "text-gray-600 max-w-3xl mx-auto",
-                        children: "Are you looking to improve ROI in your production and packaging processes? MAS SYSTECH can provide simple, efficient packaging machines to meet your needs."
+                        className: "text-white max-w-3xl mx-auto",
+                        children: "Mas Systech believes After sales service of the equipment is an important aspect to run the equipment continuously. This also helps in equipment long life. We offer below after sales services to all our clients."
                     }, void 0, false, {
                         fileName: "[project]/pages/services.js",
                         lineNumber: 43,
@@ -1204,7 +1204,7 @@ const Services = ()=>{
                                             className: "mx-auto md:mx-0 bg-[#f5faff]"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/services.js",
-                                            lineNumber: 57,
+                                            lineNumber: 55,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1214,7 +1214,7 @@ const Services = ()=>{
                                                     children: service.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/services.js",
-                                                    lineNumber: 65,
+                                                    lineNumber: 63,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1222,7 +1222,7 @@ const Services = ()=>{
                                                     children: service.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/services.js",
-                                                    lineNumber: 66,
+                                                    lineNumber: 64,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1236,13 +1236,13 @@ const Services = ()=>{
                                                                     className: "text-gray-700 mr-2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/services.js",
-                                                                    lineNumber: 70,
+                                                                    lineNumber: 68,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/services.js",
-                                                            lineNumber: 68,
+                                                            lineNumber: 66,
                                                             columnNumber: 19
                                                         }, this),
                                                         " ",
@@ -1250,7 +1250,7 @@ const Services = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/services.js",
-                                                    lineNumber: 67,
+                                                    lineNumber: 65,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1264,13 +1264,13 @@ const Services = ()=>{
                                                                     className: "text-gray-700 mr-2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/services.js",
-                                                                    lineNumber: 77,
+                                                                    lineNumber: 75,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/services.js",
-                                                            lineNumber: 75,
+                                                            lineNumber: 73,
                                                             columnNumber: 19
                                                         }, this),
                                                         " ",
@@ -1278,29 +1278,29 @@ const Services = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/services.js",
-                                                    lineNumber: 74,
+                                                    lineNumber: 72,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/services.js",
-                                            lineNumber: 64,
+                                            lineNumber: 62,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/services.js",
-                                    lineNumber: 56,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/pages/services.js",
-                                lineNumber: 51,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/pages/services.js",
-                        lineNumber: 49,
+                        lineNumber: 47,
                         columnNumber: 7
                     }, this)
                 ]
@@ -1311,7 +1311,7 @@ const Services = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/services.js",
-                lineNumber: 87,
+                lineNumber: 85,
                 columnNumber: 7
             }, this)
         ]

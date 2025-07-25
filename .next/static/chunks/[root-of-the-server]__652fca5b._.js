@@ -1145,7 +1145,7 @@ const productsList = [
         ]
     },
     {
-        image: "/palletizer.jpg",
+        image: "/palletizer.png",
         name: "Palletizer",
         slug: "palletizer",
         features: [
@@ -1158,7 +1158,7 @@ const productsList = [
             {
                 type: "image",
                 name: "Palletizer",
-                path: "/palletizer.jpg"
+                path: "/palletizer.png"
             },
             {
                 type: "video",
@@ -1358,8 +1358,8 @@ const Navbar = (props)=>{
             })["Navbar.useEffect"];
         }
     }["Navbar.useEffect"], []);
-    const navTextColor = scrolled ? "text-gray-800" : "text-white";
-    const navBg = scrolled ? "bg-white shadow-md" : "bg-transparent border-b border-gray-200";
+    const navTextColor = scrolled ? "text-white" : "text-white";
+    const navBg = scrolled ? "bg-gradient-to-r from-[#0072bc] to-[#001b48] shadow-md" : "bg-transparent";
     // Menu items with sub-links
     const menu = [
         {
@@ -1510,7 +1510,7 @@ const Navbar = (props)=>{
             className: `fixed top-0 w-full transition-all duration-300 z-50 ${navBg}`,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-6 py-4 flex items-center justify-between",
+                    className: "w-full px-6 py-4 flex items-center justify-between",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center space-x-3",
@@ -1689,15 +1689,17 @@ function ContactPage() {
     // }
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "min-h-screen bg-white",
+        className: "min-h-screen bg-gradient-to-r from-[#0072bc] to-[#001b48]",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                transparentOnTop: false
+            }, void 0, false, {
                 fileName: "[project]/pages/contact.js",
                 lineNumber: 95,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                className: "pt-36 px-12 text-center text-3xl font-bold text-gray-800 mb-2",
+                className: "pt-36 px-12 text-center text-3xl font-bold text-white mb-2",
                 children: "Contact Us"
             }, void 0, false, {
                 fileName: "[project]/pages/contact.js",
@@ -1712,13 +1714,13 @@ function ContactPage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "bg-white mx-12 rounded-xl py-12  flex items-center justify-center rounded-2xl p-6",
+                className: "bg-gradient-to-r from-[#0072bc] to-[#001b48] mx-12 rounded-xl py-12  flex items-center justify-center rounded-2xl p-6",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "md:w-1/2 text-center md:text-left",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-2xl md:text-3xl font-bold text-[#001b48] mb-2",
+                                className: "text-2xl md:text-3xl font-bold text-white mb-2",
                                 children: "Reach out to us"
                             }, void 0, false, {
                                 fileName: "[project]/pages/contact.js",
@@ -1726,13 +1728,13 @@ function ContactPage() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-gray-700 mb-4",
+                                className: "text-[#e6eef7] mb-4",
                                 children: [
                                     "Or reach out manually to",
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "mailto:sales@massystech.com",
-                                        className: "text-[#001b48] hover:underline",
+                                        className: "text-[#c8dffb] hover:underline",
                                         children: "sales@massystech.com"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
@@ -1770,7 +1772,7 @@ function ContactPage() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "email",
-                                        className: "block font-medium text-gray-700",
+                                        className: "block font-medium text-[#c8dffb]",
                                         children: "Email address"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
@@ -1782,14 +1784,14 @@ function ContactPage() {
                                         id: "email",
                                         required: true,
                                         onChange: (e)=>setEmail(e.target.value),
-                                        className: "w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
+                                        className: "bg-white w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
                                         lineNumber: 136,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-xs text-[#001b48] mt-1",
+                                        className: "text-xs text-[#c8dffb] mt-1",
                                         children: "We'll never share your email with anyone else."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
@@ -1806,7 +1808,7 @@ function ContactPage() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "name",
-                                        className: "block font-medium text-gray-700",
+                                        className: "block font-medium text-[#c8dffb]",
                                         children: "Your name"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
@@ -1818,7 +1820,7 @@ function ContactPage() {
                                         id: "name",
                                         required: true,
                                         onChange: (e)=>setName(e.target.value),
-                                        className: "w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
+                                        className: "w-full bg-white mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
                                         lineNumber: 152,
@@ -1834,7 +1836,7 @@ function ContactPage() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "message",
-                                        className: "block font-medium text-gray-700",
+                                        className: "block font-medium text-[#c8dffb]",
                                         children: "Your message"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
@@ -1846,7 +1848,7 @@ function ContactPage() {
                                         onChange: (e)=>setMessage(e.target.value),
                                         rows: 4,
                                         required: true,
-                                        className: "w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
+                                        className: "bg-white w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
                                         lineNumber: 165,
@@ -1860,7 +1862,7 @@ function ContactPage() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: handleSendMessage,
-                                className: "bg-[#001b48] text-white px-6 py-2 rounded-md  transition",
+                                className: "bg-[#0072bc] hover:bg-[#005a99] text-white px-6 py-2 rounded-md  transition",
                                 children: "Send Message"
                             }, void 0, false, {
                                 fileName: "[project]/pages/contact.js",
@@ -1904,7 +1906,7 @@ function ContactPage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-[#001b48] text-white  w-full p-8 shadow-lg",
+                className: "bg-gradient-to-r from-[#0072bc] to-[#001b48] text-white  w-full p-8 shadow-lg",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid  grid-cols-3  gap-4 items-start",
                     children: [

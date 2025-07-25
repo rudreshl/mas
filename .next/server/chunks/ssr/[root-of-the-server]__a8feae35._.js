@@ -63,55 +63,30 @@ const ClientSliders = ({ clients })=>{
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
         className: "my-12 px-4 space-y-6",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$slick__$5b$external$5d$__$28$react$2d$slick$2c$__cjs$29$__["default"], {
-                ...settingsTop,
-                children: clients.map((client, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "w-full flex items-center justify-center px-4 py-4",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                            src: client,
-                            alt: `Client ${index}`,
-                            className: "h-16 w-auto object-contain hover:grayscale-0 transition duration-300"
-                        }, void 0, false, {
-                            fileName: "[project]/components/ClientSlider.js",
-                            lineNumber: 55,
-                            columnNumber: 13
-                        }, this)
-                    }, `top-${index}`, false, {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$slick__$5b$external$5d$__$28$react$2d$slick$2c$__cjs$29$__["default"], {
+            ...settingsTop,
+            children: clients.map((client, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                    className: "w-full flex items-center justify-center px-4 py-4",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                        src: client,
+                        alt: `Client ${index}`,
+                        className: "h-16 w-auto object-contain hover:grayscale-0 transition duration-300"
+                    }, void 0, false, {
                         fileName: "[project]/components/ClientSlider.js",
-                        lineNumber: 51,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/components/ClientSlider.js",
-                lineNumber: 49,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$slick__$5b$external$5d$__$28$react$2d$slick$2c$__cjs$29$__["default"], {
-                ...settingsBottom,
-                children: clients.map((client, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "flex items-center justify-center px-4 py-4",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                            src: client,
-                            alt: `Client ${index}`,
-                            className: "h-16 w-auto object-contain hover:grayscale-0 transition duration-300"
-                        }, void 0, false, {
-                            fileName: "[project]/components/ClientSlider.js",
-                            lineNumber: 71,
-                            columnNumber: 13
-                        }, this)
-                    }, `bottom-${index}`, false, {
-                        fileName: "[project]/components/ClientSlider.js",
-                        lineNumber: 67,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/components/ClientSlider.js",
-                lineNumber: 65,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+                        lineNumber: 55,
+                        columnNumber: 13
+                    }, this)
+                }, `top-${index}`, false, {
+                    fileName: "[project]/components/ClientSlider.js",
+                    lineNumber: 51,
+                    columnNumber: 11
+                }, this))
+        }, void 0, false, {
+            fileName: "[project]/components/ClientSlider.js",
+            lineNumber: 49,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/components/ClientSlider.js",
         lineNumber: 47,
         columnNumber: 5
@@ -796,7 +771,7 @@ const productsList = [
         ]
     },
     {
-        image: "/palletizer.jpg",
+        image: "/palletizer.png",
         name: "Palletizer",
         slug: "palletizer",
         features: [
@@ -809,7 +784,7 @@ const productsList = [
             {
                 type: "image",
                 name: "Palletizer",
-                path: "/palletizer.jpg"
+                path: "/palletizer.png"
             },
             {
                 type: "video",
@@ -998,8 +973,8 @@ const Navbar = (props)=>{
         }
         return ()=>window.removeEventListener("scroll", handleScroll);
     }, []);
-    const navTextColor = scrolled ? "text-gray-800" : "text-white";
-    const navBg = scrolled ? "bg-white shadow-md" : "bg-transparent border-b border-gray-200";
+    const navTextColor = scrolled ? "text-white" : "text-white";
+    const navBg = scrolled ? "bg-gradient-to-r from-[#0072bc] to-[#001b48] shadow-md" : "bg-transparent";
     // Menu items with sub-links
     const menu = [
         {
@@ -1150,7 +1125,7 @@ const Navbar = (props)=>{
             className: `fixed top-0 w-full transition-all duration-300 z-50 ${navBg}`,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-6 py-4 flex items-center justify-between",
+                    className: "w-full px-6 py-4 flex items-center justify-between",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "flex items-center space-x-3",
@@ -1273,7 +1248,7 @@ var { g: global, __dirname } = __turbopack_context__;
 //           <div className="w-72 rounded-lg overflow-hidden shadow-lg group bg-white relative">
 //             <div className="relative">
 //               <img
-//                 src="ceo.jpeg"
+//                 src="ceo.png"
 //                 alt="Riddhi Shewani"
 //                 className="w-full h-80 object-cover"
 //               />
@@ -1404,321 +1379,309 @@ function AboutUs() {
         "/clients/Yak Logo.png"
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("main", {
-        className: "bg-gray-100",
+        className: "",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/about-us.js",
-                lineNumber: 170,
+                lineNumber: 167,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-                className: "bg-gradient-to-r from-blue-50 via-white to-orange-50 py-16 mt-20 text-center",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                className: "bg-gradient-to-r from-[#0072bc] to-[#001b48]",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                        className: "text-4xl font-bold text-gray-800 mb-2",
-                        children: "About MAS Systech"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
+                        className: "pt-36 px-12 text-center text-3xl font-bold text-white mb-2",
+                        children: "About Us"
                     }, void 0, false, {
                         fileName: "[project]/pages/about-us.js",
-                        lineNumber: 174,
-                        columnNumber: 9
+                        lineNumber: 172,
+                        columnNumber: 7
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                        className: "text-lg italic text-gray-600",
-                        children: '"Global Technology at Local Cost"'
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "w-24 h-1 bg-orange-500 mx-auto mb-4"
                     }, void 0, false, {
                         fileName: "[project]/pages/about-us.js",
                         lineNumber: 175,
-                        columnNumber: 9
+                        columnNumber: 7
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "w-24 h-1 bg-orange-500 mx-auto mt-4"
-                    }, void 0, false, {
-                        fileName: "[project]/pages/about-us.js",
-                        lineNumber: 178,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/pages/about-us.js",
-                lineNumber: 173,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-                className: "mx-6 md:mx-20 py-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
+                        className: "mx-6 md:mx-20 p-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                                className: "text-3xl font-bold text-gray-800 mb-6",
-                                children: "About Us"
-                            }, void 0, false, {
-                                fileName: "[project]/pages/about-us.js",
-                                lineNumber: 184,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                className: "mb-4 text-base md:text-lg text-gray-700 leading-relaxed",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                 children: [
-                                    "MAS Systech Pvt. Ltd. is India's home-grown manufacturer of Packaging Solutions and related equipment. Since our inception in 2011, we have upheld our motto of providing ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                        className: "italic font-semibold",
-                                        children: "“Global Technology at Local Cost”"
-                                    }, void 0, false, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                        className: "mb-4 text-base md:text-lg text-white leading-relaxed",
+                                        children: [
+                                            "MAS Systech Pvt. Ltd. is India's home-grown manufacturer of Packaging Solutions and related equipment. Since our inception in 2011, we have upheld our motto of providing",
+                                            " ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "italic font-semibold",
+                                                children: "“Global Technology at Local Cost”"
+                                            }, void 0, false, {
+                                                fileName: "[project]/pages/about-us.js",
+                                                lineNumber: 183,
+                                                columnNumber: 13
+                                            }, this),
+                                            "."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/pages/about-us.js",
+                                        lineNumber: 179,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                        className: "text-base md:text-lg text-white leading-relaxed",
+                                        children: [
+                                            "Located in Pune, India we specialize in the",
+                                            " ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-semibold",
+                                                children: "End of Line"
+                                            }, void 0, false, {
+                                                fileName: "[project]/pages/about-us.js",
+                                                lineNumber: 190,
+                                                columnNumber: 13
+                                            }, this),
+                                            " Packaging Solutions with completely in-house designed and manufactured machinery under our ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-bold",
+                                                children: "PACKLINE"
+                                            }, void 0, false, {
+                                                fileName: "[project]/pages/about-us.js",
+                                                lineNumber: 192,
+                                                columnNumber: 33
+                                            }, this),
+                                            " ",
+                                            "Brand. We take pride in being the OEM suppliers to Blue Chip Companies like ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-bold",
+                                                children: "Tetra Pak"
+                                            }, void 0, false, {
+                                                fileName: "[project]/pages/about-us.js",
+                                                lineNumber: 194,
+                                                columnNumber: 28
+                                            }, this),
+                                            " and",
+                                            " ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-bold",
+                                                children: "Sidel"
+                                            }, void 0, false, {
+                                                fileName: "[project]/pages/about-us.js",
+                                                lineNumber: 195,
+                                                columnNumber: 13
+                                            }, this),
+                                            "for the ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-bold",
+                                                children: "past 10 years"
+                                            }, void 0, false, {
+                                                fileName: "[project]/pages/about-us.js",
+                                                lineNumber: 196,
+                                                columnNumber: 21
+                                            }, this),
+                                            "."
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/pages/about-us.js",
                                         lineNumber: 188,
-                                        columnNumber: 43
-                                    }, this),
-                                    "."
+                                        columnNumber: 11
+                                    }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/about-us.js",
-                                lineNumber: 185,
-                                columnNumber: 11
+                                lineNumber: 178,
+                                columnNumber: 9
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                className: "text-base md:text-lg text-gray-700 leading-relaxed",
-                                children: [
-                                    "Located in Pune, India we specialize in the ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                        className: "font-semibold",
-                                        children: "End of Line"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about-us.js",
-                                        lineNumber: 191,
-                                        columnNumber: 57
-                                    }, this),
-                                    " Packaging Solutions with completely in-house designed and manufactured machinery under our ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                        className: "font-bold",
-                                        children: "PACKLINE"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about-us.js",
-                                        lineNumber: 192,
-                                        columnNumber: 84
-                                    }, this),
-                                    " Brand. We take pride in being the OEM suppliers to Blue Chip Companies like ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                        className: "font-bold",
-                                        children: "Tetra Pak"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about-us.js",
-                                        lineNumber: 193,
-                                        columnNumber: 82
-                                    }, this),
-                                    " and ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                        className: "font-bold",
-                                        children: "Sidel"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about-us.js",
-                                        lineNumber: 193,
-                                        columnNumber: 131
-                                    }, this),
-                                    "for the ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                        className: "font-bold",
-                                        children: "past 10 years"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about-us.js",
-                                        lineNumber: 194,
-                                        columnNumber: 21
-                                    }, this),
-                                    "."
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                                    src: "/company.png",
+                                    alt: "About Us",
+                                    className: "h-full px-10 animate-bounce[2s] ease-in-out"
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/about-us.js",
+                                    lineNumber: 200,
+                                    columnNumber: 11
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/pages/about-us.js",
-                                lineNumber: 190,
-                                columnNumber: 11
+                                lineNumber: 199,
+                                columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/about-us.js",
-                        lineNumber: 183,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                            src: "/case_erector.png",
-                            alt: "About Us",
-                            className: "h-72 px-10 rounded-xl shadow-md"
-                        }, void 0, false, {
-                            fileName: "[project]/pages/about-us.js",
-                            lineNumber: 198,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/pages/about-us.js",
-                        lineNumber: 197,
-                        columnNumber: 9
+                        lineNumber: 177,
+                        columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/about-us.js",
-                lineNumber: 182,
+                lineNumber: 171,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-                className: "px-6 md:px-20 py-16 text-[#001b48] bg-white",
+                class: "py-16 relative bg-cover bg-no-repeat bg-center ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
                         className: "text-3xl font-bold text-gray-800 text-center mb-2",
                         children: "Director’s Message"
                     }, void 0, false, {
                         fileName: "[project]/pages/about-us.js",
-                        lineNumber: 204,
-                        columnNumber: 9
+                        lineNumber: 212,
+                        columnNumber: 1
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         className: "w-24 h-1 bg-orange-500 mx-auto mb-8"
                     }, void 0, false, {
                         fileName: "[project]/pages/about-us.js",
-                        lineNumber: 205,
+                        lineNumber: 215,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 md:grid-cols-2 gap-8 items-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "rounded-xl overflow-hidden shadow-lg bg-white relative",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                                        src: "/ceo.jpeg",
-                                        alt: "Mallikarjun Kulloli",
-                                        className: "w-full h-80 object-contain bg-white rounded-t-xl"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about-us.js",
-                                        lineNumber: 208,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                        className: "bg-[#1a2f4d] text-white p-4 rounded-b-xl",
+                        class: "container mx-auto px-4",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                            class: "grid md:grid-cols-2 gap-12 items-center",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                    class: "flex justify-center",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        class: "relative max-w-sm w-full rounded-lg overflow-hidden group",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                                className: "text-lg font-semibold",
-                                                children: "Mallikarjun Kulloli"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                                                class: "w-full object-cover ",
+                                                alt: "Mallikarjun Kulloli",
+                                                src: "/ceo.png"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/about-us.js",
-                                                lineNumber: 214,
-                                                columnNumber: 15
+                                                lineNumber: 220,
+                                                columnNumber: 11
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                                className: "text-sm",
-                                                children: "Managing Director - MAS SYSTECH PRIVATE LIMITED"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                class: "absolute inset-x-0 bottom-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 text-white h-1/4",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                        class: "text-lg font-semibold",
+                                                        children: "Mallikarjun Kulloli"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/pages/about-us.js",
+                                                        lineNumber: 228,
+                                                        columnNumber: 13
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                        class: "text-sm",
+                                                        children: "Managing Director - MAS SYSTECH PRIVATE LIMITED"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/pages/about-us.js",
+                                                        lineNumber: 229,
+                                                        columnNumber: 13
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                        href: "https://www.linkedin.com/in/riddhishewani/",
+                                                        target: "_blank",
+                                                        rel: "noopener noreferrer",
+                                                        class: "mt-2 inline-block",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                                                            class: "w-6 h-6",
+                                                            alt: "LinkedIn icon",
+                                                            src: "https://vnnwealth.com/wp-content/uploads/2024/05/LinkedIn_icon_circle.png"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/about-us.js",
+                                                            lineNumber: 236,
+                                                            columnNumber: 15
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/pages/about-us.js",
+                                                        lineNumber: 230,
+                                                        columnNumber: 13
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/pages/about-us.js",
-                                                lineNumber: 215,
-                                                columnNumber: 15
+                                                lineNumber: 225,
+                                                columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/about-us.js",
-                                        lineNumber: 213,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/about-us.js",
-                                lineNumber: 207,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("blockquote", {
-                                className: "border-l-4 border-blue-500 pl-6 italic text-gray-800",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "mb-4",
-                                        children: "Since inception, we have been driven by a simple yet powerful mission: to deliver sustainable, efficient, and high-quality products."
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about-us.js",
                                         lineNumber: 219,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "mb-4",
-                                        children: "From precision engineering to seamless automation, our solutions are designed to meet the evolving needs of our customers."
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about-us.js",
-                                        lineNumber: 222,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "mb-4",
-                                        children: "Our value comes from efficient, and innovative packaging machines that help our clients enhance productivity, reduce downtime, and ensure product integrity."
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about-us.js",
-                                        lineNumber: 225,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "mb-4",
-                                        children: "Our strength lies in our people — experienced engineers, technicians, and designers and strong partnership with our suppliers."
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about-us.js",
-                                        lineNumber: 228,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        children: "Thank you for your interest in MAS Systech Pvt Ltd. We look forward to helping you automate and package with precision."
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/about-us.js",
-                                        lineNumber: 231,
-                                        columnNumber: 13
+                                        columnNumber: 9
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/about-us.js",
-                                lineNumber: 218,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/about-us.js",
+                                    lineNumber: 218,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                    class: "text-gray-800",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                        className: "mb-4",
+                                        children: "Since inception, we have been driven by a simple yet powerful mission: to deliver sustainable, efficient, and high-quality products. From precision engineering to seamless automation, our solutions are designed to meet the evolving needs of our customers. Our value comes from efficient, and innovative packaging machines that help our clients enhance productivity, reduce downtime, and ensure product integrity. Our strength lies in our people — experienced engineers, technicians, and designers and strong partnership with our suppliers. Thank you for your interest in MAS Systech Pvt Ltd. We look forward to helping you automate and package with precision."
+                                    }, void 0, false, {
+                                        fileName: "[project]/pages/about-us.js",
+                                        lineNumber: 248,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/about-us.js",
+                                    lineNumber: 246,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/pages/about-us.js",
+                            lineNumber: 217,
+                            columnNumber: 5
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/pages/about-us.js",
-                        lineNumber: 206,
-                        columnNumber: 9
+                        lineNumber: 216,
+                        columnNumber: 3
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/about-us.js",
-                lineNumber: 203,
+                lineNumber: 208,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-                className: "px-6 md:px-20 py-16 bg-gray-50",
+                className: "px-6 md:px-20 py-16 bg-gradient-to-r from-[#0072bc] to-[#001b48]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl font-bold text-gray-800 text-center mb-2",
+                        className: "text-3xl font-bold text-white text-center mb-2",
                         children: "Certificates"
                     }, void 0, false, {
                         fileName: "[project]/pages/about-us.js",
-                        lineNumber: 240,
+                        lineNumber: 266,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         className: "w-24 h-1 bg-orange-500 mx-auto mb-8"
                     }, void 0, false, {
                         fileName: "[project]/pages/about-us.js",
-                        lineNumber: 241,
+                        lineNumber: 269,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-2 md:grid-cols-4 gap-6",
+                        className: " flex items-center justify-center",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                            className: "border-2 border-gray-300 rounded-xl shadow",
+                            className: "border-2 border-gray-300 rounded-xl shadow h-96",
                             src: "/certificates/ISO.jpg",
                             alt: "ISO"
                         }, void 0, false, {
                             fileName: "[project]/pages/about-us.js",
-                            lineNumber: 243,
+                            lineNumber: 271,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/about-us.js",
-                        lineNumber: 242,
+                        lineNumber: 270,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/about-us.js",
-                lineNumber: 239,
+                lineNumber: 265,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1729,38 +1692,38 @@ function AboutUs() {
                         children: "Our Clients"
                     }, void 0, false, {
                         fileName: "[project]/pages/about-us.js",
-                        lineNumber: 252,
+                        lineNumber: 283,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         className: "w-24 h-1 bg-orange-500 mx-auto mb-4"
                     }, void 0, false, {
                         fileName: "[project]/pages/about-us.js",
-                        lineNumber: 255,
+                        lineNumber: 286,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ClientSlider$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         clients: clients
                     }, void 0, false, {
                         fileName: "[project]/pages/about-us.js",
-                        lineNumber: 257,
+                        lineNumber: 288,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/about-us.js",
-                lineNumber: 251,
+                lineNumber: 282,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/about-us.js",
-                lineNumber: 259,
+                lineNumber: 290,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/about-us.js",
-        lineNumber: 169,
+        lineNumber: 166,
         columnNumber: 5
     }, this);
 }

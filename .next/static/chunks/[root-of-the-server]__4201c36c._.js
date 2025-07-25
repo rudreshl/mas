@@ -1145,7 +1145,7 @@ const productsList = [
         ]
     },
     {
-        image: "/palletizer.jpg",
+        image: "/palletizer.png",
         name: "Palletizer",
         slug: "palletizer",
         features: [
@@ -1158,7 +1158,7 @@ const productsList = [
             {
                 type: "image",
                 name: "Palletizer",
-                path: "/palletizer.jpg"
+                path: "/palletizer.png"
             },
             {
                 type: "video",
@@ -1358,8 +1358,8 @@ const Navbar = (props)=>{
             })["Navbar.useEffect"];
         }
     }["Navbar.useEffect"], []);
-    const navTextColor = scrolled ? "text-gray-800" : "text-white";
-    const navBg = scrolled ? "bg-white shadow-md" : "bg-transparent border-b border-gray-200";
+    const navTextColor = scrolled ? "text-white" : "text-white";
+    const navBg = scrolled ? "bg-gradient-to-r from-[#0072bc] to-[#001b48] shadow-md" : "bg-transparent";
     // Menu items with sub-links
     const menu = [
         {
@@ -1510,7 +1510,7 @@ const Navbar = (props)=>{
             className: `fixed top-0 w-full transition-all duration-300 z-50 ${navBg}`,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-6 py-4 flex items-center justify-between",
+                    className: "w-full px-6 py-4 flex items-center justify-between",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center space-x-3",

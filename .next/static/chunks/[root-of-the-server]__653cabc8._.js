@@ -773,7 +773,7 @@ const productsList = [
         ]
     },
     {
-        image: "/palletizer.jpg",
+        image: "/palletizer.png",
         name: "Palletizer",
         slug: "palletizer",
         features: [
@@ -786,7 +786,7 @@ const productsList = [
             {
                 type: "image",
                 name: "Palletizer",
-                path: "/palletizer.jpg"
+                path: "/palletizer.png"
             },
             {
                 type: "video",
@@ -1013,69 +1013,54 @@ function AreasOfWork(props) {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8",
-                    children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$ProductsList$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "group transition duration-50 transform hover:-translate-y-2 p-6 hover:bg-white hover:border hover:border-gray-200 hover:shadow-md hover:shadow-gray-300 relative",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative w-full h-96 mb-6 bg-white",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: item.image,
-                                        alt: item.name,
-                                        fill: true,
-                                        className: "p-10 object-contain"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/AreasOfWork.js",
-                                        lineNumber: 60,
-                                        columnNumber: 19
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/components/AreasOfWork.js",
-                                    lineNumber: 59,
-                                    columnNumber: 17
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-lg font-semibold text-gray-800 mb-2",
-                                    children: item.name
-                                }, void 0, false, {
-                                    fileName: "[project]/components/AreasOfWork.js",
-                                    lineNumber: 67,
-                                    columnNumber: 17
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-gray-600 mb-4",
-                                    children: item.description
-                                }, void 0, false, {
-                                    fileName: "[project]/components/AreasOfWork.js",
-                                    lineNumber: 68,
-                                    columnNumber: 17
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "opacity-0 group-hover:opacity-100 transition-opacity duration-300",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: `/products/${item.slug}`,
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "mt-2 bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition",
-                                            children: "Learn More »"
+                    children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$ProductsList$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: `/products/${item.slug}`,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "group transition duration-50 transform hover:-translate-y-2 p-6 bg-white border border-gray-200 shadow-md shadow-gray-300 relative",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "relative w-full h-56 bg-white",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                            src: item.image,
+                                            alt: item.name,
+                                            fill: true,
+                                            className: "p-4 object-contain"
                                         }, void 0, false, {
                                             fileName: "[project]/components/AreasOfWork.js",
-                                            lineNumber: 73,
+                                            lineNumber: 61,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/AreasOfWork.js",
-                                        lineNumber: 72,
+                                        lineNumber: 60,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-lg font-semibold text-gray-800 mb-2",
+                                        children: item.name
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/AreasOfWork.js",
+                                        lineNumber: 68,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "mt-2 bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition cursor-pointer",
+                                        children: "Learn More »"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/AreasOfWork.js",
+                                        lineNumber: 74,
                                         columnNumber: 19
                                     }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/components/AreasOfWork.js",
-                                    lineNumber: 71,
-                                    columnNumber: 17
-                                }, this)
-                            ]
-                        }, index, true, {
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/AreasOfWork.js",
+                                lineNumber: 56,
+                                columnNumber: 15
+                            }, this)
+                        }, index, false, {
                             fileName: "[project]/components/AreasOfWork.js",
                             lineNumber: 55,
-                            columnNumber: 15
+                            columnNumber: 16
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/AreasOfWork.js",
@@ -1518,8 +1503,8 @@ const Navbar = (props)=>{
             })["Navbar.useEffect"];
         }
     }["Navbar.useEffect"], []);
-    const navTextColor = scrolled ? "text-gray-800" : "text-white";
-    const navBg = scrolled ? "bg-white shadow-md" : "bg-transparent border-b border-gray-200";
+    const navTextColor = scrolled ? "text-white" : "text-white";
+    const navBg = scrolled ? "bg-gradient-to-r from-[#0072bc] to-[#001b48] shadow-md" : "bg-transparent";
     // Menu items with sub-links
     const menu = [
         {
@@ -1670,7 +1655,7 @@ const Navbar = (props)=>{
             className: `fixed top-0 w-full transition-all duration-300 z-50 ${navBg}`,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-6 py-4 flex items-center justify-between",
+                    className: "w-full px-6 py-4 flex items-center justify-between",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center space-x-3",

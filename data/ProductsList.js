@@ -234,7 +234,7 @@ const productsList = [
     },
   
     {
-      image: "/palletizer.jpg",
+      image: "/palletizer.png",
       name: "Palletizer",
       slug: "palletizer",
       features: [
@@ -248,7 +248,7 @@ const productsList = [
         {
           type: "image",
           name: "Palletizer",
-          path: "/palletizer.jpg",
+          path: "/palletizer.png",
         },
         { type: "video", name: "Palletizer", path: "4_F6J78zMSo" },
         

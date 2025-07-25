@@ -9,6 +9,8 @@ import AreasOfWork from "@/components/AreasOfWork";
 import { SquareArrowOutUpRight } from "lucide-react";
 import Link from "next/link";
 import ClientSlider from "@/components/ClientSlider";
+import { Sparkles } from "lucide-react";
+import OurProducts from "@/components/OurProducts";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -65,61 +67,79 @@ export default function Home() {
           <source src="/videos/product.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video> */}
-        <div className="relative h-[100vh] overflow-hidden">
-          {/* Background Video */}
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="absolute w-full h-full object-cover"
-          >
-            <source src="/videos/product.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+<div className="relative h-screen overflow-hidden">
+  {/* Background Video */}
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="absolute w-full h-full object-cover"
+  >
+    <source src="/videos/product.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 
-          {/* Blue Tint Overlay */}
-          <div className="absolute inset-0 bg-blue-900/50 bg-opacity-60 z-10" />
+  {/* Gradient Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-[#0072bc]/30 to-[#001b48] z-10" />
 
-          {/* Content Overlay */}
-          <div className="absolute inset-0 z-20 flex flex-col justify-end items-start text-white px-4 md:px-12">
-            <h1 className="text-2xl md:text-3xl font-bold leading-tight">
-              Global Technology at <br />
-              <span className="text-white text-3xl md:text-5xl text-left mt-2">
-                {taglines[index]}
-              </span>
-            </h1>
+  {/* Content */}
+  <div className="relative z-20 h-full w-full flex flex-col justify-end pb-12 items-end px-6 md:px-24 text-white">
+    {/* Tagline */}
+    <h1 className="text-4xl md:text-6xl font-bold leading-tight max-w-4xl">
+      Global Technology at <br />
+      <span className="text-[#00ffd1]">Local Cost</span>
+    </h1>
 
-            {/* Stats */}
-            <div className="mt-10 flex flex-col items-end pb-10 sm:flex-row gap-6">
-              <div className="bg-blue-600 hover:bg-blue-700 transition rounded-xl p-6 w-64 shadow-xl text-center">
-                <p className="text-4xl font-bold">
-                  <CountUp number={23} speed={50} /> +
-                </p>
-                <p className="text-sm mt-2">Countries</p>
-              </div>
-              <div className="bg-blue-800 hover:bg-blue-900 transition rounded-xl p-6 w-64 shadow-xl text-center">
-                <p className="text-4xl font-bold">
-                  <CountUp number={251} speed={10} /> +
-                </p>
-                <p className="text-sm mt-2">Installations</p>
-              </div>
-              <div>
-                <Link href="/products">
-                <button className="animate-pulse bg-white flex flex-row items-center text-[#001b48] px-6 py-3 rounded-xl font-semibold hover:bg-blue-100 transition">
-                  Explore Products
-                  <SquareArrowOutUpRight className="ml-1 h-4 w-4" />
-                </button>
-                </Link>
-              </div>
-            </div>
+    {/* Buttons */}
+    <div className="flex gap-6 mt-8 flex-wrap">
+      <Link href="/products">
+        <button className="border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-[#001b48] transition-all">
+          Explore Products
+        </button>
+      </Link>
+      <Link href="/contact">
+        <button className="border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-[#001b48] transition-all">
+          Contact Us
+        </button>
+      </Link>
+    </div>
 
-            {/* CTA Button */}
-          </div>
-        </div>
+    {/* Stats */}
+    <div className="flex gap-10 mt-12 flex-wrap">
+
+  {/* Countries Served */}
+  <div className="text-left group relative">
+    <p className="text-4xl font-extrabold text-green-400 transition duration-300 group-hover:scale-105 group-hover:text-green-300">
+      <CountUp number={24} speed={40} />+
+    </p>
+    <p className="text-sm text-[#e6eef7]">Countries Served</p>
+
+    {/* Star appears on hover */}
+    <div className="absolute -top-3 -left-4 text-yellow-300 text-lg opacity-0 group-hover:opacity-100 transition duration-300">
+      ✨
+    </div>
+  </div>
+
+  {/* Installations */}
+  <div className="text-left group relative">
+    <p className="text-4xl font-extrabold text-yellow-400 transition duration-300 group-hover:scale-105 group-hover:text-yellow-300">
+      <CountUp number={252} speed={20} />+
+    </p>
+    <p className="text-sm text-[#e6eef7]">Installations</p>
+
+    {/* Star appears on hover */}
+    <div className="absolute -top-3 -left-4 text-yellow-300 text-lg opacity-0 group-hover:opacity-100 transition duration-300">
+      ✨
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
       </div>
 
-      <AreasOfWork title={"Areas of Work"} />
+      <OurProducts title={"Areas of Work"} />
       <section className="px-6 md:px-20 py-10 bg-[#001b48] text-white font-sans">
         <div className="flex flex-col items-center gap-2 mb-6 col-span-2">
         <h2 className="text-3xl font-bold text-white mb-2 text-center">

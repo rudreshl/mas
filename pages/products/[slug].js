@@ -112,20 +112,43 @@ export default function ProductDetails() {
               </p>
             </div>
 
-            {/* Product Brochure */}
-            {productData.brochure && (
-              <div>
-                <a
-                  href={productData.brochure}
-                  target="_blank"
-  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-blue-700 text-white rounded shadow hover:bg-blue-800 text-sm transition"
-                >
-                  <Download className="w-4 h-4" />
-                  Download Brochure
-                </a>
-              </div>
-            )}
+        {/* Combined Brochure Section */}
+{(productData.brochure || productData.models?.some((m) => m.brochure)) && (
+  <div className="space-y-2">
+    <h2 className="text-sm font-medium mb-1">Brochures</h2>
+
+    {/* Product Brochure */}
+    {productData.brochure && (
+      <a
+        href={productData.brochure}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 px-4 py-2 bg-blue-700 text-white rounded shadow hover:bg-blue-800 text-sm transition"
+      >
+        <Download className="w-4 h-4" />
+        Download Product Brochure
+      </a>
+    )}
+
+    {/* Model Brochures */}
+    {productData.models
+      ?.filter((model) => model.brochure)
+      .map((model, idx) => (
+        <div key={idx}>
+          <a
+            href={model.brochure}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded shadow hover:bg-blue-700 text-sm transition"
+          >
+            <Download className="w-4 h-4" />
+            {`Download Brochure - ${model.name}`}
+          </a>
+        </div>
+      ))}
+  </div>
+)}
+
 
             {/* Industries */}
             {productData.industries?.length > 0 && (

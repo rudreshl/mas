@@ -15,7 +15,6 @@
 //         About Us
 //       </h2>
 //       <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-     
 
 //       <section className=" mx-12 rounded-xl py-12 px-6 md:px-20 py-12 ">
 //         {/* <h2 className="text-2xl font-bold mb-6 text-center w-full">About Company</h2> */}
@@ -44,13 +43,12 @@
 //         Director’s Message
 //       </h2>
 //       <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-     
 
 //         <div className="flex flex-row gap-8">
 //           <div className="w-72 rounded-lg overflow-hidden shadow-lg group bg-white relative">
 //             <div className="relative">
 //               <img
-//                 src="ceo.jpeg"
+//                 src="ceo.png"
 //                 alt="Riddhi Shewani"
 //                 className="w-full h-80 object-cover"
 //               />
@@ -118,7 +116,7 @@
 //         </div>
 //       </section> */}
 //       <section className="px-6 md:px-20 py-12">
-      
+
 //         <h2 className="text-3xl font-bold text-gray-800 mb-2 py-4 text-center w-full">
 //         Certificates
 //       </h2>
@@ -140,7 +138,6 @@
 //     </main>
 //   );
 // }
-
 
 import ClientSliders from "@/components/ClientSlider";
 import Footer from "@/components/Footer";
@@ -166,94 +163,128 @@ export default function AboutUs() {
     "/clients/Yak Logo.png",
   ];
   return (
-    <main className="bg-gray-100">
+    <main className="">
       <Navbar />
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-50 via-white to-orange-50 py-16 mt-20 text-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-2">About MAS Systech</h1>
-        <p className="text-lg italic text-gray-600">
-          "Global Technology at Local Cost"
-        </p>
-        <div className="w-24 h-1 bg-orange-500 mx-auto mt-4" />
-      </section>
 
       {/* About Us Section */}
-      <section className="mx-6 md:mx-20 py-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div className="bg-gradient-to-r from-[#0072bc] to-[#001b48]">
+      <h2 className="pt-36 px-12 text-center text-3xl font-bold text-white mb-2">
+        About Us
+      </h2>
+      <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
+     
+      <section className="mx-6 md:mx-20 p-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <div>
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">About Us</h2>
-          <p className="mb-4 text-base md:text-lg text-gray-700 leading-relaxed">
-            MAS Systech Pvt. Ltd. is India's home-grown manufacturer of Packaging
-            Solutions and related equipment. Since our inception in 2011, we have
-            upheld our motto of providing <span className="italic font-semibold">“Global Technology at Local Cost”</span>.
+          <p className="mb-4 text-base md:text-lg text-white leading-relaxed">
+            MAS Systech Pvt. Ltd. is India's home-grown manufacturer of
+            Packaging Solutions and related equipment. Since our inception in
+            2011, we have upheld our motto of providing{" "}
+            <span className="italic font-semibold">
+              “Global Technology at Local Cost”
+            </span>
+            .
           </p>
-          <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-            Located in Pune, India we specialize in the <span className="font-semibold">End of Line</span> Packaging Solutions
-            with completely in-house designed and manufactured machinery under our <span className="font-bold">PACKLINE</span> Brand.
-            We take pride in being the OEM suppliers to Blue Chip Companies like <span className="font-bold">Tetra Pak</span> and <span className="font-bold">Sidel</span>
+          <p className="text-base md:text-lg text-white leading-relaxed">
+            Located in Pune, India we specialize in the{" "}
+            <span className="font-semibold">End of Line</span> Packaging
+            Solutions with completely in-house designed and manufactured
+            machinery under our <span className="font-bold">PACKLINE</span>{" "}
+            Brand. We take pride in being the OEM suppliers to Blue Chip
+            Companies like <span className="font-bold">Tetra Pak</span> and{" "}
+            <span className="font-bold">Sidel</span>
             for the <span className="font-bold">past 10 years</span>.
           </p>
         </div>
         <div>
-          <img src="/case_erector.png" alt="About Us" className="h-72 px-10 rounded-xl shadow-md" />
+          <img
+            src="/company.png"
+            alt="About Us"
+            className="h-full px-10 animate-bounce[2s] ease-in-out"
+          />
         </div>
       </section>
-
-      {/* Director’s Message */}
-      <section className="px-6 md:px-20 py-16 text-[#001b48] bg-white">
-        <h2 className="text-3xl font-bold text-gray-800 text-center mb-2">Director’s Message</h2>
+    </div>
+      <section
+  class="py-16 relative bg-cover bg-no-repeat bg-center "
+  // style="background-image: url('https://vnnwealth.com/wp-content/themes/vnnwealth/assets/images/green-bg.jpg');"
+>
+<h2 className="text-3xl font-bold text-gray-800 text-center mb-2">
+Director’s Message
+        </h2>
         <div className="w-24 h-1 bg-orange-500 mx-auto mb-8" />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="rounded-xl overflow-hidden shadow-lg bg-white relative">
-            <img
-              src="/ceo.jpeg"
-              alt="Mallikarjun Kulloli"
-              className="w-full h-80 object-contain bg-white rounded-t-xl"
-            />
-            <div className="bg-[#1a2f4d] text-white p-4 rounded-b-xl">
-              <h3 className="text-lg font-semibold">Mallikarjun Kulloli</h3>
-              <p className="text-sm">Managing Director - MAS SYSTECH PRIVATE LIMITED</p>
-            </div>
+  <div class="container mx-auto px-4">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="flex justify-center">
+        <div class="relative max-w-sm w-full rounded-lg overflow-hidden group">
+          <img
+            class="w-full object-cover "
+            alt="Mallikarjun Kulloli"
+            src="/ceo.png"
+          />
+          <div
+            class="absolute inset-x-0 bottom-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 text-white h-1/4"
+          >
+            <p class="text-lg font-semibold">Mallikarjun Kulloli</p>
+            <p class="text-sm">Managing Director - MAS SYSTECH PRIVATE LIMITED</p>
+            <a
+              href="https://www.linkedin.com/in/riddhishewani/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-2 inline-block"
+            >
+              <img
+                class="w-6 h-6"
+                alt="LinkedIn icon"
+                src="https://vnnwealth.com/wp-content/uploads/2024/05/LinkedIn_icon_circle.png"
+              />
+            </a>
           </div>
-          <blockquote className="border-l-4 border-blue-500 pl-6 italic text-gray-800">
-            <p className="mb-4">
-              Since inception, we have been driven by a simple yet powerful mission: to deliver sustainable, efficient, and high-quality products.
-            </p>
-            <p className="mb-4">
-              From precision engineering to seamless automation, our solutions are designed to meet the evolving needs of our customers.
-            </p>
-            <p className="mb-4">
-              Our value comes from efficient, and innovative packaging machines that help our clients enhance productivity, reduce downtime, and ensure product integrity.
-            </p>
-            <p className="mb-4">
-              Our strength lies in our people — experienced engineers, technicians, and designers and strong partnership with our suppliers.
-            </p>
-            <p>
-              Thank you for your interest in MAS Systech Pvt Ltd. We look forward to helping you automate and package with precision.
-            </p>
-          </blockquote>
         </div>
-      </section>
+      </div>
+
+      <div class="text-gray-800">
+        
+        <p className="mb-4">
+              Since inception, we have been driven by a simple yet powerful
+              mission: to deliver sustainable, efficient, and high-quality
+              products. From precision engineering to seamless automation, our solutions
+              are designed to meet the evolving needs of our customers. Our value comes from efficient, and innovative packaging machines
+              that help our clients enhance productivity, reduce downtime, and
+              ensure product integrity. Our strength lies in our people — experienced engineers,
+              technicians, and designers and strong partnership with our
+              suppliers. Thank you for your interest in MAS Systech Pvt Ltd. We look
+              forward to helping you automate and package with precision.
+            </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Certificates */}
-      <section className="px-6 md:px-20 py-16 bg-gray-50">
-        <h2 className="text-3xl font-bold text-gray-800 text-center mb-2">Certificates</h2>
+      <section className="px-6 md:px-20 py-16 bg-gradient-to-r from-[#0072bc] to-[#001b48]">
+        <h2 className="text-3xl font-bold text-white text-center mb-2">
+          Certificates
+        </h2>
         <div className="w-24 h-1 bg-orange-500 mx-auto mb-8" />
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className=" flex items-center justify-center">
           <img
-            className="border-2 border-gray-300 rounded-xl shadow"
+            className="border-2 border-gray-300 rounded-xl shadow h-96"
             src="/certificates/ISO.jpg"
             alt="ISO"
           />
           {/* Add more certificate images here */}
         </div>
       </section>
+     
+
+
       <section className="px-6 md:px-20 py-10 bg-white text-[#001b48]">
         <h2 className="text-3xl font-bold text-gray-800 mb-2 text-center">
           Our Clients
         </h2>
         <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-       
+
         <ClientSliders clients={clients} />
       </section>
       <Footer />

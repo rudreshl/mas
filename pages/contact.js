@@ -90,10 +90,10 @@ export default function ContactPage() {
 
   }
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gradient-to-r from-[#0072bc] to-[#001b48]">
       {/* Header */}
-      <Navbar />
-      <h2 className="pt-36 px-12 text-center text-3xl font-bold text-gray-800 mb-2">
+      <Navbar transparentOnTop={false} />
+      <h2 className="pt-36 px-12 text-center text-3xl font-bold text-white mb-2">
         Contact Us
       </h2>
       <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
@@ -102,17 +102,17 @@ export default function ContactPage() {
         processes? MAS SYSTECH can provide simple, efficient packaging machines
         to meet your needs.
       </p> */}
-      <section className="bg-white mx-12 rounded-xl py-12  flex items-center justify-center rounded-2xl p-6">
+      <section className="bg-gradient-to-r from-[#0072bc] to-[#001b48] mx-12 rounded-xl py-12  flex items-center justify-center rounded-2xl p-6">
     
         
         {/* Left side: Image & heading */}
         <div className="md:w-1/2 text-center md:text-left">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#001b48] mb-2">Reach out to us</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">Reach out to us</h2>
+          <p className="text-[#e6eef7] mb-4">
             Or reach out manually to{" "}
             <a
               href="mailto:sales@massystech.com"
-              className="text-[#001b48] hover:underline"
+              className="text-[#c8dffb] hover:underline"
             >
                sales@massystech.com
             </a>
@@ -130,7 +130,7 @@ export default function ContactPage() {
         {/* Right side: Form */}
         <div  className="md:w-1/2 space-y-4">
           <div>
-            <label htmlFor="email" className="block font-medium text-gray-700">
+            <label htmlFor="email" className="block font-medium text-[#c8dffb]">
               Email address
             </label>
             <input
@@ -138,15 +138,15 @@ export default function ContactPage() {
               id="email"
               required
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
+              className="bg-white w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
             />
-            <p className="text-xs text-[#001b48] mt-1">
+            <p className="text-xs text-[#c8dffb] mt-1">
               We'll never share your email with anyone else.
             </p>
           </div>
 
           <div>
-            <label htmlFor="name" className="block font-medium text-gray-700">
+            <label htmlFor="name" className="block font-medium text-[#c8dffb]">
               Your name
             </label>
             <input
@@ -154,12 +154,12 @@ export default function ContactPage() {
               id="name"
               required
               onChange={(e) => setName(e.target.value)}
-              className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
+              className="w-full bg-white mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
             />
           </div>
 
           <div>
-            <label htmlFor="message" className="block font-medium text-gray-700">
+            <label htmlFor="message" className="block font-medium text-[#c8dffb]">
               Your message
             </label>
             <textarea
@@ -167,13 +167,13 @@ export default function ContactPage() {
               onChange={(e) => setMessage(e.target.value)}
               rows={4}
               required
-              className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
+              className="bg-white w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
             ></textarea>
           </div>
 
           <button
             onClick={handleSendMessage}
-            className="bg-[#001b48] text-white px-6 py-2 rounded-md  transition"
+            className="bg-[#0072bc] hover:bg-[#005a99] text-white px-6 py-2 rounded-md  transition"
           >
             Send Message
           </button>
@@ -197,7 +197,7 @@ export default function ContactPage() {
       </div>
       {/* Office Details */}
 
-      <div className="bg-[#001b48] text-white  w-full p-8 shadow-lg">
+      <div className="bg-gradient-to-r from-[#0072bc] to-[#001b48] text-white  w-full p-8 shadow-lg">
         <div className="grid  grid-cols-3  gap-4 items-start">
           {/* Head Quarters */}
           <div className="flex gap-4">

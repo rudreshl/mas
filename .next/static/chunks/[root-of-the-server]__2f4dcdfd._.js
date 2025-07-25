@@ -1163,7 +1163,7 @@ var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_
 //           <div className="w-72 rounded-lg overflow-hidden shadow-lg group bg-white relative">
 //             <div className="relative">
 //               <img
-//                 src="ceo.jpeg"
+//                 src="ceo.png"
 //                 alt="Riddhi Shewani"
 //                 className="w-full h-80 object-cover"
 //               />
@@ -1470,7 +1470,7 @@ function AboutUs() {
                                 className: "rounded-xl overflow-hidden shadow-lg bg-white relative",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        src: "/ceo.jpeg",
+                                        src: "/ceo.png",
                                         alt: "Mallikarjun Kulloli",
                                         className: "w-full h-80 object-contain bg-white rounded-t-xl"
                                     }, void 0, false, {

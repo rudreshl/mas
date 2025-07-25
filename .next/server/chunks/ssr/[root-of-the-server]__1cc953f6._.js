@@ -381,7 +381,7 @@ const productsList = [
         ]
     },
     {
-        image: "/palletizer.jpg",
+        image: "/palletizer.png",
         name: "Palletizer",
         slug: "palletizer",
         features: [
@@ -394,7 +394,7 @@ const productsList = [
             {
                 type: "image",
                 name: "Palletizer",
-                path: "/palletizer.jpg"
+                path: "/palletizer.png"
             },
             {
                 type: "video",
@@ -583,8 +583,8 @@ const Navbar = (props)=>{
         }
         return ()=>window.removeEventListener("scroll", handleScroll);
     }, []);
-    const navTextColor = scrolled ? "text-gray-800" : "text-white";
-    const navBg = scrolled ? "bg-white shadow-md" : "bg-transparent border-b border-gray-200";
+    const navTextColor = scrolled ? "text-white" : "text-white";
+    const navBg = scrolled ? "bg-gradient-to-r from-[#0072bc] to-[#001b48] shadow-md" : "bg-transparent";
     // Menu items with sub-links
     const menu = [
         {
@@ -735,7 +735,7 @@ const Navbar = (props)=>{
             className: `fixed top-0 w-full transition-all duration-300 z-50 ${navBg}`,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-6 py-4 flex items-center justify-between",
+                    className: "w-full px-6 py-4 flex items-center justify-between",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "flex items-center space-x-3",
@@ -1278,15 +1278,15 @@ function AreasOfWork(props) {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                     className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8",
                     children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$ProductsList$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "group transition duration-50 transform hover:-translate-y-2 p-6 hover:bg-white hover:border hover:border-gray-200 hover:shadow-md hover:shadow-gray-300 relative",
+                            className: "group transition duration-50 transform hover:-translate-y-2 p-6 bg-white border border-gray-200 shadow-md shadow-gray-300 relative",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "relative w-full h-96 mb-6 bg-white",
+                                    className: "relative w-full h-56 bg-white",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         src: item.image,
                                         alt: item.name,
                                         fill: true,
-                                        className: "p-10 object-contain"
+                                        className: "p-4 object-contain"
                                     }, void 0, false, {
                                         fileName: "[project]/components/AreasOfWork.js",
                                         lineNumber: 60,
@@ -1305,35 +1305,20 @@ function AreasOfWork(props) {
                                     lineNumber: 67,
                                     columnNumber: 17
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-gray-600 mb-4",
-                                    children: item.description
-                                }, void 0, false, {
-                                    fileName: "[project]/components/AreasOfWork.js",
-                                    lineNumber: 68,
-                                    columnNumber: 17
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "opacity-0 group-hover:opacity-100 transition-opacity duration-300",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: `/products/${item.slug}`,
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
-                                            className: "mt-2 bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition",
-                                            children: "Learn More »"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/AreasOfWork.js",
-                                            lineNumber: 73,
-                                            columnNumber: 19
-                                        }, this)
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: `/products/${item.slug}`,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
+                                        className: "mt-2 bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition",
+                                        children: "Learn More »"
                                     }, void 0, false, {
                                         fileName: "[project]/components/AreasOfWork.js",
-                                        lineNumber: 72,
+                                        lineNumber: 73,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/AreasOfWork.js",
-                                    lineNumber: 71,
-                                    columnNumber: 17
+                                    lineNumber: 72,
+                                    columnNumber: 19
                                 }, this)
                             ]
                         }, index, true, {
@@ -1495,9 +1480,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$js__
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CountUp$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/CountUp.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AreasOfWork$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/AreasOfWork.js [ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$square$2d$arrow$2d$out$2d$up$2d$right$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__SquareArrowOutUpRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/square-arrow-out-up-right.js [ssr] (ecmascript) <export default as SquareArrowOutUpRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ClientSlider$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ClientSlider.js [ssr] (ecmascript)");
+;
 ;
 ;
 ;
@@ -1544,13 +1529,13 @@ function Home() {
                 transparentOnTop: true
             }, void 0, false, {
                 fileName: "[project]/pages/home.js",
-                lineNumber: 57,
+                lineNumber: 58,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                 className: "h-full w-full",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "relative h-[100vh] overflow-hidden",
+                    className: "relative h-screen overflow-hidden",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("video", {
                             autoPlay: true,
@@ -1564,180 +1549,205 @@ function Home() {
                                     type: "video/mp4"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/home.js",
-                                    lineNumber: 77,
-                                    columnNumber: 13
+                                    lineNumber: 78,
+                                    columnNumber: 5
                                 }, this),
                                 "Your browser does not support the video tag."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/home.js",
-                            lineNumber: 70,
-                            columnNumber: 11
+                            lineNumber: 71,
+                            columnNumber: 3
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "absolute inset-0 bg-blue-900/50 bg-opacity-60 z-10"
+                            className: "absolute inset-0 bg-gradient-to-r from-[#0072bc]/30 to-[#001b48] z-10"
                         }, void 0, false, {
                             fileName: "[project]/pages/home.js",
-                            lineNumber: 82,
-                            columnNumber: 11
+                            lineNumber: 83,
+                            columnNumber: 3
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "absolute inset-0 z-20 flex flex-col justify-end items-start text-white px-4 md:px-12",
+                            className: "relative z-20 h-full w-full flex flex-col justify-end pb-12 items-end px-6 md:px-24 text-white",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                                    className: "text-2xl md:text-3xl font-bold leading-tight",
+                                    className: "text-4xl md:text-6xl font-bold leading-tight max-w-4xl",
                                     children: [
                                         "Global Technology at ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/pages/home.js",
-                                            lineNumber: 87,
-                                            columnNumber: 36
+                                            lineNumber: 89,
+                                            columnNumber: 28
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                            className: "text-white text-3xl md:text-5xl text-left mt-2",
-                                            children: taglines[index]
+                                            className: "text-[#00ffd1]",
+                                            children: "Local Cost"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/home.js",
-                                            lineNumber: 88,
-                                            columnNumber: 15
+                                            lineNumber: 90,
+                                            columnNumber: 7
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/home.js",
-                                    lineNumber: 86,
-                                    columnNumber: 13
+                                    lineNumber: 88,
+                                    columnNumber: 5
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "mt-10 flex flex-col items-end pb-10 sm:flex-row gap-6",
+                                    className: "flex gap-6 mt-8 flex-wrap",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "bg-blue-600 hover:bg-blue-700 transition rounded-xl p-6 w-64 shadow-xl text-center",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                                    className: "text-4xl font-bold",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CountUp$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            number: 23,
-                                                            speed: 50
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/home.js",
-                                                            lineNumber: 97,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        " +"
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/pages/home.js",
-                                                    lineNumber: 96,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                                    className: "text-sm mt-2",
-                                                    children: "Countries"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/pages/home.js",
-                                                    lineNumber: 99,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/pages/home.js",
-                                            lineNumber: 95,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "bg-blue-800 hover:bg-blue-900 transition rounded-xl p-6 w-64 shadow-xl text-center",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                                    className: "text-4xl font-bold",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CountUp$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            number: 251,
-                                                            speed: 10
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/home.js",
-                                                            lineNumber: 103,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        " +"
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/pages/home.js",
-                                                    lineNumber: 102,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                                    className: "text-sm mt-2",
-                                                    children: "Installations"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/pages/home.js",
-                                                    lineNumber: 105,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/pages/home.js",
-                                            lineNumber: 101,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "/products",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
-                                                    className: "animate-pulse bg-white flex flex-row items-center text-[#001b48] px-6 py-3 rounded-xl font-semibold hover:bg-blue-100 transition",
-                                                    children: [
-                                                        "Explore Products",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$square$2d$arrow$2d$out$2d$up$2d$right$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__SquareArrowOutUpRight$3e$__["SquareArrowOutUpRight"], {
-                                                            className: "ml-1 h-4 w-4"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/pages/home.js",
-                                                            lineNumber: 111,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/pages/home.js",
-                                                    lineNumber: 109,
-                                                    columnNumber: 17
-                                                }, this)
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/products",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
+                                                className: "border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-[#001b48] transition-all",
+                                                children: "Explore Products"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/home.js",
-                                                lineNumber: 108,
-                                                columnNumber: 17
+                                                lineNumber: 96,
+                                                columnNumber: 9
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/home.js",
-                                            lineNumber: 107,
-                                            columnNumber: 15
+                                            lineNumber: 95,
+                                            columnNumber: 7
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/contact",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
+                                                className: "border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-[#001b48] transition-all",
+                                                children: "Contact Us"
+                                            }, void 0, false, {
+                                                fileName: "[project]/pages/home.js",
+                                                lineNumber: 101,
+                                                columnNumber: 9
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/pages/home.js",
+                                            lineNumber: 100,
+                                            columnNumber: 7
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/home.js",
                                     lineNumber: 94,
-                                    columnNumber: 13
+                                    columnNumber: 5
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                    className: "flex gap-10 mt-12 flex-wrap",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                            className: "text-left group relative",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                    className: "text-4xl font-extrabold text-green-400 transition duration-300 group-hover:scale-105 group-hover:text-green-300",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CountUp$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                            number: 24,
+                                                            speed: 40
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/home.js",
+                                                            lineNumber: 113,
+                                                            columnNumber: 7
+                                                        }, this),
+                                                        "+"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/pages/home.js",
+                                                    lineNumber: 112,
+                                                    columnNumber: 5
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                    className: "text-sm text-[#e6eef7]",
+                                                    children: "Countries Served"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/home.js",
+                                                    lineNumber: 115,
+                                                    columnNumber: 5
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "absolute -top-3 -left-4 text-yellow-300 text-lg opacity-0 group-hover:opacity-100 transition duration-300",
+                                                    children: "✨"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/home.js",
+                                                    lineNumber: 118,
+                                                    columnNumber: 5
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/pages/home.js",
+                                            lineNumber: 111,
+                                            columnNumber: 3
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                            className: "text-left group relative",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                    className: "text-4xl font-extrabold text-yellow-400 transition duration-300 group-hover:scale-105 group-hover:text-yellow-300",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CountUp$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                            number: 252,
+                                                            speed: 20
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/home.js",
+                                                            lineNumber: 126,
+                                                            columnNumber: 7
+                                                        }, this),
+                                                        "+"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/pages/home.js",
+                                                    lineNumber: 125,
+                                                    columnNumber: 5
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                    className: "text-sm text-[#e6eef7]",
+                                                    children: "Installations"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/home.js",
+                                                    lineNumber: 128,
+                                                    columnNumber: 5
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "absolute -top-3 -left-4 text-yellow-300 text-lg opacity-0 group-hover:opacity-100 transition duration-300",
+                                                    children: "✨"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/home.js",
+                                                    lineNumber: 131,
+                                                    columnNumber: 5
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/pages/home.js",
+                                            lineNumber: 124,
+                                            columnNumber: 3
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/pages/home.js",
+                                    lineNumber: 108,
+                                    columnNumber: 5
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/home.js",
-                            lineNumber: 85,
-                            columnNumber: 11
+                            lineNumber: 86,
+                            columnNumber: 3
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/home.js",
-                    lineNumber: 68,
-                    columnNumber: 9
+                    lineNumber: 69,
+                    columnNumber: 1
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/home.js",
-                lineNumber: 58,
+                lineNumber: 59,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AreasOfWork$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                 title: "Areas of Work"
             }, void 0, false, {
                 fileName: "[project]/pages/home.js",
-                lineNumber: 122,
+                lineNumber: 141,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1751,20 +1761,20 @@ function Home() {
                                 children: "About Us"
                             }, void 0, false, {
                                 fileName: "[project]/pages/home.js",
-                                lineNumber: 125,
+                                lineNumber: 144,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                 className: "w-24 h-1 bg-orange-500 mx-auto mb-4"
                             }, void 0, false, {
                                 fileName: "[project]/pages/home.js",
-                                lineNumber: 128,
+                                lineNumber: 147,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/home.js",
-                        lineNumber: 124,
+                        lineNumber: 143,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1781,14 +1791,14 @@ function Home() {
                                             children: "MAS SYSTECH PVT LTD"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/home.js",
-                                            lineNumber: 141,
+                                            lineNumber: 160,
                                             columnNumber: 19
                                         }, this),
                                         ", are a Pune, India based company involved in design, manufacturing and supply of Packaging Machines and related equipment's."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/home.js",
-                                    lineNumber: 140,
+                                    lineNumber: 159,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1801,14 +1811,14 @@ function Home() {
                                             children: "Tetra Pak"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/home.js",
-                                            lineNumber: 151,
+                                            lineNumber: 170,
                                             columnNumber: 15
                                         }, this),
                                         "."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/home.js",
-                                    lineNumber: 146,
+                                    lineNumber: 165,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1821,7 +1831,7 @@ function Home() {
                                             children: '"END OF LINE"'
                                         }, void 0, false, {
                                             fileName: "[project]/pages/home.js",
-                                            lineNumber: 156,
+                                            lineNumber: 175,
                                             columnNumber: 15
                                         }, this),
                                         " packaging machines, which we have introduced under the",
@@ -1831,14 +1841,14 @@ function Home() {
                                             children: "PACK-LINE"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/home.js",
-                                            lineNumber: 158,
+                                            lineNumber: 177,
                                             columnNumber: 15
                                         }, this),
                                         " series."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/home.js",
-                                    lineNumber: 154,
+                                    lineNumber: 173,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1846,7 +1856,7 @@ function Home() {
                                     children: "We also offer customized packaging solutions to our customers to improve productivity and reduced wastage."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/home.js",
-                                    lineNumber: 161,
+                                    lineNumber: 180,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1854,24 +1864,24 @@ function Home() {
                                     children: "We boast of a highly skilled technical team equipped with advanced design software's, good production and assembly facilities, a well-defined and established QC & QA system to deliver high quality machines backed with excellent after sales support."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/home.js",
-                                    lineNumber: 166,
+                                    lineNumber: 185,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/home.js",
-                            lineNumber: 139,
+                            lineNumber: 158,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/home.js",
-                        lineNumber: 138,
+                        lineNumber: 157,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/home.js",
-                lineNumber: 123,
+                lineNumber: 142,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1882,38 +1892,38 @@ function Home() {
                         children: "Our Clients"
                     }, void 0, false, {
                         fileName: "[project]/pages/home.js",
-                        lineNumber: 176,
+                        lineNumber: 195,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         className: "w-24 h-1 bg-orange-500 mx-auto mb-4"
                     }, void 0, false, {
                         fileName: "[project]/pages/home.js",
-                        lineNumber: 179,
+                        lineNumber: 198,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ClientSlider$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         clients: clients
                     }, void 0, false, {
                         fileName: "[project]/pages/home.js",
-                        lineNumber: 192,
+                        lineNumber: 211,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/home.js",
-                lineNumber: 175,
+                lineNumber: 194,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/home.js",
-                lineNumber: 194,
+                lineNumber: 213,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/home.js",
-        lineNumber: 54,
+        lineNumber: 55,
         columnNumber: 5
     }, this);
 }

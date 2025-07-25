@@ -62,7 +62,7 @@ const ClientSliders = ({ clients }) => {
       </Slider>
 
       {/* Bottom Reversed Slider */}
-      <Slider {...settingsBottom}>
+      {/* <Slider {...settingsBottom}>
         {clients.map((client, index) => (
           <div
             key={`bottom-${index}`}
@@ -75,7 +75,7 @@ const ClientSliders = ({ clients }) => {
             />
           </div>
         ))}
-      </Slider>
+      </Slider> */}
     </div>
   );
 };

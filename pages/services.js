@@ -35,15 +35,13 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-gray-100 mt-20">
       <Navbar />
-      <section className="py-16 px-12">
-      <h2 className="text-center text-3xl font-bold text-gray-800 mb-2">
+      <section className="py-16 px-12 bg-gradient-to-r from-[#0072bc] to-[#001b48]">
+      <h2 className="text-center text-3xl font-bold text-white mb-2">
         Our Services
       </h2>
       <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-      <p className="text-gray-600 max-w-3xl mx-auto">
-        Are you looking to improve ROI in your production and packaging
-        processes? MAS SYSTECH can provide simple, efficient packaging machines
-        to meet your needs.
+      <p className="text-white max-w-3xl mx-auto">
+      Mas Systech believes After sales service of the equipment is an important aspect to run the equipment continuously. This also helps in equipment long life. We offer below after sales services to all our clients.
       </p>
 
       <div className="space-y-8 px-4 py-16">

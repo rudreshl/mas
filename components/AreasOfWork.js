@@ -52,30 +52,32 @@ import Link from "next/link";
   
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {productsList.map((item, index) => (
+               <Link key={index} href={`/products/${item.slug}`} >
               <div
-                key={index}
-                className="group transition duration-50 transform hover:-translate-y-2 p-6 hover:bg-white hover:border hover:border-gray-200 hover:shadow-md hover:shadow-gray-300 relative"
+                
+                className="group transition duration-50 transform hover:-translate-y-2 p-6 bg-white border border-gray-200 shadow-md shadow-gray-300 relative"
               >
-                <div className="relative w-full h-96 mb-6 bg-white">
+                <div className="relative w-full h-56 bg-white">
                   <Image
                     src={item.image}
                     alt={item.name}
                     fill
-                    className="p-10 object-contain"
+                    className="p-4 object-contain"
                   />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">{item.name}</h3>
-                <p className="text-sm text-gray-600 mb-4">{item.description}</p>
+                {/* <p className="text-sm text-gray-600 mb-4">{item.description}</p> */}
   
                 {/* Hover-visible button */}
-                <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <Link href={`/products/${item.slug}`} >
-                  <button className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition">
+                {/* <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"> */}
+                 
+                  <button className="mt-2 bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition cursor-pointer">
                     Learn More »
                   </button>
-                  </Link>
-                </div>
+                 
+                {/* </div> */}
               </div>
+              </Link>
             ))}
           </div>
         </div>
