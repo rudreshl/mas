@@ -471,15 +471,15 @@ __turbopack_context__.s({
     "default": (()=>Footer)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/facebook.js [client] (ecmascript) <export default as Facebook>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$twitter$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Twitter$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/twitter.js [client] (ecmascript) <export default as Twitter>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/linkedin.js [client] (ecmascript) <export default as Linkedin>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$youtube$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Youtube$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/youtube.js [client] (ecmascript) <export default as Youtube>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [client] (ecmascript)");
+;
 ;
 ;
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "bg-gray-100 text-gray-800 pt-12 pb-8 px-6 md:px-16",
+        className: "bg-gray-700 text-gray-800 pt-12 pb-8 px-6 md:px-16",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 border-b border-gray-300 pb-10",
@@ -488,299 +488,304 @@ function Footer() {
                         className: "md:col-span-2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-3xl font-bold text-blue-600 mb-2",
+                                className: "text-3xl font-bold text-white mb-2",
                                 children: "MAS SYSTECH PVT LTD"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 10,
+                                lineNumber: 11,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mb-4 text-sm leading-relaxed",
+                                className: "mb-4 text-sm leading-relaxed text-slate-200",
                                 children: [
                                     "D-241, Chakan Industrial Area, Phase II, Warale, Khed,",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 12,
+                                        lineNumber: 13,
                                         columnNumber: 67
                                     }, this),
                                     "Pune - 410507"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 11,
+                                lineNumber: 12,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm mb-1",
+                                className: "text-sm mb-1 text-slate-200",
                                 children: "📞 +91 92840 35561"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 15,
+                                lineNumber: 16,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm mb-4",
+                                className: "text-sm mb-4 text-slate-200",
                                 children: "✉️ sales@massystech.com"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 16,
+                                lineNumber: 17,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex gap-4 mt-2",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "https://facebook.com",
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        "aria-label": "Facebook",
-                                        className: "hover:text-blue-600 transition-colors",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__["Facebook"], {
-                                            size: 20
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Footer.js",
-                                            lineNumber: 19,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Footer.js",
-                                        lineNumber: 18,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "https://twitter.com",
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        "aria-label": "Twitter",
-                                        className: "hover:text-blue-600 transition-colors",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$twitter$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Twitter$3e$__["Twitter"], {
-                                            size: 20
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Footer.js",
-                                            lineNumber: 22,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Footer.js",
-                                        lineNumber: 21,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "https://linkedin.com",
+                                        href: "https://in.linkedin.com/company/mas-systech-private-limited",
                                         target: "_blank",
                                         rel: "noopener noreferrer",
                                         "aria-label": "LinkedIn",
-                                        className: "hover:text-blue-600 transition-colors",
+                                        className: "hover:text-white text-slate-200 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__["Linkedin"], {
                                             size: 20
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.js",
-                                            lineNumber: 25,
+                                            lineNumber: 26,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 24,
+                                        lineNumber: 25,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "https://youtube.com",
+                                        href: "https://youtube.com/@user-ul8xd3hw7d?si=PFZeTDpPuBcX73M4",
                                         target: "_blank",
                                         rel: "noopener noreferrer",
                                         "aria-label": "YouTube",
-                                        className: "hover:text-blue-600 transition-colors",
+                                        className: "hover:text-white text-slate-200 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$youtube$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Youtube$3e$__["Youtube"], {
                                             size: 20
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.js",
-                                            lineNumber: 28,
+                                            lineNumber: 29,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 27,
+                                        lineNumber: 28,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 17,
+                                lineNumber: 18,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 9,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-blue-600 font-semibold mb-3",
+                                className: "text-white font-semibold mb-3",
                                 children: "COMPANY"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
-                                lineNumber: 35,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                className: "space-y-2 text-sm",
-                                children: [
-                                    "About",
-                                    "History",
-                                    "Our Team",
-                                    "Certificates",
-                                    "Suppliers & Clients",
-                                    "Events"
-                                ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: `/${item.toLowerCase().replace(/ /g, '-')}`,
-                                            className: "hover:text-blue-600 transition-colors",
-                                            children: item
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Footer.js",
-                                            lineNumber: 39,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, item, false, {
-                                        fileName: "[project]/components/Footer.js",
-                                        lineNumber: 38,
-                                        columnNumber: 15
-                                    }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
                                 lineNumber: 36,
                                 columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                className: "space-y-2 text-sm",
+                                children: [
+                                    {
+                                        name: "Home",
+                                        slug: "/home"
+                                    },
+                                    {
+                                        name: "About us",
+                                        slug: "/about-us"
+                                    },
+                                    {
+                                        name: "Contact us",
+                                        slug: "/contact"
+                                    },
+                                    {
+                                        name: "Products",
+                                        slug: "/products"
+                                    },
+                                    {
+                                        name: "Services",
+                                        slug: "/services"
+                                    },
+                                    {
+                                        name: "Media Gallery",
+                                        slug: "/media"
+                                    }
+                                ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: `/${item.slug}`,
+                                            className: "text-slate-200 hover:text-white transition-colors",
+                                            children: item.name
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.js",
+                                            lineNumber: 46,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, item, false, {
+                                        fileName: "[project]/components/Footer.js",
+                                        lineNumber: 45,
+                                        columnNumber: 15
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.js",
+                                lineNumber: 37,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 34,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-blue-600 font-semibold mb-3",
+                                className: "text-white font-semibold mb-3",
                                 children: "PRODUCTS"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 47,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                 className: "space-y-2 text-sm",
                                 children: [
-                                    "Case Erector",
-                                    "Case Sealer",
-                                    "Shrink Wrap Machine",
-                                    "Tetra Conveyors",
-                                    "Case Packer",
-                                    "Palletizer",
-                                    "Tetra Case Packer",
-                                    "Uncaser"
+                                    {
+                                        name: "Case Erector",
+                                        slug: "case-erector",
+                                        image: "/case_erector.png"
+                                    },
+                                    {
+                                        name: "Case Sealer",
+                                        slug: "case-sealer",
+                                        image: "/case_sealer.png"
+                                    },
+                                    {
+                                        name: "Shrink Wrap Machine",
+                                        slug: "shrink-wrap-machine",
+                                        image: "/shrink_wrapping_machine.png"
+                                    },
+                                    {
+                                        name: "Tetra Conveyors",
+                                        slug: "tetra-conveyors",
+                                        image: "/tetra_conveyors.png"
+                                    },
+                                    {
+                                        name: "Case Packer",
+                                        slug: "case-packer",
+                                        image: "/case_packer.png"
+                                    },
+                                    {
+                                        name: "Palletizer",
+                                        slug: "palletizer",
+                                        image: "/palletizer.png"
+                                    }
                                 ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: `/products/${item.toLowerCase().replace(/ /g, '-')}`,
-                                            className: "hover:text-blue-600 transition-colors",
-                                            children: item
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: `/products/${item.slug}`,
+                                            className: "text-slate-200 hover:text-white transition-colors",
+                                            children: item.name
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.js",
-                                            lineNumber: 60,
+                                            lineNumber: 65,
                                             columnNumber: 17
                                         }, this)
                                     }, item, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 59,
+                                        lineNumber: 64,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 48,
+                                lineNumber: 55,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 46,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-blue-600 font-semibold mb-3",
+                                className: "text-white font-semibold mb-3",
                                 children: "SOLUTIONS"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 68,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                 className: "space-y-2 text-sm",
                                 children: [
-                                    "Logistics Industry",
-                                    "Digital Communications",
-                                    "Commodity Industry",
-                                    "Hardware Industry",
-                                    "Beverage Industry",
-                                    "Pharmaceutical Industry"
+                                    "Food",
+                                    "Beverage",
+                                    "Home Care",
+                                    "Personal Care",
+                                    "Edible Oils",
+                                    "Lube Oil",
+                                    "Paints & Chemicals",
+                                    "Agrochemicals"
                                 ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: `/solutions/${item.toLowerCase().replace(/ /g, '-')}`,
-                                            className: "hover:text-blue-600 transition-colors",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "text-slate-200 hover:text-white transition-colors",
                                             children: item
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.js",
-                                            lineNumber: 79,
+                                            lineNumber: 87,
                                             columnNumber: 17
                                         }, this)
                                     }, item, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 78,
+                                        lineNumber: 86,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 69,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 67,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Footer.js",
-                lineNumber: 6,
+                lineNumber: 7,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-center text-xs text-gray-600 pt-6",
+                className: "text-center text-xs text-slate-200 pt-6",
                 children: [
                     "© 2025 MAS SYSTECH PVT LTD. All rights reserved.",
                     " ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "/sitemap.xml",
-                        className: "text-gray-800 hover:text-blue-600",
+                        className: "text-slate-200 hover:text-white",
                         children: "sitemap.xml"
                     }, void 0, false, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 89,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Footer.js",
-                lineNumber: 87,
+                lineNumber: 95,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Footer.js",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }
@@ -861,7 +866,14 @@ const productsList = [
                     "Air Consumption": "10 CFM at 5 bar",
                     electicals: "1 kw, 1 ph 230V, 50Hz",
                     "Machine weight": "Approximate 600 kgs"
-                }
+                },
+                media: [
+                    {
+                        type: "video",
+                        name: "Case Erector- CEM 114",
+                        path: "M6nvjeS4LcA"
+                    }
+                ]
             },
             {
                 name: "CEM-115",
@@ -938,6 +950,11 @@ const productsList = [
                         type: "video",
                         name: "IRCP-143",
                         path: "-2z9IRqE_KM"
+                    },
+                    {
+                        type: "video",
+                        name: "Industrial Robotic Case Packer- (IRCP-143)",
+                        path: "7L_SjrKn6DQ"
                     }
                 ]
             },
@@ -1014,6 +1031,16 @@ const productsList = [
                         type: "video",
                         name: "PPP 140",
                         path: "kyN6rWScmUs"
+                    },
+                    {
+                        type: "video",
+                        name: "Pick & Place Packer- PPP 140",
+                        path: "swD83FX5NIQ"
+                    },
+                    {
+                        type: "video",
+                        name: "Case Packer- PPP 140- Carton Box in Box",
+                        path: "sK8SGGH34-k"
                     }
                 ]
             }
@@ -1125,7 +1152,7 @@ const productsList = [
         ],
         models: [
             {
-                name: "",
+                name: "default",
                 specs: {
                     "Vertical reach": "As per Application",
                     "Horizontal reach": "As per Application",
@@ -1172,6 +1199,11 @@ const productsList = [
                 type: "video",
                 name: "Inline Shrink Wrapper (SWM-150)",
                 path: "TScLZealwPw"
+            },
+            {
+                type: "video",
+                name: "Shrink Wrapper- Bottle on Trey Application",
+                path: "bZO1KmNxZgM"
             }
         ],
         models: [
@@ -1236,6 +1268,11 @@ const productsList = [
                 type: "video",
                 name: "Wrap Around Tetra Case packer",
                 path: "knCtrIeLuPY"
+            },
+            {
+                type: "video",
+                name: "Case Packer- Wrap Around Tetra Application",
+                path: "pZujvxc1lXg"
             }
         ],
         models: [
@@ -1555,9 +1592,6 @@ __turbopack_context__.s({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-down.js [client] (ecmascript) <export default as ChevronDown>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-right.js [client] (ecmascript) <export default as ChevronRight>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [client] (ecmascript) <export default as X>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Footer.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Navbar.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$ProductsList$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/data/ProductsList.js [client] (ecmascript)");
@@ -1571,9 +1605,8 @@ var _s = __turbopack_context__.k.signature();
 const MediaPage = ()=>{
     _s();
     const [activeCategory, setActiveCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$ProductsList$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"]?.[0]?.name);
-    const [expanded, setExpanded] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])({});
     const [searchTerm, setSearchTerm] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [previewImage, setPreviewImage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [selectedMedia, setSelectedMedia] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const updatedProductsList = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useMemo"])({
         "MediaPage.useMemo[updatedProductsList]": ()=>{
             let list = [
@@ -1585,6 +1618,16 @@ const MediaPage = ()=>{
                             type: "video",
                             name: "Tetra Conveyors",
                             path: "onqGhlc-23I"
+                        },
+                        {
+                            type: "video",
+                            name: "Tetra Conveyor- High Speed Line",
+                            path: "EWG1wZEwLi4"
+                        },
+                        {
+                            type: "video",
+                            name: "Tetra Conveyor- Brick Packet",
+                            path: "naYeaEZpS6o"
                         }
                     ]
                 },
@@ -1603,10 +1646,10 @@ const MediaPage = ()=>{
                 {
                     name: "All",
                     media: list.flatMap({
-                        "MediaPage.useMemo[updatedProductsList]": (p)=>p.media
+                        "MediaPage.useMemo[updatedProductsList]": (p)=>p.media || []
                     }["MediaPage.useMemo[updatedProductsList]"]),
                     models: list.flatMap({
-                        "MediaPage.useMemo[updatedProductsList]": (p)=>p.models
+                        "MediaPage.useMemo[updatedProductsList]": (p)=>p.models || []
                     }["MediaPage.useMemo[updatedProductsList]"])
                 },
                 ...list
@@ -1615,192 +1658,131 @@ const MediaPage = ()=>{
     }["MediaPage.useMemo[updatedProductsList]"], [
         __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$ProductsList$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"]
     ]);
-    const toggleExpand = (key)=>{
-        setExpanded((prev)=>({
-                ...prev,
-                [key]: !prev[key]
-            }));
-    };
     const matchesSearch = (name)=>name.toLowerCase().includes(searchTerm.toLowerCase());
-    const renderMedia = (media)=>{
-        const filtered = media.filter((item)=>matchesSearch(item.name));
-        if (filtered.length === 0) {
+    const renderCategory = (category)=>{
+        const allMedia = [];
+        // Product-level media
+        if (category.media?.length) {
+            allMedia.push(...category.media);
+        }
+        // Model-level media
+        category.models?.forEach((model)=>{
+            if (model.media?.length) {
+                allMedia.push(...model.media);
+            }
+            model.models?.forEach((subModel)=>{
+                if (subModel.media?.length) {
+                    allMedia.push(...subModel.media);
+                }
+            });
+        });
+        const filtered = allMedia.filter((m)=>matchesSearch(m.name));
+        if (!filtered.length) {
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-gray-500 italic mt-2",
                 children: "No matching media found."
             }, void 0, false, {
                 fileName: "[project]/pages/media.js",
-                lineNumber: 54,
-                columnNumber: 9
+                lineNumber: 61,
+                columnNumber: 14
             }, this);
         }
+        if (!selectedMedia || !filtered.some((m)=>m.path === selectedMedia.path)) {
+            setSelectedMedia(filtered[0]);
+        }
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-4",
-            children: filtered.map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "border rounded-xl overflow-hidden shadow-sm hover:shadow-md bg-white transform transition-all duration-300 hover:-translate-y-1",
+            className: "mt-8",
+            children: [
+                selectedMedia && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mb-6 border rounded-xl bg-white p-4 shadow-sm",
                     children: [
-                        item.type === "video" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
-                            className: "w-full h-64",
-                            src: `https://www.youtube.com/embed/${item.path}`,
-                            title: item.name,
+                        selectedMedia.type === "video" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                            className: "w-full h-96 rounded",
+                            src: `https://www.youtube.com/embed/${selectedMedia.path}`,
+                            title: selectedMedia.name,
                             allowFullScreen: true
                         }, void 0, false, {
                             fileName: "[project]/pages/media.js",
-                            lineNumber: 66,
+                            lineNumber: 74,
                             columnNumber: 15
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: item.path,
-                            alt: item.name,
-                            className: "w-full h-64 object-cover cursor-pointer",
-                            onClick: ()=>setPreviewImage(item)
+                            src: selectedMedia.path,
+                            alt: selectedMedia.name,
+                            className: "w-full h-96 object-contain rounded"
                         }, void 0, false, {
                             fileName: "[project]/pages/media.js",
-                            lineNumber: 73,
+                            lineNumber: 81,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "p-3 text-center font-medium text-gray-800",
-                            children: item.name
+                            className: "mt-2 text-center font-semibold text-gray-800",
+                            children: selectedMedia.name
                         }, void 0, false, {
                             fileName: "[project]/pages/media.js",
-                            lineNumber: 80,
+                            lineNumber: 87,
                             columnNumber: 13
                         }, this)
                     ]
-                }, idx, true, {
+                }, void 0, true, {
                     fileName: "[project]/pages/media.js",
-                    lineNumber: 61,
+                    lineNumber: 72,
                     columnNumber: 11
-                }, this))
-        }, void 0, false, {
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4",
+                    children: filtered.map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            onClick: ()=>setSelectedMedia(item),
+                            className: `border rounded-lg overflow-hidden shadow-sm cursor-pointer hover:shadow-md transition transform hover:-translate-y-1 ${selectedMedia?.path === item.path ? "ring-2 ring-orange-500" : ""}`,
+                            children: [
+                                item.type === "video" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: `https://img.youtube.com/vi/${item.path}/mqdefault.jpg`,
+                                    alt: item.name,
+                                    className: "object-cover w-full h-full"
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/media.js",
+                                    lineNumber: 104,
+                                    columnNumber: 17
+                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: item.path,
+                                    alt: item.name,
+                                    className: "w-full h-28 object-cover"
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/media.js",
+                                    lineNumber: 110,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "text-sm text-center py-1 font-medium text-gray-700",
+                                    children: item.name
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/media.js",
+                                    lineNumber: 116,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, idx, true, {
+                            fileName: "[project]/pages/media.js",
+                            lineNumber: 96,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/pages/media.js",
+                    lineNumber: 94,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "[project]/pages/media.js",
-            lineNumber: 59,
+            lineNumber: 69,
             columnNumber: 7
         }, this);
-    };
-    const renderCategory = (category)=>{
-        console.log("category------->", category);
-        if (category?.media?.length > 0) return renderMedia(category.media);
-        if (category?.models?.length > 0) {
-            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "space-y-6 mt-4",
-                children: category.models.map((child)=>{
-                    const childKey = `${category.name}-${child.name}`;
-                    const isExpanded = expanded[childKey];
-                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "border rounded-xl bg-white shadow-sm",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex justify-between items-center p-5 cursor-pointer bg-gray-100 hover:bg-gray-200 rounded-t-xl",
-                                onClick: ()=>toggleExpand(childKey),
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold text-gray-700",
-                                        children: child.name
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/media.js",
-                                        lineNumber: 109,
-                                        columnNumber: 19
-                                    }, this),
-                                    isExpanded ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
-                                        className: "text-gray-500"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/media.js",
-                                        lineNumber: 113,
-                                        columnNumber: 21
-                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                        className: "text-gray-500"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/media.js",
-                                        lineNumber: 115,
-                                        columnNumber: 21
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/media.js",
-                                lineNumber: 105,
-                                columnNumber: 17
-                            }, this),
-                            isExpanded && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "p-5 border-t space-y-5",
-                                children: child.media ? renderMedia(child.media) : child.models?.map((subchild)=>{
-                                    const subKey = `${childKey}-${subchild.name}`;
-                                    const isSubExpanded = expanded[subKey];
-                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "border rounded-lg bg-gray-100",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex justify-between items-center px-4 py-3 cursor-pointer hover:bg-gray-200",
-                                                onClick: ()=>toggleExpand(subKey),
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                        className: "text-lg font-medium text-gray-800",
-                                                        children: subchild.name
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/pages/media.js",
-                                                        lineNumber: 136,
-                                                        columnNumber: 33
-                                                    }, this),
-                                                    isSubExpanded ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
-                                                        className: "text-gray-500"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/pages/media.js",
-                                                        lineNumber: 140,
-                                                        columnNumber: 35
-                                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        className: "text-gray-500"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/pages/media.js",
-                                                        lineNumber: 142,
-                                                        columnNumber: 35
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/pages/media.js",
-                                                lineNumber: 132,
-                                                columnNumber: 31
-                                            }, this),
-                                            isSubExpanded && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "px-4 pb-4",
-                                                children: renderMedia(subchild.media)
-                                            }, void 0, false, {
-                                                fileName: "[project]/pages/media.js",
-                                                lineNumber: 146,
-                                                columnNumber: 33
-                                            }, this)
-                                        ]
-                                    }, subKey, true, {
-                                        fileName: "[project]/pages/media.js",
-                                        lineNumber: 128,
-                                        columnNumber: 29
-                                    }, this);
-                                })
-                            }, void 0, false, {
-                                fileName: "[project]/pages/media.js",
-                                lineNumber: 120,
-                                columnNumber: 19
-                            }, this)
-                        ]
-                    }, childKey, true, {
-                        fileName: "[project]/pages/media.js",
-                        lineNumber: 101,
-                        columnNumber: 15
-                    }, this);
-                })
-            }, void 0, false, {
-                fileName: "[project]/pages/media.js",
-                lineNumber: 95,
-                columnNumber: 9
-            }, this);
-        }
-        return null;
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         className: "bg-gray-100",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/media.js",
-                lineNumber: 167,
+                lineNumber: 128,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1811,30 +1793,33 @@ const MediaPage = ()=>{
                         children: "Media Gallery"
                     }, void 0, false, {
                         fileName: "[project]/pages/media.js",
-                        lineNumber: 171,
+                        lineNumber: 131,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-24 h-1 bg-orange-500 mx-auto mt-4 mb-12"
                     }, void 0, false, {
                         fileName: "[project]/pages/media.js",
-                        lineNumber: 172,
+                        lineNumber: 132,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-wrap gap-3 mb-6",
                         children: updatedProductsList.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 className: `px-4 py-2 text-sm font-medium rounded-full shadow-sm border transition-all duration-200 ${activeCategory === category.name ? "bg-gray-800 text-white border-gray-700" : "bg-white text-gray-800 hover:bg-gray-100 border-gray-300"}`,
-                                onClick: ()=>setActiveCategory(category.name),
+                                onClick: ()=>{
+                                    setActiveCategory(category.name);
+                                    setSelectedMedia(null);
+                                },
                                 children: category.name
                             }, category.name, false, {
                                 fileName: "[project]/pages/media.js",
-                                lineNumber: 176,
+                                lineNumber: 137,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/pages/media.js",
-                        lineNumber: 174,
+                        lineNumber: 135,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1847,82 +1832,34 @@ const MediaPage = ()=>{
                             className: "w-full md:w-1/2 px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300 bg-white"
                         }, void 0, false, {
                             fileName: "[project]/pages/media.js",
-                            lineNumber: 191,
+                            lineNumber: 156,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/media.js",
-                        lineNumber: 190,
+                        lineNumber: 155,
                         columnNumber: 9
                     }, this),
-                    renderCategory(updatedProductsList.find((cat)=>cat.name === activeCategory)),
-                    previewImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50",
-                        onClick: ()=>setPreviewImage(null),
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-white rounded-xl overflow-hidden shadow-lg max-w-3xl w-full mx-4 relative",
-                            onClick: (e)=>e.stopPropagation(),
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    className: "absolute top-2 right-2 text-gray-700 hover:text-red-500",
-                                    onClick: ()=>setPreviewImage(null),
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {}, void 0, false, {
-                                        fileName: "[project]/pages/media.js",
-                                        lineNumber: 218,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/pages/media.js",
-                                    lineNumber: 214,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: previewImage.path,
-                                    alt: previewImage.name,
-                                    className: "w-full max-h-[80vh] object-contain"
-                                }, void 0, false, {
-                                    fileName: "[project]/pages/media.js",
-                                    lineNumber: 220,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "p-4 text-center text-gray-800 font-medium",
-                                    children: previewImage.name
-                                }, void 0, false, {
-                                    fileName: "[project]/pages/media.js",
-                                    lineNumber: 225,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/pages/media.js",
-                            lineNumber: 210,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/pages/media.js",
-                        lineNumber: 206,
-                        columnNumber: 11
-                    }, this)
+                    renderCategory(updatedProductsList.find((cat)=>cat.name === activeCategory))
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/media.js",
-                lineNumber: 170,
+                lineNumber: 130,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/media.js",
-                lineNumber: 232,
+                lineNumber: 171,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/media.js",
-        lineNumber: 166,
+        lineNumber: 127,
         columnNumber: 5
     }, this);
 };
-_s(MediaPage, "H2ZibKSOp+bxq2RZk5hllP0VsZI=");
+_s(MediaPage, "8C9qTPZr55rptIRx5GkwiRWbyhI=");
 _c = MediaPage;
 const __TURBOPACK__default__export__ = MediaPage;
 var _c;

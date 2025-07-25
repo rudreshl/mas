@@ -86,9 +86,9 @@ export default function Home() {
   {/* Content */}
   <div className="relative z-20 h-full w-full flex flex-col justify-end pb-12 items-end px-6 md:px-24 text-white">
     {/* Tagline */}
-    <h1 className="text-4xl md:text-6xl font-bold leading-tight max-w-4xl">
+    <h1 className="text-4xl md:text-6xl font-bold leading-tight max-w-4xl text-right">
       Global Technology at <br />
-      <span className="text-[#00ffd1]">Local Cost</span>
+      <span className="text-[#00ffd1] ">Local Cost</span>
     </h1>
 
     {/* Buttons */}

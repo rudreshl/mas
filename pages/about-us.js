@@ -216,31 +216,24 @@ Director’s Message
   <div class="container mx-auto px-4">
     <div class="grid md:grid-cols-2 gap-12 items-center">
       <div class="flex justify-center">
-        <div class="relative max-w-sm w-full rounded-lg overflow-hidden group">
-          <img
-            class="w-full object-cover "
-            alt="Mallikarjun Kulloli"
-            src="/ceo.png"
-          />
-          <div
-            class="absolute inset-x-0 bottom-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 text-white h-1/4"
-          >
-            <p class="text-lg font-semibold">Mallikarjun Kulloli</p>
-            <p class="text-sm">Managing Director - MAS SYSTECH PRIVATE LIMITED</p>
-            <a
-              href="https://www.linkedin.com/in/riddhishewani/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="mt-2 inline-block"
-            >
-              <img
-                class="w-6 h-6"
-                alt="LinkedIn icon"
-                src="https://vnnwealth.com/wp-content/uploads/2024/05/LinkedIn_icon_circle.png"
-              />
-            </a>
-          </div>
-        </div>
+      <div class="relative max-w-sm w-full rounded-lg overflow-hidden">
+  {/* Background image layer */}
+  <div class="absolute inset-0 bg-cover bg-center z-0"></div>
+
+  {/* CEO Image */}
+  <img
+    class="relative w-full object-cover z-10 rounded-full shadow-lg border-gray-400"
+    alt="Mallikarjun Kulloli"
+    src="/ceo.png"
+  />
+
+  {/* Name, Title, LinkedIn */}
+  <div class=" z-20 flex flex-col  p-4 text-black text-center h-1/4">
+    <p class="text-lg font-semibold">Mallikarjun Kulloli </p>
+    <p class="text-sm">Managing Director - MAS SYSTECH PRIVATE LIMITED</p>
+   
+  </div>
+</div>
       </div>
 
       <div class="text-gray-800">

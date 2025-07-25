@@ -19,7 +19,8 @@ const productsList = [
         { type: "video", name: "CEM 111", path: "xHJZnSpzTNw" },
         { type: "video", name: "CEM 114", path: "AuDzNua_610" },
         { type: "video", name: "CEM 115", path: "vnJwqkDikFE" },
-        
+
+       
       ],
       models: [
         {
@@ -51,6 +52,9 @@ const productsList = [
             electicals: "1 kw, 1 ph 230V, 50Hz",
             "Machine weight": "Approximate 600 kgs",
           },
+          media: [
+        { type: "video", name: "Case Erector- CEM 114", path: "M6nvjeS4LcA" },
+          ],
         },
         {
           name: "CEM-115",
@@ -108,6 +112,8 @@ const productsList = [
           brochure: "/brochure/Case_Packer_IRCP-143.pdf",
           media: [
             { type: "video", name: "IRCP-143", path: "-2z9IRqE_KM" },
+        { type: "video", name: "Industrial Robotic Case Packer- (IRCP-143)", path: "7L_SjrKn6DQ" },
+
           ],
         },
         {
@@ -158,6 +164,8 @@ const productsList = [
             { type: "video", name: "PPP 140", path: "sOmqmcL1Hsw" },  
             { type: "video", name: "PPP 140", path: "fk9kvGVQjD4" },  
             { type: "video", name: "PPP 140", path: "kyN6rWScmUs" },  
+            { type: "video", name: "Pick & Place Packer- PPP 140", path: "swD83FX5NIQ" },
+            { type: "video", name: "Case Packer- PPP 140- Carton Box in Box", path: "sK8SGGH34-k" },
             
           ],
         },
@@ -256,7 +264,7 @@ const productsList = [
   
       models: [
         {
-          name: "",
+          name: "default",
           specs: {
             "Vertical reach": "As per Application",
             "Horizontal reach": "As per Application",
@@ -291,7 +299,8 @@ const productsList = [
             path: "/shrink_wrapping_machine.png",
           },
         { type: "video", name: "90 Degree Infeed (SWM-150)", path: "z4x1NkFFnLs" },
-        { type: "video", name: "Inline Shrink Wrapper (SWM-150)", path: "TScLZealwPw" },    
+        { type: "video", name: "Inline Shrink Wrapper (SWM-150)", path: "TScLZealwPw" },   
+        { type: "video", name: "Shrink Wrapper- Bottle on Trey Application", path: "bZO1KmNxZgM" }, 
     ],
   
       models: [
@@ -346,7 +355,7 @@ const productsList = [
           },
         { type: "video", name: "Top Load Tetra Case Packer", path: "HpxmT6i_AZA" },
         { type: "video", name: "Wrap Around Tetra Case packer", path: "knCtrIeLuPY" },
-        
+        { type: "video", name: "Case Packer- Wrap Around Tetra Application", path: "pZujvxc1lXg" },
        
       ],
   
