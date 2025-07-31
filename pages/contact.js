@@ -12,6 +12,7 @@ export default function ContactPage() {
   const [message,setMessage] = useState("");
   const agents = [
     {
+      img:"/buildings/img1.jpg",
       region: "Eastern Africa 🇰🇪",
       company: "PPC EAST AFRICA LTD",
       address: "P.O. Box 800 | 00232 Ruiru | NAIROBI, KENYA",
@@ -20,8 +21,11 @@ export default function ContactPage() {
       phone: "Tel. +254 20 3673165",
       mobile: "+254 798 481 905 / 722 367 972",
       country: "KENYA",
+      regions:["Kenya","Tanzania","Uganda","Rwanda","Ethiopia"],
     },
     {
+
+      img:"/buildings/img2.jpg",
       region: "Southern Africa 🇿🇦",
       company: "FILMATIC PACKAGING SYSTEMS PTY LTD",
       address: "106 Van Der Stel St, Charleston Hill, Paarl, 7646, CAPE TOWN- SOUTH AFRICA",
@@ -30,8 +34,11 @@ export default function ContactPage() {
       phone: "",
       mobile: "+27 822594339",
       country: "SOUTH AFRICA",
+      regions:["South Africa","Botswana","Namibia","Zambia","Zimbabwe","Mozambique"],
     },
     {
+
+      img:"/buildings/img3.jpg",
       region: "Western Africa 🇳🇬",
       company: "AMS AFRICA",
       address: "4 Oyetubo St, off Obafemi Awolowo Way, Ikeja, Lagos 101233, Lagos, Nigeria",
@@ -40,8 +47,11 @@ export default function ContactPage() {
       phone: "",
       mobile: "+234 8137770347",
       country: "NIGERIA",
+      regions:["Nigeria","Ghana","Ivory Coast","Togo", "Cameroon","Benin","Senegal"],
     },
     {
+
+      img:"/buildings/img4.jpg",
       region: "Sri Lanka 🇱🇰",
       company: "CMC Engineering Export GmbH",
       address: "No 08, Rodrigo Mawatha, Nawala Road, Rajagiriya 10107, Colombo, Sri Lanka",
@@ -274,48 +284,42 @@ export default function ContactPage() {
       <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
      
         {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"> */}
-        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 py-8">
-      {agents.map((agent, index) => (
-        <div
-          key={index}
-          className="bg-white shadow-md rounded-xl p-6 border border-gray-200"
-        >
-          {/* Region with Flag */}
-          <h3 className="text-lg font-bold text-[#001b48] mb-2">{agent.region}</h3>
+     
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 py-8 px-4">
+      {agents.map((office, index) => (
+        <div key={index} className="max-w-md rounded-lg overflow-hidden shadow-lg bg-white">
+          <img src={office.img} alt={office.company} className="w-full h-56 object-cover" />
 
-          {/* Company Name */}
-          <p className="text-base font-semibold text-gray-900">{agent.company}</p>
+          <div className="p-6">
+            <h2 className="text-xl font-semibold mb-2">{office.region}</h2>
+            <h3 className="font-bold text-gray-800 uppercase">{office.company}</h3>
 
-          {/* Address */}
-          <p className="text-sm text-gray-600 mb-2">{agent.address}</p>
+            <p className="mt-2 text-gray-700">{office.address}</p>
 
-          {/* Email */}
-          <p className="text-sm text-gray-700">
-            <span className="font-medium">Email:</span>{" "}
-            <a
-              href={`mailto:${agent.email}`}
-              className="text-blue-600 hover:underline"
-            >
-              {agent.email}
-            </a>
-          </p>
+            <div className="mt-4 space-y-1 text-gray-700">
+              {office.contact && <p><strong>Contact:</strong> {office.contact}</p>}
+              {office.phone &&<p><strong>Phone:</strong> {office.phone}</p>}
+              {office.mobile && <p><strong>Mobile:</strong> {office.mobile}</p>}
+              <p>
+                <strong>Email:</strong>{" "}
+                <a href={`mailto:${office.email}`} className="text-blue-600 hover:underline">
+                  {office.email}
+                </a>
+              </p>
+            </div>
 
-          {/* Contact Person */}
-          <p className="mt-2 font-medium text-gray-800">{agent.contact}</p>
-
-          {/* Phone Numbers */}
-          {agent.phone && (
-            <p className="text-sm text-gray-700">
-              <span className="font-medium">Tel:</span> {agent.phone}
-            </p>
-          )}
-          <p className="text-sm text-gray-700">
-            <span className="font-medium">Mobile:</span> {agent.mobile}
-          </p>
+           {office?.regions?.length>0 && <div className="mt-4 border-t border-gray-200 pt-4">
+              <h4 className="font-semibold text-gray-800 mb-1">Represented Region</h4>
+              <div className="flex flex-wrap gap-2 text-sm">
+                {office?.regions?.map((region, i) => (
+                  <span key={i} className={i+1 ==office.regions.length ? "" : "border-r border-gray-400 pr-2" } >{region}</span>
+                ))}
+              </div>
+            </div>}
+          </div>
         </div>
       ))}
     </div>
-       
       </div>
     </section>
 

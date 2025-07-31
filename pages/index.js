@@ -86,9 +86,9 @@ export default function Home() {
   {/* Content */}
   <div className="relative z-20 h-full w-full flex flex-col justify-end pb-12 items-end px-6 md:px-24 text-white">
     {/* Tagline */}
-    <h1 className="text-4xl md:text-6xl font-bold leading-tight max-w-4xl">
+    <h1 className="text-4xl md:text-6xl font-bold leading-tight max-w-4xl text-right">
       Global Technology at <br />
-      <span className="text-[#00ffd1]">Local Cost</span>
+      <span className="text-[#00ffd1] ">Local Cost</span>
     </h1>
 
     {/* Buttons */}
@@ -111,7 +111,7 @@ export default function Home() {
   {/* Countries Served */}
   <div className="text-left group relative">
     <p className="text-4xl font-extrabold text-green-400 transition duration-300 group-hover:scale-105 group-hover:text-green-300">
-      <CountUp number={24} speed={40} />+
+      <CountUp number={5} speed={40} />+
     </p>
     <p className="text-sm text-[#e6eef7]">Countries Served</p>
 
@@ -124,7 +124,7 @@ export default function Home() {
   {/* Installations */}
   <div className="text-left group relative">
     <p className="text-4xl font-extrabold text-yellow-400 transition duration-300 group-hover:scale-105 group-hover:text-yellow-300">
-      <CountUp number={252} speed={20} />+
+      <CountUp number={49} speed={20} />+
     </p>
     <p className="text-sm text-[#e6eef7]">Installations</p>
 

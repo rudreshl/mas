@@ -3,11 +3,7 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/about-us": "pages/about-us.js",
   "/contact": "pages/contact.js",
   "/home": "pages/home.js",
-  "/media": "pages/media.js",
-  "/products": "pages/products.js",
-  "/products/[slug]": "pages/products/[slug].js",
-  "/services": "pages/services.js"
+  "/products": "pages/products.js"
 }

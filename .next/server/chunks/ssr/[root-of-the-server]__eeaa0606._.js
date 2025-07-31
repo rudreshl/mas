@@ -140,7 +140,14 @@ const productsList = [
                     "Air Consumption": "10 CFM at 5 bar",
                     electicals: "1 kw, 1 ph 230V, 50Hz",
                     "Machine weight": "Approximate 600 kgs"
-                }
+                },
+                media: [
+                    {
+                        type: "video",
+                        name: "Case Erector- CEM 114",
+                        path: "M6nvjeS4LcA"
+                    }
+                ]
             },
             {
                 name: "CEM-115",
@@ -217,6 +224,11 @@ const productsList = [
                         type: "video",
                         name: "IRCP-143",
                         path: "-2z9IRqE_KM"
+                    },
+                    {
+                        type: "video",
+                        name: "Industrial Robotic Case Packer- (IRCP-143)",
+                        path: "7L_SjrKn6DQ"
                     }
                 ]
             },
@@ -293,6 +305,16 @@ const productsList = [
                         type: "video",
                         name: "PPP 140",
                         path: "kyN6rWScmUs"
+                    },
+                    {
+                        type: "video",
+                        name: "Pick & Place Packer- PPP 140",
+                        path: "swD83FX5NIQ"
+                    },
+                    {
+                        type: "video",
+                        name: "Case Packer- PPP 140- Carton Box in Box",
+                        path: "sK8SGGH34-k"
                     }
                 ]
             }
@@ -404,7 +426,7 @@ const productsList = [
         ],
         models: [
             {
-                name: "",
+                name: "default",
                 specs: {
                     "Vertical reach": "As per Application",
                     "Horizontal reach": "As per Application",
@@ -451,6 +473,11 @@ const productsList = [
                 type: "video",
                 name: "Inline Shrink Wrapper (SWM-150)",
                 path: "TScLZealwPw"
+            },
+            {
+                type: "video",
+                name: "Shrink Wrapper- Bottle on Trey Application",
+                path: "bZO1KmNxZgM"
             }
         ],
         models: [
@@ -493,10 +520,10 @@ const productsList = [
     },
     {
         image: "/tetra_case_packer.png",
-        name: "WRAP AROUND TETRA CASE PACKER",
+        name: "ASEPTIC BRICK",
         slug: "tetra-case-packer",
         features: [
-            "WTCP (Wrap Around Tetra Case Packer) is a fully automatic Case Packing Machine which packs products in cases or trays.",
+            "AB (ASEPTIC BRICK) is a fully automatic Case Packing Machine which packs products in cases or trays.",
             "The flat blank sheet is folded & glued around the product to form a Case or Tray."
         ],
         description: "Tetra or Aseptic filling lines are high speed lines with particular machines may speed upto 6000 PPM. Our case packer (WCPT)- 410 plays an important role in this. A high speed case packer designed from 125ml to 1 Litres Tetra Bricks.",
@@ -513,8 +540,13 @@ const productsList = [
             },
             {
                 type: "video",
-                name: "Wrap Around Tetra Case packer",
+                name: "ASEPTIC BRICK",
                 path: "knCtrIeLuPY"
+            },
+            {
+                type: "video",
+                name: "Case Packer- Wrap Around Tetra Application",
+                path: "pZujvxc1lXg"
             }
         ],
         models: [

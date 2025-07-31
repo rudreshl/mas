@@ -1328,7 +1328,7 @@ const mediaData = [
             },
             {
                 type: 'video',
-                name: 'WTCP 2 final PPT',
+                name: 'AB 2 final PPT',
                 path: 'dQw4w9WgXcQ'
             }
         ]

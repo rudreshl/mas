@@ -135,6 +135,7 @@ const Navbar = (props) => {
         {/* Logo + Company Name */}
         <div className="flex items-center space-x-3">
           <img src="/logo.png" alt="Logo" className="h-12 w-30" />
+          <img src="/packline.png" alt="Logo" className="bg-white object-contain h-12 w-30" />
           {/* <span className={`text-xl font-bold transition-colors duration-300 ${navTextColor}`}>
             MAS SYSTECH
           </span> */}

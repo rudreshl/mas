@@ -339,10 +339,10 @@ const productsList = [
     },
     {
       image: "/tetra_case_packer.png",
-      name: "WRAP AROUND TETRA CASE PACKER",
+      name: "ASEPTIC BRICK",
       slug: "tetra-case-packer",
       features: [
-        "WTCP (Wrap Around Tetra Case Packer) is a fully automatic Case Packing Machine which packs products in cases or trays.",
+        "AB (ASEPTIC BRICK) is a fully automatic Case Packing Machine which packs products in cases or trays.",
         "The flat blank sheet is folded & glued around the product to form a Case or Tray.",
       ],
       description:
@@ -354,7 +354,7 @@ const productsList = [
             path: "/tetra_case_packer.png",
           },
         { type: "video", name: "Top Load Tetra Case Packer", path: "HpxmT6i_AZA" },
-        { type: "video", name: "Wrap Around Tetra Case packer", path: "knCtrIeLuPY" },
+        { type: "video", name: "ASEPTIC BRICK", path: "knCtrIeLuPY" },
         { type: "video", name: "Case Packer- Wrap Around Tetra Application", path: "pZujvxc1lXg" },
        
       ],

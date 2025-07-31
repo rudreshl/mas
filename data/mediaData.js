@@ -80,7 +80,7 @@ const mediaData = [
       { type: 'video', name: 'Packet Turner Final 2', path: 'dQw4w9WgXcQ' },
       { type: 'video', name: 'UTCP 2 PPT Final', path: 'dQw4w9WgXcQ' },
       { type: 'video', name: 'UTCP', path: 'dQw4w9WgXcQ' },
-      { type: 'video', name: 'WTCP 2 final PPT', path: 'dQw4w9WgXcQ' }
+      { type: 'video', name: 'AB 2 final PPT', path: 'dQw4w9WgXcQ' }
     ]
   },
   {

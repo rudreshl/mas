@@ -778,10 +778,10 @@ const productsList = [
     },
     {
         image: "/tetra_case_packer.png",
-        name: "WRAP AROUND TETRA CASE PACKER",
+        name: "ASEPTIC BRICK",
         slug: "tetra-case-packer",
         features: [
-            "WTCP (Wrap Around Tetra Case Packer) is a fully automatic Case Packing Machine which packs products in cases or trays.",
+            "AB (ASEPTIC BRICK) is a fully automatic Case Packing Machine which packs products in cases or trays.",
             "The flat blank sheet is folded & glued around the product to form a Case or Tray."
         ],
         description: "Tetra or Aseptic filling lines are high speed lines with particular machines may speed upto 6000 PPM. Our case packer (WCPT)- 410 plays an important role in this. A high speed case packer designed from 125ml to 1 Litres Tetra Bricks.",
@@ -798,7 +798,7 @@ const productsList = [
             },
             {
                 type: "video",
-                name: "Wrap Around Tetra Case packer",
+                name: "ASEPTIC BRICK",
                 path: "knCtrIeLuPY"
             },
             {
@@ -1029,16 +1029,27 @@ const Navbar = (props)=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "flex items-center space-x-3",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                                src: "/logo.png",
-                                alt: "Logo",
-                                className: "h-12 w-30"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Navbar.js",
-                                lineNumber: 137,
-                                columnNumber: 11
-                            }, this)
-                        }, void 0, false, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                                    src: "/logo.png",
+                                    alt: "Logo",
+                                    className: "h-12 w-30"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.js",
+                                    lineNumber: 137,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                                    src: "/packline.png",
+                                    alt: "Logo",
+                                    className: "bg-white w-30"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.js",
+                                    lineNumber: 138,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/Navbar.js",
                             lineNumber: 136,
                             columnNumber: 9
@@ -1048,7 +1059,7 @@ const Navbar = (props)=>{
                             children: menu.map((item)=>renderLink(item))
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.js",
-                            lineNumber: 144,
+                            lineNumber: 145,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -1058,18 +1069,18 @@ const Navbar = (props)=>{
                                 size: 24
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.js",
-                                lineNumber: 153,
+                                lineNumber: 154,
                                 columnNumber: 21
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 size: 24
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.js",
-                                lineNumber: 153,
+                                lineNumber: 154,
                                 columnNumber: 39
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.js",
-                            lineNumber: 149,
+                            lineNumber: 150,
                             columnNumber: 9
                         }, this)
                     ]
@@ -1083,7 +1094,7 @@ const Navbar = (props)=>{
                     children: menu.map((item, index)=>renderMobileLink(item, index))
                 }, void 0, false, {
                     fileName: "[project]/components/Navbar.js",
-                    lineNumber: 159,
+                    lineNumber: 160,
                     columnNumber: 9
                 }, this)
             ]
@@ -1132,6 +1143,7 @@ function ContactPage() {
     const [message, setMessage] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])("");
     const agents = [
         {
+            img: "/buildings/img1.jpg",
             region: "Eastern Africa 🇰🇪",
             company: "PPC EAST AFRICA LTD",
             address: "P.O. Box 800 | 00232 Ruiru | NAIROBI, KENYA",
@@ -1139,9 +1151,17 @@ function ContactPage() {
             contact: "MR. JOHN ABISAI",
             phone: "Tel. +254 20 3673165",
             mobile: "+254 798 481 905 / 722 367 972",
-            country: "KENYA"
+            country: "KENYA",
+            regions: [
+                "Kenya",
+                "Tanzania",
+                "Uganda",
+                "Rwanda",
+                "Ethiopia"
+            ]
         },
         {
+            img: "/buildings/img2.jpg",
             region: "Southern Africa 🇿🇦",
             company: "FILMATIC PACKAGING SYSTEMS PTY LTD",
             address: "106 Van Der Stel St, Charleston Hill, Paarl, 7646, CAPE TOWN- SOUTH AFRICA",
@@ -1149,9 +1169,18 @@ function ContactPage() {
             contact: "MR. RIAAN VAN ZYL",
             phone: "",
             mobile: "+27 822594339",
-            country: "SOUTH AFRICA"
+            country: "SOUTH AFRICA",
+            regions: [
+                "South Africa",
+                "Botswana",
+                "Namibia",
+                "Zambia",
+                "Zimbabwe",
+                "Mozambique"
+            ]
         },
         {
+            img: "/buildings/img3.jpg",
             region: "Western Africa 🇳🇬",
             company: "AMS AFRICA",
             address: "4 Oyetubo St, off Obafemi Awolowo Way, Ikeja, Lagos 101233, Lagos, Nigeria",
@@ -1159,9 +1188,19 @@ function ContactPage() {
             contact: "Mr. Babatunde Fokukunde David",
             phone: "",
             mobile: "+234 8137770347",
-            country: "NIGERIA"
+            country: "NIGERIA",
+            regions: [
+                "Nigeria",
+                "Ghana",
+                "Ivory Coast",
+                "Togo",
+                "Cameroon",
+                "Benin",
+                "Senegal"
+            ]
         },
         {
+            img: "/buildings/img4.jpg",
             region: "Sri Lanka 🇱🇰",
             company: "CMC Engineering Export GmbH",
             address: "No 08, Rodrigo Mawatha, Nawala Road, Rajagiriya 10107, Colombo, Sri Lanka",
@@ -1209,7 +1248,7 @@ function ContactPage() {
                 transparentOnTop: false
             }, void 0, false, {
                 fileName: "[project]/pages/contact.js",
-                lineNumber: 95,
+                lineNumber: 105,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -1217,14 +1256,14 @@ function ContactPage() {
                 children: "Contact Us"
             }, void 0, false, {
                 fileName: "[project]/pages/contact.js",
-                lineNumber: 96,
+                lineNumber: 106,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                 className: "w-24 h-1 bg-orange-500 mx-auto mb-4"
             }, void 0, false, {
                 fileName: "[project]/pages/contact.js",
-                lineNumber: 99,
+                lineNumber: 109,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1238,7 +1277,7 @@ function ContactPage() {
                                 children: "Reach out to us"
                             }, void 0, false, {
                                 fileName: "[project]/pages/contact.js",
-                                lineNumber: 110,
+                                lineNumber: 120,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1252,13 +1291,13 @@ function ContactPage() {
                                         children: "sales@massystech.com"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
-                                        lineNumber: 113,
+                                        lineNumber: 123,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/contact.js",
-                                lineNumber: 111,
+                                lineNumber: 121,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1270,13 +1309,13 @@ function ContactPage() {
                                 className: "mx-auto md:mx-0"
                             }, void 0, false, {
                                 fileName: "[project]/pages/contact.js",
-                                lineNumber: 121,
+                                lineNumber: 131,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/contact.js",
-                        lineNumber: 109,
+                        lineNumber: 119,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1290,7 +1329,7 @@ function ContactPage() {
                                         children: "Email address"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
-                                        lineNumber: 133,
+                                        lineNumber: 143,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
@@ -1301,7 +1340,7 @@ function ContactPage() {
                                         className: "bg-white w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
-                                        lineNumber: 136,
+                                        lineNumber: 146,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1309,13 +1348,13 @@ function ContactPage() {
                                         children: "We'll never share your email with anyone else."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
-                                        lineNumber: 143,
+                                        lineNumber: 153,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/contact.js",
-                                lineNumber: 132,
+                                lineNumber: 142,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1326,7 +1365,7 @@ function ContactPage() {
                                         children: "Your name"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
-                                        lineNumber: 149,
+                                        lineNumber: 159,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
@@ -1337,13 +1376,13 @@ function ContactPage() {
                                         className: "w-full bg-white mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
-                                        lineNumber: 152,
+                                        lineNumber: 162,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/contact.js",
-                                lineNumber: 148,
+                                lineNumber: 158,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1354,7 +1393,7 @@ function ContactPage() {
                                         children: "Your message"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
-                                        lineNumber: 162,
+                                        lineNumber: 172,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("textarea", {
@@ -1365,13 +1404,13 @@ function ContactPage() {
                                         className: "bg-white w-full mt-1 p-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/contact.js",
-                                        lineNumber: 165,
+                                        lineNumber: 175,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/contact.js",
-                                lineNumber: 161,
+                                lineNumber: 171,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -1380,19 +1419,19 @@ function ContactPage() {
                                 children: "Send Message"
                             }, void 0, false, {
                                 fileName: "[project]/pages/contact.js",
-                                lineNumber: 174,
+                                lineNumber: 184,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/contact.js",
-                        lineNumber: 131,
+                        lineNumber: 141,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/contact.js",
-                lineNumber: 105,
+                lineNumber: 115,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1411,12 +1450,12 @@ function ContactPage() {
                     referrerPolicy: "no-referrer-when-downgrade"
                 }, void 0, false, {
                     fileName: "[project]/pages/contact.js",
-                    lineNumber: 187,
+                    lineNumber: 197,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/contact.js",
-                lineNumber: 186,
+                lineNumber: 196,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1431,7 +1470,7 @@ function ContactPage() {
                                     className: "w-8 h-8 mt-1 text-blue-300"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/contact.js",
-                                    lineNumber: 204,
+                                    lineNumber: 214,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1441,7 +1480,7 @@ function ContactPage() {
                                             children: "Head Quarters"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/contact.js",
-                                            lineNumber: 206,
+                                            lineNumber: 216,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1450,27 +1489,27 @@ function ContactPage() {
                                                 "MAS SYSTECH PVT LTD, D-241, Chakan Industrial Area, Phase II, Warale, Khed, Pune- 410507",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 209,
+                                                    lineNumber: 219,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
                                                     children: "Tel: "
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 210,
+                                                    lineNumber: 220,
                                                     columnNumber: 17
                                                 }, this),
                                                 "+91 92840 35561",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 211,
+                                                    lineNumber: 221,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
                                                     children: "Email: "
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 213,
+                                                    lineNumber: 223,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -1479,25 +1518,25 @@ function ContactPage() {
                                                     children: "sales@massystech.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 214,
+                                                    lineNumber: 224,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/contact.js",
-                                            lineNumber: 207,
+                                            lineNumber: 217,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/contact.js",
-                                    lineNumber: 205,
+                                    lineNumber: 215,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/contact.js",
-                            lineNumber: 203,
+                            lineNumber: 213,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1507,7 +1546,7 @@ function ContactPage() {
                                     className: "w-8 h-8 mt-1 text-blue-300"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/contact.js",
-                                    lineNumber: 227,
+                                    lineNumber: 237,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1517,7 +1556,7 @@ function ContactPage() {
                                             children: "Manufacturing Facility"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/contact.js",
-                                            lineNumber: 229,
+                                            lineNumber: 239,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1526,27 +1565,27 @@ function ContactPage() {
                                                 "MAS SYSTECH PVT LTD, D-241, Chakan Industrial Area, Phase II, Warale, Khed, Pune- 410507",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 232,
+                                                    lineNumber: 242,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
                                                     children: "Tel: "
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 233,
+                                                    lineNumber: 243,
                                                     columnNumber: 17
                                                 }, this),
                                                 "+91 92840 35561",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 234,
+                                                    lineNumber: 244,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
                                                     children: "Email: "
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 235,
+                                                    lineNumber: 245,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -1555,25 +1594,25 @@ function ContactPage() {
                                                     children: "sales@massystech.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 236,
+                                                    lineNumber: 246,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/contact.js",
-                                            lineNumber: 230,
+                                            lineNumber: 240,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/contact.js",
-                                    lineNumber: 228,
+                                    lineNumber: 238,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/contact.js",
-                            lineNumber: 226,
+                            lineNumber: 236,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1583,7 +1622,7 @@ function ContactPage() {
                                     className: "w-8 h-8 mt-1 text-blue-300"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/contact.js",
-                                    lineNumber: 249,
+                                    lineNumber: 259,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1593,7 +1632,7 @@ function ContactPage() {
                                             children: "For Sales Enquiry"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/contact.js",
-                                            lineNumber: 251,
+                                            lineNumber: 261,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1603,20 +1642,20 @@ function ContactPage() {
                                                     children: "Tel: "
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 253,
+                                                    lineNumber: 263,
                                                     columnNumber: 15
                                                 }, this),
                                                 "+91 92840 35561",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 254,
+                                                    lineNumber: 264,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
                                                     children: "Email: "
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 256,
+                                                    lineNumber: 266,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -1625,36 +1664,36 @@ function ContactPage() {
                                                     children: "sales@massystech.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 257,
+                                                    lineNumber: 267,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/contact.js",
-                                            lineNumber: 252,
+                                            lineNumber: 262,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/contact.js",
-                                    lineNumber: 250,
+                                    lineNumber: 260,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/contact.js",
-                            lineNumber: 248,
+                            lineNumber: 258,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/contact.js",
-                    lineNumber: 201,
+                    lineNumber: 211,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/contact.js",
-                lineNumber: 200,
+                lineNumber: 210,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1667,149 +1706,211 @@ function ContactPage() {
                             children: "Global Agents Network"
                         }, void 0, false, {
                             fileName: "[project]/pages/contact.js",
-                            lineNumber: 271,
+                            lineNumber: 281,
                             columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "w-24 h-1 bg-orange-500 mx-auto mb-4"
                         }, void 0, false, {
                             fileName: "[project]/pages/contact.js",
-                            lineNumber: 274,
+                            lineNumber: 284,
                             columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 py-8",
-                            children: agents.map((agent, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "bg-white shadow-md rounded-xl p-6 border border-gray-200",
+                            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 py-8 px-4",
+                            children: agents.map((office, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                    className: "max-w-md rounded-lg overflow-hidden shadow-lg bg-white",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                            className: "text-lg font-bold text-[#001b48] mb-2",
-                                            children: agent.region
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                                            src: office.img,
+                                            alt: office.company,
+                                            className: "w-full h-56 object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/contact.js",
-                                            lineNumber: 284,
+                                            lineNumber: 291,
                                             columnNumber: 11
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-base font-semibold text-gray-900",
-                                            children: agent.company
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/contact.js",
-                                            lineNumber: 287,
-                                            columnNumber: 11
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-sm text-gray-600 mb-2",
-                                            children: agent.address
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/contact.js",
-                                            lineNumber: 290,
-                                            columnNumber: 11
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-sm text-gray-700",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                            className: "p-6",
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                    className: "font-medium",
-                                                    children: "Email:"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
+                                                    className: "text-xl font-semibold mb-2",
+                                                    children: office.region
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
                                                     lineNumber: 294,
                                                     columnNumber: 13
                                                 }, this),
-                                                " ",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                                    href: `mailto:${agent.email}`,
-                                                    className: "text-blue-600 hover:underline",
-                                                    children: agent.email
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                                                    className: "font-bold text-gray-800 uppercase",
+                                                    children: office.company
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/contact.js",
                                                     lineNumber: 295,
                                                     columnNumber: 13
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                    className: "mt-2 text-gray-700",
+                                                    children: office.address
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/contact.js",
+                                                    lineNumber: 297,
+                                                    columnNumber: 13
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "mt-4 space-y-1 text-gray-700",
+                                                    children: [
+                                                        office.contact && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
+                                                                    children: "Contact:"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/contact.js",
+                                                                    lineNumber: 300,
+                                                                    columnNumber: 37
+                                                                }, this),
+                                                                " ",
+                                                                office.contact
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/pages/contact.js",
+                                                            lineNumber: 300,
+                                                            columnNumber: 34
+                                                        }, this),
+                                                        office.phone && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
+                                                                    children: "Phone:"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/contact.js",
+                                                                    lineNumber: 301,
+                                                                    columnNumber: 34
+                                                                }, this),
+                                                                " ",
+                                                                office.phone
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/pages/contact.js",
+                                                            lineNumber: 301,
+                                                            columnNumber: 31
+                                                        }, this),
+                                                        office.mobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
+                                                                    children: "Mobile:"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/contact.js",
+                                                                    lineNumber: 302,
+                                                                    columnNumber: 36
+                                                                }, this),
+                                                                " ",
+                                                                office.mobile
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/pages/contact.js",
+                                                            lineNumber: 302,
+                                                            columnNumber: 33
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
+                                                                    children: "Email:"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/contact.js",
+                                                                    lineNumber: 304,
+                                                                    columnNumber: 17
+                                                                }, this),
+                                                                " ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                                    href: `mailto:${office.email}`,
+                                                                    className: "text-blue-600 hover:underline",
+                                                                    children: office.email
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/contact.js",
+                                                                    lineNumber: 305,
+                                                                    columnNumber: 17
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/pages/contact.js",
+                                                            lineNumber: 303,
+                                                            columnNumber: 15
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/pages/contact.js",
+                                                    lineNumber: 299,
+                                                    columnNumber: 13
+                                                }, this),
+                                                office?.regions?.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                    className: "mt-4 border-t border-gray-200 pt-4",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
+                                                            className: "font-semibold text-gray-800 mb-1",
+                                                            children: "Represented Region"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/contact.js",
+                                                            lineNumber: 312,
+                                                            columnNumber: 15
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "flex flex-wrap gap-2 text-sm",
+                                                            children: office?.regions?.map((region, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                                    className: i + 1 == office.regions.length ? "" : "border-r border-gray-400 pr-2",
+                                                                    children: region
+                                                                }, i, false, {
+                                                                    fileName: "[project]/pages/contact.js",
+                                                                    lineNumber: 315,
+                                                                    columnNumber: 19
+                                                                }, this))
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/contact.js",
+                                                            lineNumber: 313,
+                                                            columnNumber: 15
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/pages/contact.js",
+                                                    lineNumber: 311,
+                                                    columnNumber: 42
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/contact.js",
                                             lineNumber: 293,
                                             columnNumber: 11
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "mt-2 font-medium text-gray-800",
-                                            children: agent.contact
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/contact.js",
-                                            lineNumber: 304,
-                                            columnNumber: 11
-                                        }, this),
-                                        agent.phone && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-sm text-gray-700",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                    className: "font-medium",
-                                                    children: "Tel:"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 309,
-                                                    columnNumber: 15
-                                                }, this),
-                                                " ",
-                                                agent.phone
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/pages/contact.js",
-                                            lineNumber: 308,
-                                            columnNumber: 13
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-sm text-gray-700",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                    className: "font-medium",
-                                                    children: "Mobile:"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/pages/contact.js",
-                                                    lineNumber: 313,
-                                                    columnNumber: 13
-                                                }, this),
-                                                " ",
-                                                agent.mobile
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/pages/contact.js",
-                                            lineNumber: 312,
-                                            columnNumber: 11
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/pages/contact.js",
-                                    lineNumber: 279,
+                                    lineNumber: 290,
                                     columnNumber: 9
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/pages/contact.js",
-                            lineNumber: 277,
-                            columnNumber: 9
+                            lineNumber: 288,
+                            columnNumber: 5
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/contact.js",
-                    lineNumber: 270,
+                    lineNumber: 280,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/contact.js",
-                lineNumber: 269,
+                lineNumber: 279,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/contact.js",
-                lineNumber: 372,
+                lineNumber: 376,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/contact.js",
-        lineNumber: 93,
+        lineNumber: 103,
         columnNumber: 5
     }, this);
 }

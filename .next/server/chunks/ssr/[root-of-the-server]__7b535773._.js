@@ -455,10 +455,10 @@ const productsList = [
     },
     {
         image: "/tetra_case_packer.png",
-        name: "WRAP AROUND TETRA CASE PACKER",
+        name: "ASEPTIC BRICK",
         slug: "tetra-case-packer",
         features: [
-            "WTCP (Wrap Around Tetra Case Packer) is a fully automatic Case Packing Machine which packs products in cases or trays.",
+            "AB (ASEPTIC BRICK) is a fully automatic Case Packing Machine which packs products in cases or trays.",
             "The flat blank sheet is folded & glued around the product to form a Case or Tray."
         ],
         description: "Tetra or Aseptic filling lines are high speed lines with particular machines may speed upto 6000 PPM. Our case packer (WCPT)- 410 plays an important role in this. A high speed case packer designed from 125ml to 1 Litres Tetra Bricks.",
@@ -475,7 +475,7 @@ const productsList = [
             },
             {
                 type: "video",
-                name: "Wrap Around Tetra Case packer",
+                name: "ASEPTIC BRICK",
                 path: "knCtrIeLuPY"
             }
         ],
