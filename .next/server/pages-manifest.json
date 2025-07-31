@@ -5,5 +5,5 @@
   "/_error": "pages/_error.js",
   "/contact": "pages/contact.js",
   "/home": "pages/home.js",
-  "/products": "pages/products.js"
+  "/services": "pages/services.js"
 }

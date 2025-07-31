@@ -775,7 +775,7 @@ const Navbar = (props)=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
                                     src: "/logo.png",
                                     alt: "Logo",
-                                    className: "h-12 w-30"
+                                    className: "h-12 w-30 bg-white"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.js",
                                     lineNumber: 137,

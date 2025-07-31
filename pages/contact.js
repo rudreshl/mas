@@ -12,7 +12,7 @@ export default function ContactPage() {
   const [message,setMessage] = useState("");
   const agents = [
     {
-      img:"/buildings/img1.jpg",
+      img:"/EASTAFRICA.jpg",
       region: "Eastern Africa 🇰🇪",
       company: "PPC EAST AFRICA LTD",
       address: "P.O. Box 800 | 00232 Ruiru | NAIROBI, KENYA",
@@ -25,7 +25,7 @@ export default function ContactPage() {
     },
     {
 
-      img:"/buildings/img2.jpg",
+      img:"/SouthAfrica.jpg",
       region: "Southern Africa 🇿🇦",
       company: "FILMATIC PACKAGING SYSTEMS PTY LTD",
       address: "106 Van Der Stel St, Charleston Hill, Paarl, 7646, CAPE TOWN- SOUTH AFRICA",
@@ -38,7 +38,7 @@ export default function ContactPage() {
     },
     {
 
-      img:"/buildings/img3.jpg",
+      img:"/WESTERNAfrica.avif",
       region: "Western Africa 🇳🇬",
       company: "AMS AFRICA",
       address: "4 Oyetubo St, off Obafemi Awolowo Way, Ikeja, Lagos 101233, Lagos, Nigeria",
@@ -51,7 +51,7 @@ export default function ContactPage() {
     },
     {
 
-      img:"/buildings/img4.jpg",
+      img:"/SRILANKA.jpg",
       region: "Sri Lanka 🇱🇰",
       company: "CMC Engineering Export GmbH",
       address: "No 08, Rodrigo Mawatha, Nawala Road, Rajagiriya 10107, Colombo, Sri Lanka",

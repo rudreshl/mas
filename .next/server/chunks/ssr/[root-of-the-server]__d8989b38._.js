@@ -1033,7 +1033,7 @@ const Navbar = (props)=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
                                     src: "/logo.png",
                                     alt: "Logo",
-                                    className: "h-12 w-30"
+                                    className: "h-12 w-30 bg-white"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.js",
                                     lineNumber: 137,
@@ -1042,7 +1042,7 @@ const Navbar = (props)=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
                                     src: "/packline.png",
                                     alt: "Logo",
-                                    className: "bg-white w-30"
+                                    className: "bg-white object-contain h-12 w-30"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.js",
                                     lineNumber: 138,
@@ -1143,7 +1143,7 @@ function ContactPage() {
     const [message, setMessage] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])("");
     const agents = [
         {
-            img: "/buildings/img1.jpg",
+            img: "/EASTAFRICA.jpg",
             region: "Eastern Africa 🇰🇪",
             company: "PPC EAST AFRICA LTD",
             address: "P.O. Box 800 | 00232 Ruiru | NAIROBI, KENYA",
@@ -1161,7 +1161,7 @@ function ContactPage() {
             ]
         },
         {
-            img: "/buildings/img2.jpg",
+            img: "/SouthAfrica.jpg",
             region: "Southern Africa 🇿🇦",
             company: "FILMATIC PACKAGING SYSTEMS PTY LTD",
             address: "106 Van Der Stel St, Charleston Hill, Paarl, 7646, CAPE TOWN- SOUTH AFRICA",
@@ -1180,7 +1180,7 @@ function ContactPage() {
             ]
         },
         {
-            img: "/buildings/img3.jpg",
+            img: "/WESTERNAfrica.avif",
             region: "Western Africa 🇳🇬",
             company: "AMS AFRICA",
             address: "4 Oyetubo St, off Obafemi Awolowo Way, Ikeja, Lagos 101233, Lagos, Nigeria",
@@ -1200,7 +1200,7 @@ function ContactPage() {
             ]
         },
         {
-            img: "/buildings/img4.jpg",
+            img: "/SRILANKA.jpg",
             region: "Sri Lanka 🇱🇰",
             company: "CMC Engineering Export GmbH",
             address: "No 08, Rodrigo Mawatha, Nawala Road, Rajagiriya 10107, Colombo, Sri Lanka",

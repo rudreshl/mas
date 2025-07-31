@@ -197,18 +197,7 @@ export default function Home() {
           Our Clients
         </h2>
         <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-        
-        {/* <div className="grid grid-cols-5 md:grid-cols-5 gap-4">
-          {clients.map((client, index) => (
-            <div className="h-36 w-48 flex items-center justify-center my-16 mx-6 transition-transform duration-300 transform hover:-translate-y-2 ">
-              <img
-                src={client}
-                alt="Paper plane"
-                className="mx-auto md:mx-0 "
-              />
-            </div>
-          ))}
-        </div> */}
+
         <ClientSlider clients={clients} />
       </section>
       <Footer />
