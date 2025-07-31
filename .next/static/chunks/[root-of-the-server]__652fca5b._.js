@@ -1246,10 +1246,10 @@ const productsList = [
     },
     {
         image: "/tetra_case_packer.png",
-        name: "ASEPTIC BRICK",
+        name: "Aseptic Brick Case Packer",
         slug: "tetra-case-packer",
         features: [
-            "AB (ASEPTIC BRICK) is a fully automatic Case Packing Machine which packs products in cases or trays.",
+            "AB (Aseptic Brick Case Packer) is a fully automatic Case Packing Machine which packs products in cases or trays.",
             "The flat blank sheet is folded & glued around the product to form a Case or Tray."
         ],
         description: "Tetra or Aseptic filling lines are high speed lines with particular machines may speed upto 6000 PPM. Our case packer (WCPT)- 410 plays an important role in this. A high speed case packer designed from 125ml to 1 Litres Tetra Bricks.",
@@ -1266,7 +1266,7 @@ const productsList = [
             },
             {
                 type: "video",
-                name: "ASEPTIC BRICK",
+                name: "Aseptic Brick Case Packer",
                 path: "knCtrIeLuPY"
             },
             {
