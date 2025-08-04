@@ -192,7 +192,7 @@ export default function AboutUs() {
             machinery under our <span className="font-bold">PACKLINE</span>{" "}
             Brand. We take pride in being the OEM suppliers to Blue Chip
             Companies like <span className="font-bold">Tetra Pak</span> and{" "}
-            <span className="font-bold">Sidel</span>
+            <span className="font-bold">Sidel{" "}</span>
             for the <span className="font-bold">past 10 years</span>.
           </p>
         </div>

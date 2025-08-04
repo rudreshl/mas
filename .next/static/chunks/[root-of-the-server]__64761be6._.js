@@ -1448,7 +1448,7 @@ const productsList = [
     },
     {
         image: "/shrink_wrapping_machine.png",
-        name: "SHRINK WRAPPING MACHINE & TUNNEL",
+        name: "Shrink Wrapping  Machine & Tunnel",
         slug: "shrink-wrapping-machine",
         features: [
             "Automatic feeding, pushing, film feeding and sealing",

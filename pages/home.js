@@ -124,7 +124,7 @@ export default function Home() {
   {/* Installations */}
   <div className="text-left group relative">
     <p className="text-4xl font-extrabold text-yellow-400 transition duration-300 group-hover:scale-105 group-hover:text-yellow-300">
-      <CountUp number={49} speed={20} />+
+      <CountUp number={149} speed={20} />+
     </p>
     <p className="text-sm text-[#e6eef7]">Installations</p>
 

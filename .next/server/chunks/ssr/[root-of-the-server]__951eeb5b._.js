@@ -411,7 +411,7 @@ const productsList = [
     },
     {
         image: "/shrink_wrapping_machine.png",
-        name: "SHRINK WRAPPING MACHINE & TUNNEL",
+        name: "Shrink Wrapping  Machine & Tunnel",
         slug: "shrink-wrapping-machine",
         features: [
             "Automatic feeding, pushing, film feeding and sealing",
@@ -733,16 +733,27 @@ const Navbar = (props)=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "flex items-center space-x-3",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                                src: "/logo.png",
-                                alt: "Logo",
-                                className: "h-12 w-30"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Navbar.js",
-                                lineNumber: 137,
-                                columnNumber: 11
-                            }, this)
-                        }, void 0, false, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                                    src: "/logo.png",
+                                    alt: "Logo",
+                                    className: "h-12 w-30 bg-white"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.js",
+                                    lineNumber: 137,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                                    src: "/packline.png",
+                                    alt: "Logo",
+                                    className: "bg-white object-contain h-12 w-30"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.js",
+                                    lineNumber: 138,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/Navbar.js",
                             lineNumber: 136,
                             columnNumber: 9
@@ -752,7 +763,7 @@ const Navbar = (props)=>{
                             children: menu.map((item)=>renderLink(item))
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.js",
-                            lineNumber: 144,
+                            lineNumber: 145,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -762,18 +773,18 @@ const Navbar = (props)=>{
                                 size: 24
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.js",
-                                lineNumber: 153,
+                                lineNumber: 154,
                                 columnNumber: 21
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 size: 24
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.js",
-                                lineNumber: 153,
+                                lineNumber: 154,
                                 columnNumber: 39
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.js",
-                            lineNumber: 149,
+                            lineNumber: 150,
                             columnNumber: 9
                         }, this)
                     ]
@@ -787,7 +798,7 @@ const Navbar = (props)=>{
                     children: menu.map((item, index)=>renderMobileLink(item, index))
                 }, void 0, false, {
                     fileName: "[project]/components/Navbar.js",
-                    lineNumber: 159,
+                    lineNumber: 160,
                     columnNumber: 9
                 }, this)
             ]
@@ -1183,7 +1194,7 @@ const industries = [
 ];
 function IndustriesServed() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-        className: "py-12 px-4 md:px-8 bg-gray-100",
+        className: "container mx-auto py-12 px-4 md:px-8 bg-gray-100",
         id: "industries",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -1194,35 +1205,13 @@ function IndustriesServed() {
                 lineNumber: 17,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto",
-                children: industries.map((industry, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow p-6 flex flex-col items-center justify-center text-center group",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(industry.icon, {
-                                className: "w-4 h-4 mb-4 text-[#001b48] group-hover:scale-110 transition-transform"
-                            }, void 0, false, {
-                                fileName: "[project]/components/IndustriesServed.js",
-                                lineNumber: 24,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                className: "text-sm font-medium text-gray-800",
-                                children: industry.name
-                            }, void 0, false, {
-                                fileName: "[project]/components/IndustriesServed.js",
-                                lineNumber: 25,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, index, true, {
-                        fileName: "[project]/components/IndustriesServed.js",
-                        lineNumber: 20,
-                        columnNumber: 11
-                    }, this))
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                src: "/Sectors.png",
+                alt: "",
+                className: " w-full rounded-xl p-4 w-full object-contain bg-white"
             }, void 0, false, {
                 fileName: "[project]/components/IndustriesServed.js",
-                lineNumber: 18,
+                lineNumber: 29,
                 columnNumber: 7
             }, this)
         ]

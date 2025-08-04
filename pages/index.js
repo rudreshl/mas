@@ -124,7 +124,7 @@ export default function Home() {
   {/* Installations */}
   <div className="text-left group relative">
     <p className="text-4xl font-extrabold text-yellow-400 transition duration-300 group-hover:scale-105 group-hover:text-yellow-300">
-      <CountUp number={49} speed={20} />+
+      <CountUp number={149} speed={20} />+
     </p>
     <p className="text-sm text-[#e6eef7]">Installations</p>
 
@@ -197,7 +197,18 @@ export default function Home() {
           Our Clients
         </h2>
         <div className="w-24 h-1 bg-orange-500 mx-auto mb-4" />
-
+        
+        {/* <div className="grid grid-cols-5 md:grid-cols-5 gap-4">
+          {clients.map((client, index) => (
+            <div className="h-36 w-48 flex items-center justify-center my-16 mx-6 transition-transform duration-300 transform hover:-translate-y-2 ">
+              <img
+                src={client}
+                alt="Paper plane"
+                className="mx-auto md:mx-0 "
+              />
+            </div>
+          ))}
+        </div> */}
         <ClientSlider clients={clients} />
       </section>
       <Footer />

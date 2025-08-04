@@ -449,7 +449,7 @@ const productsList = [
     },
     {
         image: "/shrink_wrapping_machine.png",
-        name: "SHRINK WRAPPING MACHINE & TUNNEL",
+        name: "Shrink Wrapping  Machine & Tunnel",
         slug: "shrink-wrapping-machine",
         features: [
             "Automatic feeding, pushing, film feeding and sealing",
@@ -1805,7 +1805,7 @@ function Home() {
                                                     className: "text-4xl font-extrabold text-yellow-400 transition duration-300 group-hover:scale-105 group-hover:text-yellow-300",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CountUp$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            number: 49,
+                                                            number: 149,
                                                             speed: 20
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/home.js",

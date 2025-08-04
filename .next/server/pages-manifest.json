@@ -1,9 +1,8 @@
 {
-  "/": "pages/index.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/contact": "pages/contact.js",
+  "/about-us": "pages/about-us.js",
   "/home": "pages/home.js",
-  "/services": "pages/services.js"
+  "/products": "pages/products.js",
+  "/products/[slug]": "pages/products/[slug].js"
 }
