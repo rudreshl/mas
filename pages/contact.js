@@ -13,7 +13,7 @@ export default function ContactPage() {
   const agents = [
     {
       img:"/EASTAFRICA.jpg",
-      region: "Eastern Africa 🇰🇪",
+      region: "Eastern Africa",
       company: "PPC EAST AFRICA LTD",
       address: "P.O. Box 800 | 00232 Ruiru | NAIROBI, KENYA",
       email: "john.abisai@ppc-ea.com",
@@ -26,7 +26,7 @@ export default function ContactPage() {
     {
 
       img:"/SouthAfrica.jpg",
-      region: "Southern Africa 🇿🇦",
+      region: "Southern Africa",
       company: "FILMATIC PACKAGING SYSTEMS PTY LTD",
       address: "106 Van Der Stel St, Charleston Hill, Paarl, 7646, CAPE TOWN- SOUTH AFRICA",
       email: "rvanzyl@filmatic.com",
@@ -39,7 +39,7 @@ export default function ContactPage() {
     {
 
       img:"/WESTERNAfrica.avif",
-      region: "Western Africa 🇳🇬",
+      region: "Western Africa",
       company: "AMS AFRICA",
       address: "4 Oyetubo St, off Obafemi Awolowo Way, Ikeja, Lagos 101233, Lagos, Nigeria",
       email: "babatunde.fakokunde@amsafrica.com.ng",
@@ -52,14 +52,26 @@ export default function ContactPage() {
     {
 
       img:"/SRILANKA.jpg",
-      region: "Sri Lanka 🇱🇰",
+      region: "Sri Lanka",
       company: "CMC Engineering Export GmbH",
       address: "No 08, Rodrigo Mawatha, Nawala Road, Rajagiriya 10107, Colombo, Sri Lanka",
-      email: "Kasun.m@cmcenglk.com",
+      email: "kasun.m@cmcenglk.com",
       contact: "Mr. Kasun",
       phone: "",
       mobile: "+94 779109895",
       country: "SRI LANKA",
+    },
+    {
+
+      img:"/vietnam.jpg",
+      region: "Vietnam",
+      company: "Song Hiep Loi Trading and Technology Co. Ltd.",
+      address: "",
+      email: "songhieploi.corp@gmail.com",
+      contact: "Mr. Tony",
+      phone: "",
+      mobile: "+84 90 912 82 55",
+      country: "VIETNAM",
     },
   ];
   async function handleSendMessage(){
