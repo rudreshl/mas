@@ -229,7 +229,7 @@ export default function ContactPage() {
               <p className="text-sm leading-relaxed mt-1">
                MAS SYSTECH PVT LTD, D-241, Chakan Industrial Area, Phase II, Warale, Khed, Pune- 410507
                 <br />
-                <strong>Tel: </strong>+91 92840 35561
+                <strong>Tel: </strong> --
                 <br />
                 
                 <strong>Email: </strong>
@@ -252,7 +252,7 @@ export default function ContactPage() {
               <p className="text-sm leading-relaxed mt-1">
               MAS SYSTECH PVT LTD, D-241, Chakan Industrial Area, Phase II, Warale, Khed, Pune- 410507
                 <br />
-                <strong>Tel: </strong>+91 92840 35561
+                <strong>Tel: </strong> -- 
                 <br />
                 <strong>Email: </strong> 
                 <a
@@ -272,7 +272,7 @@ export default function ContactPage() {
             <div>
               <h4 className="font-semibold text-lg">For Sales Enquiry</h4>
               <p className="text-sm leading-relaxed mt-1">
-              <strong>Tel: </strong>+91 92840 35561
+              <strong>Tel: </strong> --
                 <br />
                 
                 <strong>Email: </strong> 

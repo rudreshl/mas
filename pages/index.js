@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from "@/components/Navbar";
@@ -53,6 +54,10 @@ export default function Home() {
     return () => clearInterval(timer);
   }, []);
   return (
+    <>
+      <Head>
+        <title>MAS SYSTECH Pvt. Ltd.</title>
+      </Head>
     <div
       className={`${geistSans.variable} ${geistMono.variable} bg-gray-100 min-h-screen w-full`}
     >
@@ -213,5 +218,6 @@ export default function Home() {
       </section>
       <Footer />
     </div>
+    </>
   );
 }
